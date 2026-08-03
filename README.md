@@ -223,13 +223,6 @@ Faz backup completo de **todos os dados** — viaturas, manutenção, combustív
 | `StatisticsService` | Cálculo de custos e consumo |
 | `PdfService` | Relatórios PDF |
 
-**Configuração OAuth (Google Cloud Console):**
-
-- `googleWebClientId` — usado para sign-in e troca de token
-- `googleAndroidClientId` — validação package + SHA-1 (varia por ambiente)
-- `client_secret` — necessário para o exchange (web client)
-- SHA-1 da **App Signing Key** (Play Console → Integridade da App) tem de estar no Android OAuth Client ID de produção
-
 ---
 
 ## 🇬🇧 ENGLISH
@@ -450,55 +443,5 @@ Back up **all data** — vehicles, maintenance, fuel and locations — to your *
 | `StatisticsService` | Cost and consumption calculation |
 | `PdfService` | PDF reports |
 
-**OAuth Configuration (Google Cloud Console):**
-
-- `googleWebClientId` — used for sign-in and token exchange
-- `googleAndroidClientId` — package + SHA-1 validation (varies by environment)
-- `client_secret` — required for the exchange (web client)
-- SHA-1 of the **App Signing Key** (Play Console → App Integrity) must be in the production Android OAuth Client ID
 
 ---
-
-## 📝 Descrição para Play Store / Play Store Description
-
-### 🇵🇹
-
-O OmniKar é o teu assistente completo de manutenção automóvel. Gere viaturas, manutenção, combustível, inspeções, seguros, impostos e pneus num só lugar.
-
-• **Gestão de Viaturas** — vários veículos com matrícula, VIN, quilometragem e ano
-• **Manutenção** — revisões e reparações com custos e documentos
-• **Manutenção Programada** — alertas automáticos por km ou meses; ao registar, o alerta desativa e recria o agendamento
-• **Combustível** — gastos mensais/anuais e consumo real (litros/100km) ao marcar "Depósito Cheio"
-• **Inspeções, Seguros e Impostos** — histórico e alertas de validade
-• **Pneus** — conjuntos e histórico de instalações
-• **Estatísticas** — gráficos de custos, consumo e quilometragem
-• **Relatórios PDF** — partilha e impressão
-
-**GPS Tracking** — regista a localização a cada 100m (ou 3s acima de 100km/h), agrupada em viagens, com mapa interativo e modo ao vivo. Funciona no telemóvel (viatura aberta) ou no HeadUnit.
-
-**Quilometragem automática** — ativa "Atualizar KM via GPS" nas Settings e o KM atualiza a cada 1km.
-
-**Backup Cloud** — backup automático a cada 6h (só quando a app está aberta) para o teu Google Drive pessoal, com verificação de alterações (hash skip) e sincronização cross-device. Pasta privada, sem servidores externos. Podes ligar/desligar nas Settings.
-
-**Multi-idioma** (PT, EN, ES) • **Tema escuro** • **Sem anúncios**
-
-### 🇬🇧
-
-OmniKar is your complete vehicle maintenance assistant. Manage vehicles, maintenance, fuel, inspections, insurance, taxes and tires in one place.
-
-• **Vehicle Management** — multiple vehicles with plate, VIN, mileage and year
-• **Maintenance** — services and repairs with costs and documents
-• **Scheduled Maintenance** — automatic alerts by km or months; logging clears the alert and recreates the schedule
-• **Fuel** — monthly/yearly costs and real consumption (liters/100km) by marking "Full Tank"
-• **Inspections, Insurance & Tax** — history and expiry alerts
-• **Tires** — sets and installation history
-• **Statistics** — charts for costs, consumption and mileage
-• **PDF Reports** — share and print
-
-**GPS Tracking** — records location every 100m (or 3s above 100km/h), grouped into trips, with interactive map and live mode. Works on your phone (vehicle open) or HeadUnit.
-
-**Automatic mileage** — enable "Update KM via GPS" in Settings and mileage updates every 1km.
-
-**Cloud Backup** — auto-backup every 6h (only while app is open) to your personal Google Drive, with change detection (hash skip) and cross-device sync. Private folder, no external servers. Toggle on/off in Settings.
-
-**Multi-language** (EN, PT, ES) • **Dark theme** • **No ads**
