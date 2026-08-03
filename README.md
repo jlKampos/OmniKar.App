@@ -195,11 +195,6 @@ Faz backup completo de **todos os dados** — viaturas, manutenção, combustív
 | `StatisticsService` | Cálculo de custos e consumo |
 | `PdfService` | Relatórios PDF |
 
-**Configuração OAuth (Google Cloud Console):**
-- `googleWebClientId` — usado para sign-in e troca de token
-- `googleAndroidClientId` — validação package + SHA-1 (varia por ambiente)
-- `client_secret` — necessário para o exchange (web client)
-- SHA-1 da **App Signing Key** (Play Console → Integridade da App) tem de estar no Android OAuth Client ID de produção
 
 ---
 
@@ -392,12 +387,6 @@ Back up **all data** — vehicles, maintenance, fuel and locations — to your *
 | `AlertService` | Scheduled maintenance, inspection, insurance alerts |
 | `StatisticsService` | Cost and consumption calculation |
 | `PdfService` | PDF reports |
-
-**OAuth Configuration (Google Cloud Console):**
-- `googleWebClientId` — used for sign-in and token exchange
-- `googleAndroidClientId` — package + SHA-1 validation (varies by environment)
-- `client_secret` — required for the exchange (web client)
-- SHA-1 of the **App Signing Key** (Play Console → App Integrity) must be in the production Android OAuth Client ID
 
 ---
 
