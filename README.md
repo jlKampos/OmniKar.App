@@ -1,324 +1,444 @@
-# OmniKar
+# OmniKar — Documentação Completa / Complete Documentation
 
-**OmniKar** é o teu assistente completo de manutenção automóvel.  
-Gere todas as tuas viaturas, manutenções, combustível, inspeções, seguros, impostos, pneus, documentos, estatísticas, relatórios, rastreio GPS e backups num só lugar.
-
----
-
-## 🇵🇹 Português
-
-## Sobre o OmniKar
-
-O OmniKar ajuda-te a organizar e acompanhar toda a informação relacionada com as tuas viaturas de forma simples, prática e centralizada.
-
-### Funcionalidades principais
-
-- **Gestão de viaturas**  
-  Adiciona todos os teus veículos com quilometragem, matrícula, VIN, marca, modelo e ano.
-
-- **Manutenção**  
-  Regista revisões, reparações e peças trocadas, incluindo custos e documentos anexos.
-
-- **Manutenção programada**  
-  Define intervalos por quilómetros ou meses e recebe alertas quando a próxima intervenção se aproxima.
-
-- **Combustível**  
-  Regista abastecimentos, monitoriza consumos médios e acompanha gastos mensais e anuais.
-
-- **Inspeções**  
-  Mantém o histórico de inspeções obrigatórias com datas de validade.
-
-- **Seguros e impostos**  
-  Controla renovações de apólices e impostos de circulação.
-
-- **Pneus**  
-  Gere conjuntos de pneus e o histórico de instalações por viatura.
-
-- **Histórico de donos**  
-  Regista mudanças de propriedade ao longo do tempo.
-
-- **Estatísticas**  
-  Consulta gráficos interativos de custos, consumos e quilometragem.
-
-- **Relatórios PDF**  
-  Gera relatórios completos da viatura para partilhar ou imprimir.
+> Aplicação de gestão e manutenção automóvel com GPS tracking, backup cloud e multi-idioma.
+> Vehicle maintenance management app with GPS tracking, cloud backup and multi-language.
 
 ---
 
-## Rastreio GPS em tempo real
-
-O OmniKar permite registar automaticamente viagens com localização GPS.
-
-A app pode registar a localização a cada 100 metros percorridos ou a cada 3 segundos quando a velocidade é superior a 100 km/h. Cada ponto pode incluir coordenadas GPS, velocidade e rumo.
-
-Os pontos são agrupados em viagens com início e fim automáticos. As viagens podem ser visualizadas num mapa interativo, com filtros por viagem, estacionamento e histórico offline.
+## 🇵🇹 PORTUGUÊS
 
 ---
 
-## Backup e sincronização
+### 1. Visão Geral
 
-O OmniKar permite fazer backup dos dados para o Google Drive pessoal do utilizador e restaurar esses dados quando necessário.
-
-Os dados são guardados na própria conta Google do utilizador, na pasta privada da app no Google Drive. O OmniKar não mantém servidores próprios para armazenar os dados do utilizador.
+O **OmniKar** é o teu assistente completo de manutenção automóvel. Gere todas as viaturas, manutenções, combustível, inspeções, seguros, impostos, pneus e muito mais num só lugar. Com rastreio GPS em tempo real, backup para o teu Google Drive pessoal e sincronização entre dispositivos.
 
 ---
 
-## Multi-idioma e experiência
+### 2. Funcionalidades Principais
 
-- Português
-- Inglês
-- Espanhol
-- Tema escuro
-- Sem anúncios
+#### 🚗 Gestão de Viaturas
+Adiciona todos os teus veículos com quilometragem, matrícula, VIN, marca, modelo e ano. O Dashboard mostra estado atual, alertas, custos mensais/anuais, consumo e manutenção recente.
 
----
+#### 🔧 Manutenção
+Regista revisões, reparações e peças trocadas com custos e documentos anexos. Cada registo pode ter fotos/PDFs (faturas, relatórios) associados.
 
-# Eliminação de conta e dados
+#### 📅 Manutenção Programada
+Define intervalos por quilómetros ou meses (ex: "óleo a cada 15.000 km" ou "revisão a cada 12 meses"). O OmniKar **alerta automaticamente** quando a intervenção se aproxima:
+- Faltam **≤2.000 km** (para intervalo por km)
+- Faltam **≤60 dias** (para intervalo por tempo)
 
-## Eliminação de conta e dados - OmniKar
+**Fluxo completo:**
+1. Crias um agendamento (ex: "pneus a cada 40.000 km")
+2. O OmniKar alerta quando faltam ≤2.000 km ou ≤60 dias
+3. Quando fazes a manutenção, registas-a **diretamente a partir do agendamento**
+4. O alerta é **automaticamente desativado** (o agendamento antigo é apagado)
+5. Opcionalmente, um **novo agendamento é criado** automaticamente com base no intervalo que definiste (NextMileage/NextDate recalculados)
 
-O OmniKar usa autenticação Google OAuth.
+→ Nunca mais te esqueces de uma revisão.
 
-A app não mantém servidores próprios. Os dados da aplicação são guardados localmente no dispositivo e, quando o utilizador ativa o backup, na pasta privada da app no Google Drive da própria conta Google do utilizador.
+#### ⛽ Combustível
+Regista abastecimentos com custo, litros e quilometragem. Monitoriza gastos mensais/anuais.
 
-## Como eliminar os dados
+**Consumo real (litros/100km):**
+- Basta marcar o switch **"Depósito Cheio"** nos abastecimentos
+- O OmniKar calcula automaticamente o consumo **entre dois depósitos cheios**
+- Sem a flag, o consumo fica vazio, mas os custos continuam a funcionar
 
-Para remover os dados relacionados com o OmniKar:
+#### 🔍 Inspeções
+Mantém o histórico de inspeções obrigatórias (IPO) com datas de validade. Alerta quando faltam ≤60 dias para expirar.
 
-1. Na app OmniKar, acede a **Definições > Cloud > Sair**.
-2. Na app OmniKar, acede a **Definições > Cloud > Eliminar backup**.
-3. Também podes eliminar os dados locais através das definições do Android ou desinstalando a app.
+#### 📄 Seguros e Impostos
+Controla renovações de apólices e impostos de circulação (IUC). Alerta quando a apólice/expiração se aproxima (≤60 dias).
 
-## Retenção de dados
+#### 🛞 Pneus
+Gere conjuntos de pneus e histórico de instalações por viatura.
 
-O OmniKar não mantém servidores próprios e não conserva dados do utilizador em servidores externos.
+#### 👤 Histórico de Donos
+Regista mudanças de propriedade ao longo do tempo.
 
-Os dados locais permanecem no dispositivo até serem eliminados pelo utilizador, através da app, das definições do Android ou da desinstalação da aplicação.
+#### 📊 Estatísticas
+Gráficos interativos de custos, consumos e quilometragem:
+- **Custo por km** — custo total (manutenção + combustível + seguro + IUC + inspeções) / km percorridos
+- **Consumo médio** — litros/100km (depende da flag "Depósito Cheio")
+- **Distribuição de custos** — % por categoria
+- **Custos mensais** — gráfico por mês
 
-Os backups no Google Drive permanecem na conta Google do utilizador até que o utilizador os elimine através da opção **Definições > Cloud > Eliminar backup** ou diretamente através da sua conta Google Drive.
-
-O OmniKar não vende dados do utilizador e não utiliza os dados para publicidade.
-
----
-
-## 🇬🇧 English
-
-## About OmniKar
-
-**OmniKar** is your complete vehicle maintenance assistant.  
-Manage all your vehicles, maintenance, fuel, inspections, insurance, taxes, tires, documents, statistics, reports, GPS trips and backups in one place.
-
-### Key features
-
-- **Vehicle management**  
-  Add all your vehicles with mileage, license plate, VIN, brand, model and year.
-
-- **Maintenance**  
-  Track repairs, services and part replacements with costs and attached documents.
-
-- **Scheduled maintenance**  
-  Set intervals by kilometers or months and receive alerts when service is due.
-
-- **Fuel**  
-  Log fuel fill-ups, monitor average consumption and monthly or yearly costs.
-
-- **Inspections**  
-  Keep mandatory inspection history with expiry dates.
-
-- **Insurance and tax**  
-  Track policy renewals and road tax deadlines.
-
-- **Tires**  
-  Manage tire sets and installation history per vehicle.
-
-- **Ownership history**  
-  Record ownership changes over time.
-
-- **Statistics**  
-  View interactive charts for costs, fuel consumption and mileage.
-
-- **PDF reports**  
-  Generate complete vehicle reports to share or print.
+#### 📄 Relatórios PDF
+Gera relatórios completos da viatura para partilhar ou imprimir (PdfSharpCore).
 
 ---
 
-## Real-time GPS tracking
+### 3. Rastreio GPS em Tempo Real
 
-OmniKar can automatically record GPS trips.
+O OmniKar regista automaticamente a localização do teu veículo:
+- A cada **100 metros** percorridos
+- Ou a cada **3 segundos** quando a velocidade ultrapassa os **100 km/h**
 
-The app may record location every 100 meters traveled or every 3 seconds above 100 km/h. Each point may include GPS coordinates, speed and heading.
+Cada ponto guarda:
+- Coordenadas GPS (latitude/longitude)
+- Velocidade (km/h)
+- Rumo/orientação (heading)
+- Timestamp
 
-GPS points are grouped into trips with automatic start and end detection. Trips can be viewed on an interactive map with filters by trip, parking and offline history.
+Os pontos são agrupados em **viagens** com início e fim automáticos:
+- O ponto inicial é marcado com 🟢 (trip_start)
+- O ponto final é marcado com 🔴 (trip_end)
+- Pontos de estacionamento marcados com 🅿️ (parked)
 
----
+**Como funciona o tracking (2 formas):**
 
-## Backup and sync
+| Forma | Como | Requisitos |
+|-------|------|-----------|
+| **No telemóvel** | Abre a viatura na app e o rastreio começa automaticamente | Telemóvel com GPS + viatura em aberto |
+| **No HeadUnit** | O rastreio ativo do carro é registado à distância | HeadUnit com internet + GPS |
 
-OmniKar allows users to back up their data to their personal Google Drive account and restore it when needed.
+**Consulta e visualização:**
+- Mapa interativo (Mapsui) com filtros por viagem, estacionamento e histórico
+- Modo **📍 Live** — o mapa segue a posição GPS em tempo real
+- Filtro hierárquico: viatura → tipo de viagem → ponto individual
+- **Cache offline** — os dados ficam disponíveis mesmo sem internet
+- Toggle de tema (claro/escuro) no mapa
+- Acesso cross-device com a mesma conta Google
 
-Backup data is stored in the user's own Google account, inside the app's private folder in Google Drive. OmniKar does not operate external servers to store user data.
-
----
-
-## Multi-language and experience
-
-- English
-- Portuguese
-- Spanish
-- Dark theme
-- No ads
-
----
-
-# Account and Data Deletion
-
-## Account and Data Deletion - OmniKar
-
-OmniKar uses Google OAuth authentication.
-
-The app does not maintain its own servers. Application data is stored locally on the device and, when the user enables backup, in the app's private folder in the user's own Google Drive account.
-
-## How to delete your data
-
-To remove data related to OmniKar:
-
-1. In the OmniKar app, go to **Settings > Cloud > Sign out**.
-2. In the OmniKar app, go to **Settings > Cloud > Delete backup**.
-3. Users may also delete local app data from the Android app settings or by uninstalling the app.
-
-## Data retention
-
-OmniKar does not operate its own servers and does not retain user data on external servers.
-
-Local data remains on the user's device until the user deletes it through the app, through Android settings or by uninstalling the app.
-
-Google Drive backups remain in the user's own Google Drive account until the user deletes them using **Settings > Cloud > Delete backup** or directly through their Google Drive account.
-
-OmniKar does not sell user data and does not use user data for advertising.
+**Armazenamento:**
+- Os dados de localização são guardados no teu **Google Drive pessoal** (pasta privada `appDataFolder`)
+- Organizados por mês (`locations-{vehicleId}.json` + `meta-{vehicleId}.json`)
+- Sem servidores externos — os dados são teus
 
 ---
 
-# Privacy Policy - OmniKar
+### 4. Quilometragem Automática via GPS
 
-**Last updated:** 31 July 2026
+O OmniKar consegue acompanhar a quilometragem do teu veículo em tempo real usando o GPS, em duas modalidades:
 
-OmniKar is a vehicle management app that helps users manage vehicles, maintenance, fuel, inspections, insurance, taxes, tyres, documents, statistics, reports, GPS trips and backups.
+| Modalidade | O que faz | Precisa do switch? |
+|------------|-----------|-------------------|
+| **HeadUnit (tempo real)** | Mostra o velocímetro, a distância percorrida e o KM atualizado em tempo real enquanto conduzes | ❌ Não |
+| **Guardar automático na BD** | Grava o KM na base de dados da viatura a cada quilómetro percorrido | ✅ **Sim** |
 
----
+**O switch "Atualizar KM via GPS" (Settings):**
 
-## 1. Data we collect and process
+Quando **ativado**:
+1. O GPS passa a estar ativo ao abrir qualquer viatura (`VehicleTabbedPage`)
+2. A cada **1 km percorrido**, a quilometragem da viatura é **atualizada automaticamente** na base de dados (`GpsSaveService`)
+3. O novo KM aparece no **Dashboard**, no **HeadUnit** e em todas as estatísticas
 
-OmniKar may process the following data entered or generated by the user:
+Quando **desativado** (padrão):
+- O GPS **não** guarda nada na base de dados
+- O KM real aparece **apenas** no ecrã do **HeadUnit** (visualização em tempo real, sem persistência)
+- O Dashboard não mostra os ícones GPS
 
-- Vehicle information, such as licence plate, brand, model, year, mileage and VIN.
-- Maintenance records, repair history, parts, costs and attached documents.
-- Fuel records, consumption information and vehicle expenses.
-- Inspection, insurance, tax and tyre information.
-- GPS trip data, including coordinates, speed, heading, route history and parking locations.
-- App statistics and reports generated from the user's own data.
-- Google account information used for authentication, such as the Google account email address, when the user signs in with Google.
+**Como ativar:**
+1. Abre as **Settings**
+2. Liga o switch **"Atualizar KM via GPS"**
+3. Abre uma viatura — o GPS começa a acompanhar automaticamente
+4. A cada 1 km, o KM da viatura é atualizado na BD
 
----
-
-## 2. How we use data
-
-OmniKar uses this data only to provide the app's features, including:
-
-- Managing vehicle information.
-- Showing maintenance, fuel, cost and mileage statistics.
-- Generating vehicle reports.
-- Recording and displaying GPS trips on a map.
-- Creating and restoring backups using the user's own Google Drive account.
-- Authenticating the user with Google OAuth.
+> ⚠️ **Nota**: o GPS ativo consome mais bateria. Recomenda-se ligar apenas quando necessário (viagens longas, etc.).
 
 ---
 
-## 3. Google OAuth and Google Drive
+### 5. Backup e Sincronização Cloud
 
-OmniKar uses Google OAuth authentication so that users can sign in with their Google account.
+Faz backup completo de **todos os dados** — viaturas, manutenção, combustível e localizações — para o teu **Google Drive pessoal**:
 
-If the user enables cloud backup, OmniKar stores backup data in the app's private folder in the user's own Google Drive account.
+- **Backup to Cloud** — envia o backup para o Drive (pasta privada `appDataFolder`)
+- **Update from Cloud** — restaura os dados do Drive
+- **Delete backup** — remove o backup da nuvem
+- **Sincronização automática** — funciona em segundo plano
+- **Cross-device** — consulta os mesmos dados noutro dispositivo com a mesma conta Google
 
-OmniKar does not operate external servers for storing user data.
+**Privacidade:**
+- Os dados de localização ficam na **pasta privada da app** (`appDataFolder`) no teu Drive
+- **Sem servidores externos** — nenhum terceiro tem acesso
+- O login usa **Google Sign-In** com scope `drive.appdata` (só acede à pasta da própria app)
 
-The app only uses Google Drive access to create, read, update or delete backups related to OmniKar.
-
----
-
-## 4. Data storage
-
-OmniKar stores app data locally on the user's device.
-
-When cloud backup is enabled, backup data is stored in the user's own Google Drive account, in the app's private storage area.
-
-OmniKar does not sell user data.
-
-OmniKar does not share user data with third parties, except when required to provide functionality requested by the user, such as Google OAuth authentication and Google Drive backup.
-
----
-
-## 5. Location data
-
-OmniKar may collect location data when the user enables GPS trip tracking.
-
-Location data may include GPS coordinates, speed, heading, route points, parking locations and trip history.
-
-This data is used only to show trip history and route information inside the app.
-
-If backup is enabled, this data may also be included in the user's Google Drive backup.
+**Resiliência (automática):**
+- Token expirado → refresh automático
+- Falha de rede → retry com backoff exponencial (máx. 5 tentativas)
+- Sem internet → fila offline local + sincronização quando voltar
+- Duplicados evitados por ID único de cada ponto
+- 401 → silent sign-in (renovação sem abrir diálogo)
 
 ---
 
-## 6. Data security
+### 6. Idioma, Tema e Design
 
-Data sent between OmniKar and Google services is transmitted using encrypted connections.
-
-Users are responsible for keeping their Google account secure.
-
----
-
-## 7. Account and data deletion
-
-OmniKar does not maintain its own user account system. Authentication is performed using Google OAuth.
-
-To remove data from the app:
-
-1. Open OmniKar and go to **Settings > Cloud > Sign out**.
-2. Open OmniKar and go to **Settings > Cloud > Delete backup**.
-3. Users may also delete local app data from the Android app settings or by uninstalling the app.
-
-To request assistance with data deletion, contact:
-
-**omniwatch.dev@gmail.com**
-
-Please include the Google email address used with OmniKar.
+- **Multi-idioma**: Português, Inglês e Espanhol
+- **Tema escuro**: interface escura otimizada para uso noturno
+- **Sem anúncios**
+- **Ícones Phosphor** + fontes custom
 
 ---
 
-## 8. Data retention
+### 7. Detalhes Técnicos
 
-OmniKar does not retain user data on external servers because OmniKar does not operate its own backend servers.
+**Tecnologias:**
+- .NET MAUI (Android + Windows)
+- SQLite local (`sqlite-net-pcl`)
+- Google Sign-In + Google Drive API
+- Mapsui (mapas)
+- LiveCharts (gráficos)
+- PdfSharpCore (PDF)
+- CommunityToolkit.Mvvm (MVVM)
 
-Data stored locally on the user's device remains there until the user deletes it through the app, removes the app data from Android settings or uninstalls the app.
+**Serviços principais:**
+| Serviço | Descrição |
+|---------|-----------|
+| `GpsService` | Recolhe posição GPS contínua |
+| `GpsSaveService` | Guarda KM acumulado a cada 1 km na BD (se switch ativo) |
+| `CloudLocationService` | Upload de pontos GPS para Drive (100m/3s) |
+| `CloudBackupService` | Backup/restore completo para Drive |
+| `CloudService` | Google Sign-In + autenticação |
+| `AlertService` | Alerta de manutenção programada, inspeções, seguros |
+| `StatisticsService` | Cálculo de custos e consumo |
+| `PdfService` | Relatórios PDF |
 
-Backup data stored in Google Drive remains in the user's own Google Drive account until the user deletes it from the app or directly from Google Drive.
+**Configuração OAuth (Google Cloud Console):**
+- `googleWebClientId` — usado para sign-in e troca de token
+- `googleAndroidClientId` — validação package + SHA-1 (varia por ambiente)
+- `client_secret` — necessário para o exchange (web client)
+- SHA-1 da **App Signing Key** (Play Console → Integridade da App) tem de estar no Android OAuth Client ID de produção
 
 ---
 
-## 9. Children's privacy
-
-OmniKar is not intended for children. The app is designed for users who manage vehicles and related vehicle data.
+## 🇬🇧 ENGLISH
 
 ---
 
-## 10. Changes to this Privacy Policy
+### 1. Overview
 
-This Privacy Policy may be updated from time to time. Any changes will be published on this page.
+**OmniKar** is your complete vehicle maintenance assistant. Manage all your vehicles, maintenance, fuel, inspections, insurance, taxes, tires and much more in one place. With real-time GPS tracking, backup to your personal Google Drive and sync between devices.
 
 ---
 
-## 11. Contact
+### 2. Key Features
 
-For privacy questions or data deletion requests, contact:
+#### 🚗 Vehicle Management
+Add all your vehicles with mileage, license plate, VIN, brand, model and year. The Dashboard shows current status, alerts, monthly/yearly costs, consumption and recent maintenance.
 
-**omniwatch.dev@gmail.com**
+#### 🔧 Maintenance
+Track repairs, services and part replacements with costs and attached documents. Each record can have photos/PDFs (invoices, reports) attached.
+
+#### 📅 Scheduled Maintenance
+Set intervals by kilometers or months (e.g. "oil every 15,000 km" or "service every 12 months"). OmniKar **alerts automatically** when the intervention approaches:
+- **≤2,000 km left** (for km intervals)
+- **≤60 days left** (for time intervals)
+
+**Full flow:**
+1. Create a schedule (e.g. "tires every 40,000 km")
+2. OmniKar alerts when ≤2,000 km or ≤60 days remain
+3. When the service is done, log it **directly from the schedule**
+4. The alert is **automatically cleared** (the old schedule is deleted)
+5. Optionally, a **new schedule is created automatically** based on your set interval (NextMileage/NextDate recalculated)
+
+→ You'll never miss a service again.
+
+#### ⛽ Fuel
+Log fill-ups with cost, liters and mileage. Track monthly/yearly spending.
+
+**Real consumption (liters/100km):**
+- Just mark the **"Full Tank"** switch on fill-ups
+- OmniKar automatically calculates consumption **between two full tanks**
+- Without the flag, consumption stays empty, but costs still work
+
+#### 🔍 Inspections
+Keep mandatory inspection history with expiry dates. Alerts when ≤60 days to expiry.
+
+#### 📄 Insurance & Tax
+Track policy renewals and road tax (IUC). Alerts when policy/expiry approaches (≤60 days).
+
+#### 🛞 Tires
+Manage tire sets and installation history per vehicle.
+
+#### 👤 Ownership History
+Record ownership changes over time.
+
+#### 📊 Statistics
+Interactive charts for costs, fuel consumption and mileage:
+- **Cost per km** — total cost (maintenance + fuel + insurance + tax + inspections) / km driven
+- **Average consumption** — liters/100km (depends on "Full Tank" flag)
+- **Cost distribution** — % by category
+- **Monthly costs** — chart by month
+
+#### 📄 PDF Reports
+Generate complete vehicle reports to share or print (PdfSharpCore).
+
+---
+
+### 3. Real-Time GPS Tracking
+
+OmniKar automatically records your vehicle's location:
+- Every **100 meters** traveled
+- Or every **3 seconds** when speed exceeds **100 km/h**
+
+Each point stores:
+- GPS coordinates (latitude/longitude)
+- Speed (km/h)
+- Heading/direction
+- Timestamp
+
+Points are grouped into **trips** with automatic start/end:
+- Start point marked 🟢 (trip_start)
+- End point marked 🔴 (trip_end)
+- Parking points marked 🅿️ (parked)
+
+**How tracking works (2 ways):**
+
+| Way | How | Requirements |
+|-----|-----|--------------|
+| **On your phone** | Open the vehicle in the app and tracking starts automatically | Phone with GPS + vehicle open |
+| **On HeadUnit** | Your car's active tracking is recorded remotely | HeadUnit with internet + GPS |
+
+**Viewing:**
+- Interactive map (Mapsui) with filters by trip, parking and history
+- **📍 Live** mode — map follows GPS position in real time
+- Hierarchical filter: vehicle → trip type → individual point
+- **Offline cache** — data available even without internet
+- Map theme toggle (light/dark)
+- Cross-device access with the same Google account
+
+**Storage:**
+- Location data stored in your **personal Google Drive** (private `appDataFolder`)
+- Organized by month (`locations-{vehicleId}.json` + `meta-{vehicleId}.json`)
+- No external servers — your data stays yours
+
+---
+
+### 4. Automatic GPS Mileage
+
+OmniKar can track your vehicle's mileage in real time using GPS, in two modes:
+
+| Mode | What it does | Needs the switch? |
+|------|--------------|-------------------|
+| **HeadUnit (real-time)** | Shows speedometer, distance traveled and updated mileage in real time while driving | ❌ No |
+| **Auto-save to database** | Writes mileage to the vehicle's database every kilometer traveled | ✅ **Yes** |
+
+**The "Update KM via GPS" switch (Settings):**
+
+When **enabled**:
+1. GPS becomes active when opening any vehicle (`VehicleTabbedPage`)
+2. Every **1 km traveled**, the vehicle's mileage is **automatically updated** in the database (`GpsSaveService`)
+3. The new mileage appears on the **Dashboard**, **HeadUnit** and all statistics
+
+When **disabled** (default):
+- GPS does **not** save anything to the database
+- Real-time mileage appears **only** on the **HeadUnit** screen (live view, no persistence)
+- Dashboard does not show GPS icons
+
+**How to enable:**
+1. Open **Settings**
+2. Toggle **"Update KM via GPS"** on
+3. Open a vehicle — GPS starts tracking automatically
+4. Every 1 km, the vehicle's mileage is updated in the database
+
+> ⚠️ **Note**: active GPS consumes more battery. Recommended to enable only when needed (long trips, etc.).
+
+---
+
+### 5. Cloud Backup & Sync
+
+Back up **all data** — vehicles, maintenance, fuel and locations — to your **personal Google Drive**:
+
+- **Backup to Cloud** — uploads backup to Drive (private `appDataFolder`)
+- **Update from Cloud** — restores data from Drive
+- **Delete backup** — removes cloud backup
+- **Automatic sync** — works in background
+- **Cross-device** — access the same data on another device with the same Google account
+
+**Privacy:**
+- Location data stays in the **app's private folder** (`appDataFolder`) in your Drive
+- **No external servers** — no third party has access
+- Login uses **Google Sign-In** with `drive.appdata` scope (only accesses the app's own folder)
+
+**Resilience (automatic):**
+- Expired token → auto refresh
+- Network failure → exponential backoff retry (max 5 attempts)
+- No internet → local offline queue + sync when back
+- Duplicates avoided by unique point ID
+- 401 → silent sign-in (renewal without dialog)
+
+---
+
+### 6. Language, Theme & Design
+
+- **Multi-language**: English, Portuguese and Spanish
+- **Dark theme**: dark interface optimized for night use
+- **No ads**
+- **Phosphor icons** + custom fonts
+
+---
+
+### 7. Technical Details
+
+**Technologies:**
+- .NET MAUI (Android + Windows)
+- Local SQLite (`sqlite-net-pcl`)
+- Google Sign-In + Google Drive API
+- Mapsui (maps)
+- LiveCharts (charts)
+- PdfSharpCore (PDF)
+- CommunityToolkit.Mvvm (MVVM)
+
+**Main services:**
+| Service | Description |
+|---------|-------------|
+| `GpsService` | Collects continuous GPS position |
+| `GpsSaveService` | Saves accumulated KM every 1 km to DB (if switch on) |
+| `CloudLocationService` | Uploads GPS points to Drive (100m/3s) |
+| `CloudBackupService` | Full backup/restore to Drive |
+| `CloudService` | Google Sign-In + authentication |
+| `AlertService` | Scheduled maintenance, inspection, insurance alerts |
+| `StatisticsService` | Cost and consumption calculation |
+| `PdfService` | PDF reports |
+
+**OAuth Configuration (Google Cloud Console):**
+- `googleWebClientId` — used for sign-in and token exchange
+- `googleAndroidClientId` — package + SHA-1 validation (varies by environment)
+- `client_secret` — required for the exchange (web client)
+- SHA-1 of the **App Signing Key** (Play Console → App Integrity) must be in the production Android OAuth Client ID
+
+---
+
+## 📝 Descrição para Play Store / Play Store Description
+
+### 🇵🇹
+O OmniKar é o teu assistente completo de manutenção automóvel. Gere viaturas, manutenção, combustível, inspeções, seguros, impostos e pneus num só lugar.
+
+• **Gestão de Viaturas** — vários veículos com matrícula, VIN, quilometragem e ano
+• **Manutenção** — revisões e reparações com custos e documentos
+• **Manutenção Programada** — alertas automáticos por km ou meses; ao registar, o alerta desativa e recria o agendamento
+• **Combustível** — gastos mensais/anuais e consumo real (litros/100km) ao marcar "Depósito Cheio"
+• **Inspeções, Seguros e Impostos** — histórico e alertas de validade
+• **Pneus** — conjuntos e histórico de instalações
+• **Estatísticas** — gráficos de custos, consumo e quilometragem
+• **Relatórios PDF** — partilha e impressão
+
+**GPS Tracking** — regista a localização a cada 100m (ou 3s acima de 100km/h), agrupada em viagens, com mapa interativo e modo ao vivo. Funciona no telemóvel (viatura aberta) ou no HeadUnit.
+
+**Quilometragem automática** — ativa "Atualizar KM via GPS" nas Settings e o KM atualiza a cada 1km.
+
+**Backup Cloud** — todos os dados para o teu Google Drive pessoal, com sincronização cross-device e pasta privada. Sem servidores externos.
+
+**Multi-idioma** (PT, EN, ES) • **Tema escuro** • **Sem anúncios**
+
+### 🇬🇧
+OmniKar is your complete vehicle maintenance assistant. Manage vehicles, maintenance, fuel, inspections, insurance, taxes and tires in one place.
+
+• **Vehicle Management** — multiple vehicles with plate, VIN, mileage and year
+• **Maintenance** — services and repairs with costs and documents
+• **Scheduled Maintenance** — automatic alerts by km or months; logging clears the alert and recreates the schedule
+• **Fuel** — monthly/yearly costs and real consumption (liters/100km) by marking "Full Tank"
+• **Inspections, Insurance & Tax** — history and expiry alerts
+• **Tires** — sets and installation history
+• **Statistics** — charts for costs, consumption and mileage
+• **PDF Reports** — share and print
+
+**GPS Tracking** — records location every 100m (or 3s above 100km/h), grouped into trips, with interactive map and live mode. Works on your phone (vehicle open) or HeadUnit.
+
+**Automatic mileage** — enable "Update KM via GPS" in Settings and mileage updates every 1km.
+
+**Cloud Backup** — all data to your personal Google Drive, with cross-device sync and private folder. No external servers.
+
+**Multi-language** (EN, PT, ES) • **Dark theme** • **No ads**
