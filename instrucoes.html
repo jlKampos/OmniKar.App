@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Como funciona o OmniKar — guia de utilização: agendamentos, manutenção, GPS tracking, reparações.">
+  <title data-i18n="guide.title">Como funciona — OmniKar</title>
+  <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="guide">
+
+<div id="app-header"></div>
+
+<main class="guide">
+
+  <section class="hero" style="padding:3rem 1.5rem 1rem">
+    <h1 data-i18n="guide.hero">Como funciona</h1>
+    <p data-i18n="guide.heroSub">Tudo o que precisas saber para usar o OmniKar no dia a dia.</p>
+  </section>
+
+  <!-- 1. Escolher uma viatura -->
+  <section>
+    <div class="card card-accent">
+      <div class="guide-number">1</div>
+      <h2 data-i18n="guide.s1.title">Escolher uma viatura</h2>
+      <p data-i18n="guide.s1.p1">Ao abrir o OmniKar vês a <strong>lista de viaturas</strong>. Toca numa viatura para abrir o ecrã completo com todos os separadores: Dashboard, Manutenção, Agendamentos, Combustível, Reparações, GPS e muito mais.</p>
+      <p data-i18n="guide.s1.p2"><strong>Tudo no OmniKar funciona sobre a viatura que está aberta.</strong> Agendamentos, manutenções, combustível, GPS — tudo fica associado a essa viatura.</p>
+      <div class="guide-tip">
+        <strong data-i18n="guide.s1.tip">💡 Dica — Viatura de arranque:</strong>
+        <span data-i18n="guide.s1.tipText">Nas Definições, ativa "Viatura de arranque" e escolhe a viatura + ecrã (Dashboard ou HeadUnit). A app abre direto nessa viatura sem passares pela lista.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. Manutenção programada (Agendamentos) -->
+  <section>
+    <div class="card card-accent">
+      <div class="guide-number">2</div>
+      <h2 data-i18n="guide.s2.title">Manutenção programada</h2>
+      <p data-i18n="guide.s2.p1">Cria regras para manutenções periódicas como "óleo a cada 15.000 km" ou "revisão a cada 12 meses". O OmniKar alerta-te automaticamente quando se aproxima a data ou quilometragem.</p>
+
+      <div class="guide-alerts">
+        <span class="guide-alert warn" data-i18n="guide.s2.warn">⚠️ Aviso: faltam ≤ 2.000 km ou ≤ 60 dias</span>
+        <span class="guide-alert urgent" data-i18n="guide.s2.urgent">🚨 Urgente: faltam ≤ 500 km ou ≤ 15 dias</span>
+      </div>
+
+      <h3 data-i18n="guide.s2.flow">Fluxo completo</h3>
+      <ol class="guide-steps">
+        <li data-i18n="guide.s2.step1">Vai ao separador <strong>Agendamentos</strong> e toca em <strong>"+ Adicionar Agendamento"</strong>. Escolhe o tipo (óleo, pneus, travões…) e define o intervalo em km ou meses.</li>
+        <li data-i18n="guide.s2.step2">O OmniKar <strong>alerta automaticamente</strong> no Dashboard quando a intervenção se aproxima (≤ 2.000 km ou ≤ 60 dias).</li>
+        <li data-i18n="guide.s2.step3">Quando fizeres a manutenção, toca no botão <strong>"Registar"</strong> no cartão do agendamento. Abre o formulário de manutenção já pré-preenchido com o tipo e quilometragem.</li>
+        <li data-i18n="guide.s2.step4">Preenche os detalhes (custo, oficina, notas, documentos) e grava.</li>
+        <li data-i18n="guide.s2.step5"><strong>O agendamento antigo é automaticamente apagado</strong> e, com o switch "Agendar próxima manutenção" ligado, <strong>é criado um novo agendamento</strong> com o próximo intervalo. Assim nunca perdes a referência da próxima intervenção.</li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- 3. Manutenção vs Reparação -->
+  <section>
+    <div class="card card-accent">
+      <div class="guide-number">3</div>
+      <h2 data-i18n="guide.s3.title">Manutenção vs Reparação</h2>
+      <p data-i18n="guide.s3.p1">O OmniKar distingue dois tipos de registo:</p>
+
+      <div class="guide-compare">
+        <div class="guide-col">
+          <h3 data-i18n="guide.s3.maint">🔧 Manutenção</h3>
+          <ul>
+            <li data-i18n="guide.s3.m1"><strong>Registos periódicos</strong> baseados em agendamentos</li>
+            <li data-i18n="guide.s3.m2">Campos: tipo, data, km, custo, oficina, notas</li>
+            <li data-i18n="guide.s3.m3">Podes anexar <strong>documentos e fotos</strong> (faturas, relatórios)</li>
+          </ul>
+        </div>
+        <div class="guide-col">
+          <h3 data-i18n="guide.s3.repair">🛠️ Reparação</h3>
+          <ul>
+            <li data-i18n="guide.s3.r1"><strong>Avarias e intervenções</strong> pontuais no veículo</li>
+            <li data-i18n="guide.s3.r2">Campos: tipo, data, km, custo, oficina, notas <strong>+ peças trocadas</strong></li>
+            <li data-i18n="guide.s3.r3">Check/follow-up opcional: define um <strong>lembrete de verificação</strong> (data ou km) para confirmar que a reparação ficou bem</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. GPS Tracking -->
+  <section>
+    <div class="card card-accent">
+      <div class="guide-number">4</div>
+      <h2 data-i18n="guide.s4.title">GPS Tracking</h2>
+      <p data-i18n="guide.s4.p1">O GPS começa a registar <strong>automaticamente</strong> assim que abres uma viatura. Não precisas de fazer nada — os pontos vão sendo guardados no teu Google Drive.</p>
+
+      <div class="guide-gps-grid">
+        <div>
+          <h3 data-i18n="guide.s4.recording">📡 Registo de pontos</h3>
+          <ul>
+            <li data-i18n="guide.s4.r1">Um ponto GPS é registado a cada <strong>100 metros</strong> percorridos</li>
+            <li data-i18n="guide.s4.r2">Cada ponto guarda: coordenadas, velocidade (km/h), rumo e hora</li>
+            <li data-i18n="guide.s4.r3">Upload automático para a nuvem a cada <strong>3 segundos (≤ 100 km/h)</strong> ou <strong>10 segundos (> 100 km/h)</strong></li>
+          </ul>
+        </div>
+        <div>
+          <h3 data-i18n="guide.s4.trips">🗺️ Viagens</h3>
+          <ul>
+            <li data-i18n="guide.s4.t1">Os pontos são agrupados em <strong>viagens</strong> com início e fim automáticos</li>
+            <li data-i18n="guide.s4.t2">🟢 Ponto inicial | 🔴 Ponto final | 🟠 Estacionamento (botão "Park here" no HeadUnit)</li>
+            <li data-i18n="guide.s4.t3">Se reabrires a viatura em <strong>menos de 30 minutos</strong>, a viagem continua (não começa uma nova)</li>
+          </ul>
+        </div>
+      </div>
+
+      <h3 data-i18n="guide.s4.viewing">👁️ Visualizar no mapa</h3>
+      <ul>
+        <li data-i18n="guide.s4.v1">Vai ao separador <strong>Tracking</strong> (tab do fundo da app, ícone 📍)</li>
+        <li data-i18n="guide.s4.v2">Escolhe a viatura e filtra por <strong>Live</strong> (tempo real), <strong>viagens</strong>, <strong>estacionamento</strong> ou <strong>antigos</strong></li>
+        <li data-i18n="guide.s4.v3">Modo <strong>Live</strong> segue a posição atual no mapa</li>
+      </ul>
+
+      <div class="guide-tip">
+        <strong data-i18n="guide.s4.tip">💡 Privacidade:</strong>
+        <span data-i18n="guide.s4.tipText">Os dados de localização são guardados na <strong>pasta privada da app</strong> no teu Google Drive. Só tu tens acesso. Sem servidores externos.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Switch GPS -->
+  <section>
+    <div class="card card-accent">
+      <div class="guide-number">5</div>
+      <h2 data-i18n="guide.s5.title">Switch "Atualizar KM via GPS"</h2>
+      <p data-i18n="guide.s5.p1">Nas <strong>Definições</strong>, encontras o switch <strong>"Atualizar KM via GPS"</strong>. Ele controla se o kilometragem da viatura é guardada automaticamente na base de dados enquanto conduzes.</p>
+
+      <div class="guide-compare">
+        <div class="guide-col on">
+          <h3 data-i18n="guide.s5.on">🟢 Ligado</h3>
+          <ul>
+            <li data-i18n="guide.s5.on1">A cada <strong>1 km</strong> percorrido, o KM da viatura é <strong>atualizado na base de dados</strong></li>
+            <li data-i18n="guide.s5.on2">O novo KM aparece no Dashboard, no HeadUnit, nas estatísticas e nos PDFs</li>
+            <li data-i18n="guide.s5.on3">Consome mais bateria — recomendado para viagens longas</li>
+          </ul>
+        </div>
+        <div class="guide-col off">
+          <h3 data-i18n="guide.s5.off">⚫ Desligado (padrão)</h3>
+          <ul>
+            <li data-i18n="guide.s5.off1">O GPS <strong>não guarda</strong> nada na base de dados</li>
+            <li data-i18n="guide.s5.off2">O KM real aparece <strong>apenas no ecrã HeadUnit</strong> (tempo real, sem persistência)</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="guide-note">
+        <span data-i18n="guide.s5.note">ℹ️ Os pontos GPS para a nuvem (Google Drive) <strong>funcionam sempre</strong>, com ou sem o switch. O switch controla apenas se o KM é guardado na base de dados local.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Fluxo rápido -->
+  <section>
+    <div class="card card-accent">
+      <div class="guide-number">6</div>
+      <h2 data-i18n="guide.s6.title">Fluxo rápido (resumo)</h2>
+      <ol class="guide-steps">
+        <li data-i18n="guide.s6.step1"><strong>Abre uma viatura</strong> — toca nela na lista principal (ou configura a viatura de arranque nas Definições)</li>
+        <li data-i18n="guide.s6.step2"><strong>Cria agendamentos</strong> — define intervalos para manutenções periódicas e deixa os alertas trabalhar por ti</li>
+        <li data-i18n="guide.s6.step3"><strong>Regista manutenções e reparações</strong> — a partir dos agendamentos (botão "Registar") ou manualmente</li>
+        <li data-i18n="guide.s6.step4"><strong>Ativa o GPS</strong> — liga o switch "Atualizar KM via GPS" se quiseres quilometragem automática; o tracking no mapa funciona sempre</li>
+        <li data-i18n="guide.s6.step5"><strong>Consulta o histórico</strong> — vê o mapa de viagens no Tracking, os custos nas Estatísticas, e gera relatórios PDF</li>
+      </ol>
+    </div>
+  </section>
+
+</main>
+
+<div id="app-footer"></div>
+
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
