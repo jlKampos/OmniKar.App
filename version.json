@@ -2,12 +2,12 @@
   "latestVersion": "1.0.18",
   "versionCode": 1,
   "date": "2026-08-06",
-  "size": "52.11 MB",
-  "sha256": "AF90C7EE05A4ECC08DC5CA191FF918C4156EA2DFF77E45E027B2B165049C0168",
-  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.0.18/OmniKar-latest.apk",
+  "size": "52.54 MB",
+  "sha256": "678950811972614DF82369E9973EE91FACB6D1EEB2773B632FFDD5FD2515663D",
+  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.0.18/com.companyname.OmniKar-Signed-1.0.18-alpha.apk",
   "apkFiles": {
-    "latest": "OmniKar-latest.apk",
-    "versioned": "OmniKar-1.0.18.apk"
+    "latest": "com.companyname.OmniKar-Signed-1.0.18-alpha.apk",
+    "versioned": "com.companyname.OmniKar-Signed-1.0.18-alpha.apk"
   },
   "androidRequirements": {
     "minSdk": 23,
