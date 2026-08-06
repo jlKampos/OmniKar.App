@@ -1,13 +1,13 @@
 {
-  "latestVersion": "1.0.18",
+  "latestVersion": "1.0.19",
   "versionCode": 1,
   "date": "2026-08-06",
-  "size": "52.54 MB",
-  "sha256": "678950811972614DF82369E9973EE91FACB6D1EEB2773B632FFDD5FD2515663D",
-  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.0.18/com.companyname.OmniKar-Signed-1.0.18-alpha.apk",
+  "size": "52.55 MB",
+  "sha256": "A0DE2DD732EB59EFEA1E9B98AA4BBD2D12E27D0032DC2968F95B8D34C045BA98",
+  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.0.19/com.companyname.OmniKar-Signed-1.0.19-alpha.apk",
   "apkFiles": {
-    "latest": "com.companyname.OmniKar-Signed-1.0.18-alpha.apk",
-    "versioned": "com.companyname.OmniKar-Signed-1.0.18-alpha.apk"
+    "latest": "com.companyname.OmniKar-Signed-1.0.19-alpha.apk",
+    "versioned": "com.companyname.OmniKar-Signed-1.0.19-alpha.apk"
   },
   "androidRequirements": {
     "minSdk": 23,
@@ -15,6 +15,11 @@
     "minVersion": "Android 8.0 (API 23)"
   },
   "changelog": [
+    {
+        "version": "1.0.19",
+        "date": "2026-08-06",
+        "notes": "<ul><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Campos numéricos agora aceitam vírgula e ponto em qualquer idioma</li></ul>"    
+    },
     {
       "version": "1.0.18",
       "date": "2026-08-06",
