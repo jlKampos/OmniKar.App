@@ -333,10 +333,35 @@ footer .copyright { opacity: 0.6; }
 .dl-card .meta {
   color: var(--text-dim);
   font-size: 0.85rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
+}
+
+.sha-line {
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  margin-bottom: 1.5rem;
+  padding: 0.5rem 0;
+  border-top: 1px solid var(--bg-surface);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  align-items: baseline;
+}
+
+.sha-line span {
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.sha-line code {
+  font-family: 'Cascadia Code', 'Fira Code', 'JetBrains Mono', Consolas, monospace;
+  color: var(--text-dim);
+  word-break: break-all;
+  font-size: 0.7rem;
+  letter-spacing: -0.02em;
 }
 
 .dl-btn {

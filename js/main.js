@@ -88,6 +88,7 @@
           var elFile = document.getElementById('dl-filename');
           var elDate = document.getElementById('dl-date');
           var elSize = document.getElementById('dl-size');
+          var elSha = document.getElementById('dl-sha');
           var elLink = document.getElementById('dl-link');
 
           if (elVersion) elVersion.textContent = data.latestVersion || '—';
@@ -96,6 +97,7 @@
           if (elFile) elFile.textContent = (data.apkFiles && data.apkFiles.versioned) || '—';
           if (elDate) elDate.textContent = data.date || '—';
           if (elSize) elSize.textContent = data.size || '—';
+          if (elSha) elSha.textContent = data.sha256 || '—';
           if (elLink && data.apkFiles && data.apkFiles.latest) {
             elLink.href = 'downloads/' + data.apkFiles.latest;
           }
