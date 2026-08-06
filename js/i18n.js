@@ -15,6 +15,10 @@ var I18N = (function () {
       'hero.title': 'O teu assistente de <span>manutenção automóvel</span>',
       'hero.sub': 'Gere todas as tuas viaturas, manutenções, combustível, inspeções e muito mais. Com GPS tracking, backup na cloud e relatórios PDF.',
       'hero.cta': 'Descarregar APK',
+      'home.playNote': 'ℹ️ O OmniKar está disponível na <a href="https://play.google.com/store/apps/details?id=com.companyname.OmniKar" target="_blank" rel="noopener">Google Play</a> (método recomendado). O download do APK destina-se apenas a dispositivos filtrados pela Play Store.',
+      'home.guide.title': '📘 Aprende a usar o OmniKar',
+      'home.guide.desc': 'Guia completo: agendamentos, manutenção programada, GPS tracking, reparações e toda a configuração da app, explicada passo a passo.',
+      'home.guide.cta': 'Ver guia',
 
       'features.title': 'Funcionalidades',
       'features.sub': 'Tudo o que precisas para manter o teu carro em dia.',
@@ -63,6 +67,8 @@ var I18N = (function () {
       'dl.install.4': 'Abre o OmniKar e faz login com a tua conta Google para ativar a sincronização',
       'dl.filename': 'Nome do ficheiro',
       'dl.sha': 'SHA-256',
+      'dl.playNote': 'ℹ️ O OmniKar está disponível na <a href="https://play.google.com/store/apps/details?id=com.companyname.OmniKar" target="_blank" rel="noopener">Google Play</a> (método recomendado). Este APK destina-se apenas a <strong>dispositivos filtrados ou não suportados</strong> pela Play Store.',
+      'dl.guideLink': '📘 Consultar o guia <strong>Como funciona</strong> para aprenderes a usar o OmniKar →',
 
       'changelog.title': 'Novidades',
 
@@ -139,6 +145,10 @@ var I18N = (function () {
       'hero.title': 'Your <span>vehicle maintenance</span> assistant',
       'hero.sub': 'Manage all your vehicles, maintenance, fuel, inspections and more. With GPS tracking, cloud backup and PDF reports.',
       'hero.cta': 'Download APK',
+      'home.playNote': 'ℹ️ OmniKar is available on <a href="https://play.google.com/store/apps/details?id=com.companyname.OmniKar" target="_blank" rel="noopener">Google Play</a> (recommended). The APK download is only for devices filtered by the Play Store.',
+      'home.guide.title': '📘 Learn how to use OmniKar',
+      'home.guide.desc': 'Complete guide: schedules, maintenance, GPS tracking, repairs and all app settings, explained step by step.',
+      'home.guide.cta': 'View guide',
 
       'features.title': 'Features',
       'features.sub': 'Everything you need to keep your car in shape.',
@@ -187,6 +197,8 @@ var I18N = (function () {
       'dl.install.4': 'Open OmniKar and sign in with your Google account to enable sync',
       'dl.filename': 'Filename',
       'dl.sha': 'SHA-256',
+      'dl.playNote': 'ℹ️ OmniKar is available on <a href="https://play.google.com/store/apps/details?id=com.companyname.OmniKar" target="_blank" rel="noopener">Google Play</a> (recommended). This APK is only for <strong>filtered or unsupported devices</strong> on the Play Store.',
+      'dl.guideLink': '📘 Check the <strong>How it works</strong> guide to learn how to use OmniKar →',
 
       'changelog.title': 'Changelog',
 
@@ -263,6 +275,10 @@ var I18N = (function () {
       'hero.title': 'Tu asistente de <span>mantenimiento automóvil</span>',
       'hero.sub': 'Gestiona todos tus vehículos, mantenimiento, combustible, inspecciones y mucho más. Con GPS tracking, backup en la nube e informes PDF.',
       'hero.cta': 'Descargar APK',
+      'home.playNote': 'ℹ️ OmniKar está disponible en <a href="https://play.google.com/store/apps/details?id=com.companyname.OmniKar" target="_blank" rel="noopener">Google Play</a> (método recomendado). La descarga del APK es solo para dispositivos filtrados por la Play Store.',
+      'home.guide.title': '📘 Aprende a usar OmniKar',
+      'home.guide.desc': 'Guía completa: agendamientos, mantenimiento, GPS tracking, reparaciones y toda la configuración de la app, explicada paso a paso.',
+      'home.guide.cta': 'Ver guía',
 
       'features.title': 'Funcionalidades',
       'features.sub': 'Todo lo que necesitas para mantener tu coche al día.',
@@ -311,6 +327,8 @@ var I18N = (function () {
       'dl.install.4': 'Abre OmniKar e inicia sesión con tu cuenta de Google para activar la sincronización',
       'dl.filename': 'Nombre del archivo',
       'dl.sha': 'SHA-256',
+      'dl.playNote': 'ℹ️ OmniKar está disponible en <a href="https://play.google.com/store/apps/details?id=com.companyname.OmniKar" target="_blank" rel="noopener">Google Play</a> (método recomendado). Este APK es solo para <strong>dispositivos filtrados o no soportados</strong> por la Play Store.',
+      'dl.guideLink': '📘 Consulta la guía <strong>Cómo funciona</strong> para aprender a usar OmniKar →',
 
       'changelog.title': 'Novedades',
 
