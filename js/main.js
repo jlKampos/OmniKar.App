@@ -99,8 +99,8 @@
           if (elDate) elDate.textContent = data.date || '—';
           if (elSize) elSize.textContent = data.size || '—';
           if (elSha) elSha.textContent = data.sha256 || '—';
-          if (elLink && data.apkFiles && data.apkFiles.latest) {
-            elLink.href = 'downloads/' + data.apkFiles.latest;
+          if (elLink) {
+            elLink.href = data.downloadUrl || ('downloads/' + (data.apkFiles && data.apkFiles.latest)) || 'downloads/OmniKar-latest.apk';
           }
         })
         .catch(function () {});
