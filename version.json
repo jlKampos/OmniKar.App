@@ -10,7 +10,7 @@
   },
   "androidRequirements": {
     "minSdk": 23,
-    "targetSdk": 34,
+    "targetSdk": 36,
     "minVersion": "Android 8.0 (API 23)"
   },
   "changelog": [
