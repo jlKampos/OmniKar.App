@@ -1,3 +1,43 @@
+# OmniKar.App — Site de Downloads
+
+Este repositório contém o site de downloads do OmniKar, servido via **GitHub Pages**.
+
+## Estrutura do Site
+
+```
+├── index.html          Landing page com funcionalidades
+├── download.html       Página de download com versão mais recente
+├── changelog.html      Novidades por versão
+├── version.json        Metadados da versão (atualizar ao lançar)
+├── css/style.css       Tema escuro baseado na app MAUI
+├── js/i18n.js          Traduções PT / EN / ES
+├── js/main.js          Header/footer partilhado + lógica das páginas
+├── images/logo.svg     Logo OmniKar
+├── downloads/
+│   ├── OmniKar-latest.apk   ← cópia da versão mais recente
+│   └── OmniKar-X.Y.Z.apk    ← APK versionado
+└── .nojekyll           Para GitHub Pages servir ficheiros em js/
+```
+
+## Como atualizar o site para uma nova versão
+
+1. Adiciona o APK na pasta `downloads/`
+2. Copia o APK como `OmniKar-latest.apk`
+3. Edita `version.json`:
+   - `latestVersion` → novo número de versão
+   - `apkFiles.versioned` → nome do ficheiro versionado
+   - `date` → data de publicação
+   - Adiciona uma entrada no array `changelog`
+4. Edita `changelog.html` (entradas estáticas) se necessário
+5. Faz commit + push → o GitHub Pages atualiza automaticamente
+
+## GitHub Pages
+
+O site é servido a partir da branch `main`, pasta raiz.
+O domínio é `https://jlKampos.github.io/OmniKar.App/`.
+
+---
+
 # OmniKar — Documentação Completa / Complete Documentation
 
 > Aplicação de gestão e manutenção automóvel com GPS tracking, backup cloud e multi-idioma.
