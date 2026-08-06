@@ -16,7 +16,9 @@ Este repositório contém o site de downloads do OmniKar, servido via **GitHub P
 ├── downloads/
 │   ├── OmniKar-latest.apk   ← cópia da versão mais recente
 │   └── OmniKar-X.Y.Z.apk    ← APK versionado
-└── .nojekyll           Para GitHub Pages servir ficheiros em js/
+├── .github/workflows/
+│   └── pages.yml        Deploy automático via GitHub Actions
+├── .nojekyll           Para GitHub Pages servir ficheiros em js/
 ```
 
 ## Como atualizar o site para uma nova versão
@@ -29,12 +31,23 @@ Este repositório contém o site de downloads do OmniKar, servido via **GitHub P
    - `date` → data de publicação
    - Adiciona uma entrada no array `changelog`
 4. Edita `changelog.html` (entradas estáticas) se necessário
-5. Faz commit + push → o GitHub Pages atualiza automaticamente
+5. Faz commit + push → o GitHub Actions faz deploy automaticamente (~30s–2min)
+
+Para cancelar/repetir um deploy, vai à tab **Actions** → workflow `Deploy to GitHub Pages` → **Re-run all jobs** ou **Cancel workflow run**.
 
 ## GitHub Pages
 
-O site é servido a partir da branch `main`, pasta raiz.
+O site é servido via **GitHub Actions** (workflow `.github/workflows/pages.yml`).
 O domínio é `https://jlKampos.github.io/OmniKar.App/`.
+
+### Configuração inicial (já feita se o site está no ar)
+1. **Settings → Pages → Source**: escolhe **"GitHub Actions"** (não "Deploy from a branch")
+2. O workflow `pages.yml` trata do resto automaticamente a cada push para `main`
+
+### Vantagens do workflow próprio vs "Deploy from a branch"
+- ✅ **Deploy fiável**: `concurrency` cancela deploys antigos automaticamente (sem lock "in_progress")
+- ✅ **Controlo total**: cancelar, re-run, logs detalhados na tab Actions
+- ✅ **Manutenção previsível**: sem deploys presos ou timeouts fantasma
 
 ---
 
