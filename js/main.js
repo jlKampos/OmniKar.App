@@ -32,6 +32,7 @@
       '    <a href="download.html" data-i18n="nav.download"' + (currentPage === 'download' ? ' class="active"' : '') + '>' + I18N.t('nav.download') + '</a>' +
       '    <a href="changelog.html" data-i18n="nav.changelog"' + (currentPage === 'changelog' ? ' class="active"' : '') + '>' + I18N.t('nav.changelog') + '</a>' +
       '    <a href="instrucoes.html" data-i18n="nav.guide"' + (currentPage === 'guide' ? ' class="active"' : '') + '>' + I18N.t('nav.guide') + '</a>' +
+      '    <a href="privacidade.html" data-i18n="nav.privacy"' + (currentPage === 'privacy' ? ' class="active"' : '') + '>' + I18N.t('nav.privacy') + '</a>' +
       '  </div>' +
       '  <div class="lang-switch" id="lang-switch">' + getLangButtons() + '</div>' +
       '</nav>';

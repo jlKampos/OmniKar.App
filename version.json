@@ -1,13 +1,13 @@
 {
-  "latestVersion": "1.0.19",
+  "latestVersion": "1.0.20",
   "versionCode": 1,
-  "date": "2026-08-06",
-  "size": "52.55 MB",
-  "sha256": "A0DE2DD732EB59EFEA1E9B98AA4BBD2D12E27D0032DC2968F95B8D34C045BA98",
-  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.0.19/com.companyname.OmniKar-Signed-1.0.19-alpha.apk",
+  "date": "2026-08-07",
+  "size": "52.58",
+  "sha256": "E34566F4EF95EF1EE41E3675A5F7D9BC99682ED190172D94DF5C43E6DD2116F5",
+  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.0.20/com.companyname.OmniKar-Signed-1.0.20-alpha.apk",
   "apkFiles": {
-    "latest": "com.companyname.OmniKar-Signed-1.0.19-alpha.apk",
-    "versioned": "com.companyname.OmniKar-Signed-1.0.19-alpha.apk"
+    "latest": "com.companyname.OmniKar-Signed-1.0.20-alpha.apk",
+    "versioned": "com.companyname.OmniKar-Signed-1.0.20-alpha.apk"
   },
   "androidRequirements": {
     "minSdk": 23,
@@ -16,7 +16,12 @@
   },
   "changelog": [
     {
-        "version": "1.0.19",
+      "version": "1.0.20",
+      "date": "2026-08-07",
+      "notes": "<ul><li><span class=\"ch-tag ch-tag-new\">Novo</span>Park here 🅿️ termina a viagem</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Viagem termina automaticamente após X min imóvel (3/5/10 min, configurável nas Definições)</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Apagar dados na nuvem remove tudo (backup + localizações GPS) — nada fica para trás</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Animação suave do estado nas Definições (fade)</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Backup actualizado para formato v2 — compatível com dados antigos na nuvem</li></ul>"
+    },
+    {
+      "version": "1.0.19",
         "date": "2026-08-06",
         "notes": "<ul><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Campos numéricos agora aceitam vírgula e ponto em qualquer idioma</li></ul>"    
     },
