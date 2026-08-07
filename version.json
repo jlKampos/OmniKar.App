@@ -1,13 +1,13 @@
 {
-  "latestVersion": "1.0.20",
+  "latestVersion": "1.0.21",
   "versionCode": 1,
   "date": "2026-08-07",
-  "size": "52.58",
-  "sha256": "E34566F4EF95EF1EE41E3675A5F7D9BC99682ED190172D94DF5C43E6DD2116F5",
-  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.0.20/com.companyname.OmniKar-Signed-1.0.20-alpha.apk",
+  "size": "52.17",
+  "sha256": "AD7EE65623ABAE05E87ECD03793207CB265919F83DC66DBED696861FD059DE91",
+  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.0.21/com.companyname.OmniKar-Signed-1.0.21-alpha.apk",
   "apkFiles": {
-    "latest": "com.companyname.OmniKar-Signed-1.0.20-alpha.apk",
-    "versioned": "com.companyname.OmniKar-Signed-1.0.20-alpha.apk"
+    "latest": "com.companyname.OmniKar-Signed-1.0.21-alpha.apk",
+    "versioned": "com.companyname.OmniKar-Signed-1.0.21-alpha.apk"
   },
   "androidRequirements": {
     "minSdk": 23,
@@ -15,6 +15,11 @@
     "minVersion": "Android 8.0 (API 23)"
   },
   "changelog": [
+    {
+      "version": "1.0.21",
+      "date": "2026-08-07",
+      "notes": "<ul><li><span class=\"ch-tag ch-tag-new\">Novo</span>Lembretes diários para abrir a app (manhã, tarde, noite) — notificações recorrentes</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Pedido automático de permissão de notificações no primeiro arranque</li></ul>"
+    },
     {
       "version": "1.0.20",
       "date": "2026-08-07",
@@ -29,11 +34,6 @@
       "version": "1.0.18",
       "date": "2026-08-06",
       "notes": "<ul><li><span class=\"ch-tag ch-tag-new\">Novo</span>GPS tracking em tempo real com HeadUnit</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Manutenção programada com alertas automáticos por km ou data</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Mapa interativo (Mapsui) com filtros de viagens e estacionamento</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Backup e sincronização cloud via Google Drive</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Relatórios PDF completos da viatura</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Registo de combustível com cálculo automático de consumo real</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Gestão de inspeções (IPO), seguros e impostos (IUC) com alertas</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Gestão de pneus e histórico de instalações</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Histórico de donos da viatura</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Estatísticas interativas e gráficos de custos</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Multi-idioma (PT / EN / ES)</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Tema escuro com design metálico</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Notificações locais para alertas de manutenção</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Suporte para tipos de viatura (ligeiro, pesado, mota)</li></ul>"
-    },
-    {
-      "version": "1.0.17",
-      "date": "2026-07-28",
-      "notes": "<ul><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Correção de bugs no GPS tracking</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Erro ao importar viaturas</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Layout dos cards metálicos melhorado</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Status bar corrigida no tema escuro</li></ul>"
     }
   ]
 }
