@@ -252,9 +252,7 @@ section {
 }
 
 .card-accent {
-  border-top: 2px solid var(--accent);
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
+  border-top: 3px solid var(--accent);
 }
 
 /* ── Features Grid ── */
