@@ -1,13 +1,13 @@
 {
-  "latestVersion": "1.0.21",
+  "latestVersion": "1.0.22",
   "versionCode": 1,
-  "date": "2026-08-07",
-  "size": "52.17",
-  "sha256": "AD7EE65623ABAE05E87ECD03793207CB265919F83DC66DBED696861FD059DE91",
-  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.0.21/com.companyname.OmniKar-Signed-1.0.21-alpha.apk",
+  "date": "2026-08-08",
+  "size": "52.18",
+  "sha256": "1AF6AEAAE8D000F19BA91D1E9FFE332C714755E0F298C3347D3C032CA40CF2D7",
+  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.0.22/com.companyname.OmniKar-Signed-1.0.22-alpha.apk",
   "apkFiles": {
-    "latest": "com.companyname.OmniKar-Signed-1.0.21-alpha.apk",
-    "versioned": "com.companyname.OmniKar-Signed-1.0.21-alpha.apk"
+    "latest": "com.companyname.OmniKar-Signed-1.0.22-alpha.apk",
+    "versioned": "com.companyname.OmniKar-Signed-1.0.22-alpha.apk"
   },
   "androidRequirements": {
     "minSdk": 23,
@@ -15,6 +15,11 @@
     "minVersion": "Android 8.0 (API 23)"
   },
   "changelog": [
+    {
+      "version": "1.0.22",
+      "date": "2026-08-08",
+      "notes": "<ul><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Lembretes diários agora funcionam — corrigida a inicialização do plugin de notificações</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Horário dos lembretes diários agora é sempre no futuro (evitava não disparar se a app fosse aberta após a hora)</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Notificações de manutenção já não são canceladas a cada arranque da app</li></ul>"
+    },
     {
       "version": "1.0.21",
       "date": "2026-08-07",
