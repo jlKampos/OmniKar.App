@@ -1,0 +1,44 @@
+{
+  "latestVersion": "1.0.22",
+  "versionCode": 1,
+  "date": "2026-08-08",
+  "size": "52.18",
+  "sha256": "1AF6AEAAE8D000F19BA91D1E9FFE332C714755E0F298C3347D3C032CA40CF2D7",
+  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.0.22/com.companyname.OmniKar-Signed-1.0.22-alpha.apk",
+  "apkFiles": {
+    "latest": "com.companyname.OmniKar-Signed-1.0.22-alpha.apk",
+    "versioned": "com.companyname.OmniKar-Signed-1.0.22-alpha.apk"
+  },
+  "androidRequirements": {
+    "minSdk": 23,
+    "targetSdk": 36,
+    "minVersion": "Android 8.0 (API 23)"
+  },
+  "changelog": [
+    {
+      "version": "1.0.22",
+      "date": "2026-08-08",
+      "notes": "<ul><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Lembretes diários agora funcionam — corrigida a inicialização do plugin de notificações</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Horário dos lembretes diários agora é sempre no futuro (evitava não disparar se a app fosse aberta após a hora)</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Notificações de manutenção já não são canceladas a cada arranque da app</li></ul>"
+    },
+    {
+      "version": "1.0.21",
+      "date": "2026-08-07",
+      "notes": "<ul><li><span class=\"ch-tag ch-tag-new\">Novo</span>Lembretes diários para abrir a app (manhã, tarde, noite) — notificações recorrentes</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Pedido automático de permissão de notificações no primeiro arranque</li></ul>"
+    },
+    {
+      "version": "1.0.20",
+      "date": "2026-08-07",
+      "notes": "<ul><li><span class=\"ch-tag ch-tag-new\">Novo</span>Park here 🅿️ termina a viagem</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Viagem termina automaticamente após X min imóvel (3/5/10 min, configurável nas Definições)</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Apagar dados na nuvem remove tudo (backup + localizações GPS) — nada fica para trás</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Animação suave do estado nas Definições (fade)</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Backup actualizado para formato v2 — compatível com dados antigos na nuvem</li></ul>"
+    },
+    {
+      "version": "1.0.19",
+        "date": "2026-08-06",
+        "notes": "<ul><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Campos numéricos agora aceitam vírgula e ponto em qualquer idioma</li></ul>"    
+    },
+    {
+      "version": "1.0.18",
+      "date": "2026-08-06",
+      "notes": "<ul><li><span class=\"ch-tag ch-tag-new\">Novo</span>GPS tracking em tempo real com HeadUnit</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Manutenção programada com alertas automáticos por km ou data</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Mapa interativo (Mapsui) com filtros de viagens e estacionamento</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Backup e sincronização cloud via Google Drive</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Relatórios PDF completos da viatura</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Registo de combustível com cálculo automático de consumo real</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Gestão de inspeções (IPO), seguros e impostos (IUC) com alertas</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Gestão de pneus e histórico de instalações</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Histórico de donos da viatura</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Estatísticas interativas e gráficos de custos</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Multi-idioma (PT / EN / ES)</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Tema escuro com design metálico</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Notificações locais para alertas de manutenção</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Suporte para tipos de viatura (ligeiro, pesado, mota)</li></ul>"
+    }
+  ]
+}
