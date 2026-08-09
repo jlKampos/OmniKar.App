@@ -1,13 +1,13 @@
 {
-  "latestVersion": "1.0.22",
+  "latestVersion": "1.0.23",
   "versionCode": 1,
-  "date": "2026-08-08",
-  "size": "52.18",
-  "sha256": "1AF6AEAAE8D000F19BA91D1E9FFE332C714755E0F298C3347D3C032CA40CF2D7",
-  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.0.22/com.companyname.OmniKar-Signed-1.0.22-alpha.apk",
+  "date": "2026-08-09",
+  "size": "52.59",
+  "sha256": "883CD3E04F1EAC6D9FD3ACED0B064C9EDFA36A4FC8E15AEDF11E918EA55A752F",
+  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.0.23/com.companyname.OmniKar-Signed-1.0.23-alpha.apk",
   "apkFiles": {
-    "latest": "com.companyname.OmniKar-Signed-1.0.22-alpha.apk",
-    "versioned": "com.companyname.OmniKar-Signed-1.0.22-alpha.apk"
+    "latest": "com.companyname.OmniKar-Signed-1.0.23-alpha.apk",
+    "versioned": "com.companyname.OmniKar-Signed-1.0.23-alpha.apk"
   },
   "androidRequirements": {
     "minSdk": 23,
@@ -15,6 +15,11 @@
     "minVersion": "Android 8.0 (API 23)"
   },
   "changelog": [
+    {
+      "version": "1.0.23",
+      "date": "2026-08-09",
+      "notes": "<ul><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Ponto de fim de viagem corretamente marcado no mapa após \"Estacionar aqui\"</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Erro de ficheiro ao importar backup do Drive resolvido</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Lembretes diários agora disparam de forma fiável</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Opções do dropdown de reparações traduzidas em todos os idiomas</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Tamanho do backup na cloud agora visível em MB nas Definições</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Mensagens de erro detalhadas ao importar dados</li></ul>"
+    },
     {
       "version": "1.0.22",
       "date": "2026-08-08",
