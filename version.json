@@ -1,13 +1,13 @@
 {
-  "latestVersion": "1.1.0",
+  "latestVersion": "1.1.1",
   "versionCode": 1,
-  "date": "2026-08-18",
-  "size": "52.63",
-  "sha256": "4B7DFC297ECF0D493B38524F820F82A847DB0CDDA471399E6CFC6C3D073F1364",
-  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.1.0/com.companyname.OmniKar-Signed-1.1.0.apk",
+  "date": "2026-08-22",
+  "size": "57.03",
+  "sha256": "BA470FED0049DD8349B4A4131B26BE8260503AC91979A3FAF8110F69B9D9A4AA",
+  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.1.1/com.companyname.OmniKar-Signed-1.1.1.apk",
   "apkFiles": {
-    "latest": "com.companyname.OmniKar-Signed-1.1.0.apk",
-    "versioned": "com.companyname.OmniKar-Signed-1.1.0.apk"
+    "latest": "com.companyname.OmniKar-Signed-1.1.1.apk",
+    "versioned": "com.companyname.OmniKar-Signed-1.1.1.apk"
   },
   "androidRequirements": {
     "minSdk": 23,
@@ -16,12 +16,12 @@
   },
   "changelog": [
     {
-      "version": "1.1.0",
-      "date": "2026-08-18",
-      "notes": "<ul><li><span class=\"ch-tag ch-tag-new\">Release</span>Production Release</li></ul>"
+      "version": "1.1.1",
+      "date": "2026-08-22",
+      "notes": "<ul><li><span class=\"ch-tag ch-tag-new\">Novo</span>Novo layout no HeadUnit — mapa a ocupar a página toda com overlays de dados (velocidade, KM, GPS)</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Mapa estilo navegação (rotação com a direção do carro, zoom dinâmico por velocidade)</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Fallback offline — imagem do mapa quando não há ligação à internet</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Bugs no GPS em telemóveis — melhor deteção de sinal com FusedProvider (GPS + rede)</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Velocidade com picos errados descartados (máximo 200 km/h)</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Mapa centra automaticamente na posição GPS ao abrir e ao mudar de tab</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Tracking de GPS corrigido em telemóveis com FusedProvider (GPS + WiFi + torres)</li></ul>"
     },
     {
-      "version": "1.0.27",
+      "version": "1.1.0",
       "date": "2026-08-09",
       "notes": "<ul><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Mapa de tracking agora ocupa a página toda</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Filtros de viagem e pontos em overlay no topo do mapa</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Estado offline e botão de retry reposicionados abaixo dos filtros</li></ul>"
     },
