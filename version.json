@@ -1,0 +1,79 @@
+{
+  "latestVersion": "1.1.2",
+  "versionCode": 1,
+  "date": "2026-08-22",
+  "size": "57.03",
+  "sha256": "B0A1F941EB9B3DCB5991379479FF9DA41457F9B7B67051936F36195B4064D7C0",
+  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.1.2/com.companyname.OmniKar-Signed-1.1.2.apk",
+  "apkFiles": {
+    "latest": "com.companyname.OmniKar-Signed-1.1.2.apk",
+    "versioned": "com.companyname.OmniKar-Signed-1.1.2.apk"
+  },
+  "androidRequirements": {
+    "minSdk": 23,
+    "targetSdk": 36,
+    "minVersion": "Android 8.0 (API 23)"
+  },
+  "changelog": [
+    {
+      "version": "1.1.2",
+      "date": "2026-08-22",
+      "notes": "<ul><li><span class=\"ch-tag ch-tag-new\">Novo</span>GPS nativo Android — velocidade e posição atualizam em tempo real (~1s)</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Pin do utilizador no TrackingPage agora atualiza em tempo real</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Bug do ViewModel — Longitude e Course definidos antes de Latitude para usar valores corretos</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Pin do Mapsui reutiliza a layer em vez de recriar a cada update</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Lock accuracy ajustado para 100m (consistente com keep accuracy)</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Logs GPS desativados em produção (ativar com Partilhar Log nas Definições)</li></ul>"
+    },
+    {
+      "version": "1.1.1",
+      "date": "2026-08-22",
+      "notes": "<ul><li><span class=\"ch-tag ch-tag-new\">Novo</span>Novo layout no HeadUnit — mapa a ocupar a página toda com overlays de dados (velocidade, KM, GPS)</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Mapa estilo navegação (rotação com a direção do carro, zoom dinâmico por velocidade)</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Fallback offline — imagem do mapa quando não há ligação à internet</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Bugs no GPS em telemóveis — melhor deteção de sinal com FusedProvider (GPS + rede)</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Velocidade com picos errados descartados (máximo 200 km/h)</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Mapa centra automaticamente na posição GPS ao abrir e ao mudar de tab</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Tracking de GPS corrigido em telemóveis com FusedProvider (GPS + WiFi + torres)</li></ul>"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-08-09",
+      "notes": "<ul><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Mapa de tracking agora ocupa a página toda</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Filtros de viagem e pontos em overlay no topo do mapa</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Estado offline e botão de retry reposicionados abaixo dos filtros</li></ul>"
+    },
+    {
+      "version": "1.0.26",
+      "date": "2026-08-09",
+      "notes": "<ul><li><span class=\"ch-tag ch-tag-new\">Novo</span>Relatório PDF com tabela de reparações e peças por reparação</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Dashboard com card e lista de reparações recentes</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>PDF com quebras de página automáticas (tabelas não invadem o rodapé)</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Resumo de custos do PDF reorganizado (2 colunas × 3 linhas, total dentro do card)</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Lista de combustíveis mostra o nome do posto</li></ul>"
+    },
+    {
+      "version": "1.0.25",
+      "date": "2026-08-09",
+      "notes": "<ul><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Bug do KM duplicado ao alternar entre Dashboard e Headunit</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Lembrete diário simplificado — apenas de manhã com nova mensagem</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Park here agora faz backup automático para a cloud</li></ul>"
+    },
+    {
+      "version": "1.0.24",
+      "date": "2026-08-09",
+      "notes": "<ul><li><span class=\"ch-tag ch-tag-new\">Novo</span>Park here agora faz backup automático da viatura para a cloud</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Traduções em falta no separador Cloud e dropdown de reparações</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Limpeza de resources — removidas chaves de tradução não utilizadas</li></ul>"
+    },
+    {
+      "version": "1.0.23",
+      "date": "2026-08-09",
+      "notes": "<ul><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Ponto de fim de viagem corretamente marcado no mapa após \"Estacionar aqui\"</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Erro de ficheiro ao importar backup do Drive resolvido</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Lembretes diários agora disparam de forma fiável</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Opções do dropdown de reparações traduzidas em todos os idiomas</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Tamanho do backup na cloud agora visível em MB nas Definições</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Mensagens de erro detalhadas ao importar dados</li></ul>"
+    },
+    {
+      "version": "1.0.22",
+      "date": "2026-08-08",
+      "notes": "<ul><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Lembretes diários agora funcionam — corrigida a inicialização do plugin de notificações</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Horário dos lembretes diários agora é sempre no futuro (evitava não disparar se a app fosse aberta após a hora)</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Notificações de manutenção já não são canceladas a cada arranque da app</li></ul>"
+    },
+    {
+      "version": "1.0.21",
+      "date": "2026-08-07",
+      "notes": "<ul><li><span class=\"ch-tag ch-tag-new\">Novo</span>Lembretes diários para abrir a app (manhã, tarde, noite) — notificações recorrentes</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Pedido automático de permissão de notificações no primeiro arranque</li></ul>"
+    },
+    {
+      "version": "1.0.20",
+      "date": "2026-08-07",
+      "notes": "<ul><li><span class=\"ch-tag ch-tag-new\">Novo</span>Park here 🅿️ termina a viagem</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Viagem termina automaticamente após X min imóvel (3/5/10 min, configurável nas Definições)</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Apagar dados na nuvem remove tudo (backup + localizações GPS) — nada fica para trás</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Animação suave do estado nas Definições (fade)</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Backup actualizado para formato v2 — compatível com dados antigos na nuvem</li></ul>"
+    },
+    {
+      "version": "1.0.19",
+        "date": "2026-08-06",
+        "notes": "<ul><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Campos numéricos agora aceitam vírgula e ponto em qualquer idioma</li></ul>"    
+    },
+    {
+      "version": "1.0.18",
+      "date": "2026-08-06",
+      "notes": "<ul><li><span class=\"ch-tag ch-tag-new\">Novo</span>GPS tracking em tempo real com HeadUnit</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Manutenção programada com alertas automáticos por km ou data</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Mapa interativo (Mapsui) com filtros de viagens e estacionamento</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Backup e sincronização cloud via Google Drive</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Relatórios PDF completos da viatura</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Registo de combustível com cálculo automático de consumo real</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Gestão de inspeções (IPO), seguros e impostos (IUC) com alertas</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Gestão de pneus e histórico de instalações</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Histórico de donos da viatura</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Estatísticas interativas e gráficos de custos</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Multi-idioma (PT / EN / ES)</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Tema escuro com design metálico</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Notificações locais para alertas de manutenção</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Suporte para tipos de viatura (ligeiro, pesado, mota)</li></ul>"
+    }
+  ]
+}
