@@ -1,13 +1,13 @@
 {
-  "latestVersion": "1.1.1",
+  "latestVersion": "1.1.2",
   "versionCode": 1,
   "date": "2026-08-22",
   "size": "57.03",
-  "sha256": "BA470FED0049DD8349B4A4131B26BE8260503AC91979A3FAF8110F69B9D9A4AA",
-  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.1.1/com.companyname.OmniKar-Signed-1.1.1.apk",
+  "sha256": "B0A1F941EB9B3DCB5991379479FF9DA41457F9B7B67051936F36195B4064D7C0",
+  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.1.2/com.companyname.OmniKar-Signed-1.1.2.apk",
   "apkFiles": {
-    "latest": "com.companyname.OmniKar-Signed-1.1.1.apk",
-    "versioned": "com.companyname.OmniKar-Signed-1.1.1.apk"
+    "latest": "com.companyname.OmniKar-Signed-1.1.2.apk",
+    "versioned": "com.companyname.OmniKar-Signed-1.1.2.apk"
   },
   "androidRequirements": {
     "minSdk": 23,
@@ -15,6 +15,11 @@
     "minVersion": "Android 8.0 (API 23)"
   },
   "changelog": [
+    {
+      "version": "1.1.2",
+      "date": "2026-08-22",
+      "notes": "<ul><li><span class=\"ch-tag ch-tag-new\">Novo</span>GPS nativo Android — velocidade e posição atualizam em tempo real (~1s)</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Pin do utilizador no TrackingPage agora atualiza em tempo real</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Bug do ViewModel — Longitude e Course definidos antes de Latitude para usar valores corretos</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Pin do Mapsui reutiliza a layer em vez de recriar a cada update</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Lock accuracy ajustado para 100m (consistente com keep accuracy)</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Logs GPS desativados em produção (ativar com Partilhar Log nas Definições)</li></ul>"
+    },
     {
       "version": "1.1.1",
       "date": "2026-08-22",
