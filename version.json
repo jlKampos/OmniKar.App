@@ -1,13 +1,13 @@
 {
-  "latestVersion": "1.1.2",
+  "latestVersion": "1.1.3",
   "versionCode": 1,
-  "date": "2026-08-22",
-  "size": "57.03",
-  "sha256": "B0A1F941EB9B3DCB5991379479FF9DA41457F9B7B67051936F36195B4064D7C0",
-  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.1.2/com.companyname.OmniKar-Signed-1.1.2.apk",
+  "date": "2026-08-23",
+  "size": "56.92",
+  "sha256": "CA186745DF9CF5CADED43CADA5134FB9C45069C0F20CB1FA599EA1DA1EB114AD",
+  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.1.3/com.companyname.OmniKar-Signed-1.1.3.apk",
   "apkFiles": {
-    "latest": "com.companyname.OmniKar-Signed-1.1.2.apk",
-    "versioned": "com.companyname.OmniKar-Signed-1.1.2.apk"
+    "latest": "com.companyname.OmniKar-Signed-1.1.3.apk",
+    "versioned": "com.companyname.OmniKar-Signed-1.1.3.apk"
   },
   "androidRequirements": {
     "minSdk": 23,
@@ -15,6 +15,11 @@
     "minVersion": "Android 8.0 (API 23)"
   },
   "changelog": [
+    {
+      "version": "1.1.3",
+      "date": "2026-08-22",
+      "notes": "<ul><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Pin do utilizador no TrackingPage atualiza em tempo real (subscrição no construtor)</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>GPS arranca ao abrir a Tracking page mesmo sem viatura aberta</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Viagens fantasma eliminadas — só cria viagem se velocidade > 2 km/h (evita drift GPS parado)</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Exceção 'Already listening to location updates' — race condition corrigida</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>GPS nativo Android usa GpsProvider explícito (não fused) para diagnóstico</li></ul>"
+    },
     {
       "version": "1.1.2",
       "date": "2026-08-22",
