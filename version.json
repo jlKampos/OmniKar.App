@@ -17,7 +17,7 @@
   "changelog": [
     {
       "version": "1.1.3",
-      "date": "2026-08-22",
+      "date": "2026-08-23",
       "notes": "<ul><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Pin do utilizador no TrackingPage atualiza em tempo real (subscrição no construtor)</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>GPS arranca ao abrir a Tracking page mesmo sem viatura aberta</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Viagens fantasma eliminadas — só cria viagem se velocidade > 2 km/h (evita drift GPS parado)</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Exceção 'Already listening to location updates' — race condition corrigida</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>GPS nativo Android usa GpsProvider explícito (não fused) para diagnóstico</li></ul>"
     },
     {
@@ -27,7 +27,7 @@
     },
     {
       "version": "1.1.1",
-      "date": "2026-08-22",
+      "date": "2026-08-21",
       "notes": "<ul><li><span class=\"ch-tag ch-tag-new\">Novo</span>Novo layout no HeadUnit — mapa a ocupar a página toda com overlays de dados (velocidade, KM, GPS)</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Mapa estilo navegação (rotação com a direção do carro, zoom dinâmico por velocidade)</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Fallback offline — imagem do mapa quando não há ligação à internet</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Bugs no GPS em telemóveis — melhor deteção de sinal com FusedProvider (GPS + rede)</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Velocidade com picos errados descartados (máximo 200 km/h)</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Mapa centra automaticamente na posição GPS ao abrir e ao mudar de tab</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Tracking de GPS corrigido em telemóveis com FusedProvider (GPS + WiFi + torres)</li></ul>"
     },
     {
