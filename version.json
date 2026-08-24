@@ -1,13 +1,13 @@
 {
-  "latestVersion": "1.1.3",
+  "latestVersion": "1.1.4",
   "versionCode": 1,
-  "date": "2026-08-23",
-  "size": "56.92",
-  "sha256": "CA186745DF9CF5CADED43CADA5134FB9C45069C0F20CB1FA599EA1DA1EB114AD",
-  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.1.3/com.companyname.OmniKar-Signed-1.1.3.apk",
+  "date": "2026-08-24",
+  "size": "56.95",
+  "sha256": "B76E718951EFCC076B19F3F3D795FFBF1C72841B429A93DCF56DEA4654614070",
+  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.1.4/com.companyname.OmniKar-Signed-1.1.4.apk",
   "apkFiles": {
-    "latest": "com.companyname.OmniKar-Signed-1.1.3.apk",
-    "versioned": "com.companyname.OmniKar-Signed-1.1.3.apk"
+    "latest": "com.companyname.OmniKar-Signed-1.1.4.apk",
+    "versioned": "com.companyname.OmniKar-Signed-1.1.4.apk"
   },
   "androidRequirements": {
     "minSdk": 23,
@@ -15,6 +15,11 @@
     "minVersion": "Android 8.0 (API 23)"
   },
   "changelog": [
+    {
+      "version": "1.1.4",
+      "date": "2026-08-24",
+      "notes": "<ul><li><span class=\"ch-tag ch-tag-new\">Novo</span>3 modos de vista no HeadUnit — pino centrado, mais estrada à frente, máximo estrada à frente</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Melhorias na rotação do mapa — suavização de direção otimizada</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Melhorias no zoom dinâmico por velocidade</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Tamanho do pino configurável (Pequeno / Médio / Grande) nas Definições</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Offset do pino respeita a rotação do mapa</li></ul>"
+    },
     {
       "version": "1.1.3",
       "date": "2026-08-23",
