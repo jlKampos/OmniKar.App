@@ -1,13 +1,13 @@
 {
-  "latestVersion": "1.2.0",
+  "latestVersion": "1.2.1",
   "versionCode": 1,
   "date": "2026-08-27",
   "size": "102.85",
-  "sha256": "340028CF220120869751187B0824D058F94CD867E9D3D4D809D62206BCE7C0CE",
-  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.2.0/com.companyname.OmniKar-Signed-1.2.0.apk",
+  "sha256": "C9FF469159C71F6D156F79DAD0E7F1425E04AEC3A4DFAA32C690B5E187323702",
+  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.2.0/com.companyname.OmniKar-Signed-1.2.1.apk",
   "apkFiles": {
-    "latest": "com.companyname.OmniKar-Signed-1.2.0.apk",
-    "versioned": "com.companyname.OmniKar-Signed-1.2.0.apk"
+    "latest": "com.companyname.OmniKar-Signed-1.2.1.apk",
+    "versioned": "com.companyname.OmniKar-Signed-1.2.1.apk"
   },
   "androidRequirements": {
     "minSdk": 23,
@@ -15,6 +15,11 @@
     "minVersion": "Android 8.0 (API 23)"
   },
   "changelog": [
+    {
+        "version": "1.2.1",
+        "date": "2026-08-27",
+        "notes": "<ul><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Algoritmo de rotação adaptativo — condução estável em linha reta e resposta rápida em curvas apertadas</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Eliminação de tremores no mapa através de filtro de micro-oscilações de direção (deadband de 2.5°)</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Melhor resposta em rotundas e manobras lentas com otimização da distância mínima de rumo (4.0m)</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Proteção reforçada contra saltos repentinos e dados ruidosos do sinal GPS</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Suavizada a transição da câmara ao cruzar a barreira dos 0°/360° (Norte)</li></ul>"
+    },
     {
       "version": "1.2.0",
       "date": "2026-08-27",
