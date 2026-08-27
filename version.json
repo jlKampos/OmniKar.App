@@ -1,13 +1,13 @@
 {
-  "latestVersion": "1.1.4",
+  "latestVersion": "1.2.0",
   "versionCode": 1,
-  "date": "2026-08-24",
-  "size": "56.95",
-  "sha256": "B76E718951EFCC076B19F3F3D795FFBF1C72841B429A93DCF56DEA4654614070",
-  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.1.4/com.companyname.OmniKar-Signed-1.1.4.apk",
+  "date": "2026-08-27",
+  "size": "102.85",
+  "sha256": "340028CF220120869751187B0824D058F94CD867E9D3D4D809D62206BCE7C0CE",
+  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.2.0/com.companyname.OmniKar-Signed-1.2.0.apk",
   "apkFiles": {
-    "latest": "com.companyname.OmniKar-Signed-1.1.4.apk",
-    "versioned": "com.companyname.OmniKar-Signed-1.1.4.apk"
+    "latest": "com.companyname.OmniKar-Signed-1.2.0.apk",
+    "versioned": "com.companyname.OmniKar-Signed-1.2.0.apk"
   },
   "androidRequirements": {
     "minSdk": 23,
@@ -15,6 +15,11 @@
     "minVersion": "Android 8.0 (API 23)"
   },
   "changelog": [
+    {
+      "version": "1.2.0",
+      "date": "2026-08-27",
+      "notes": "<ul><li><span class=\"ch-tag ch-tag-new\">Novo</span>Novos mapas — OpenFreeMap (vetorial) em vez do CartoCDN, sem necessidade de chave API</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Vista 3D no HeadUnit — inclinação dinâmica com a velocidade (35°/45°/55°)</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Veículo como overlay fixo no ecrã — nunca roda com o mapa, sempre a apontar para cima</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Botões +/− para ajustar o tamanho do veículo diretamente no HeadUnit</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Mapas mais rápidos e com menos consumo de dados (tiles vetoriais)</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Rotação do mapa corrigida — a estrada à frente fica sempre para cima</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Transições de câmara mais suaves (EaseTo)</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Mapa deixou de pedir chave API (CartoCDN descontinuado)</li></ul>"
+    },
     {
       "version": "1.1.4",
       "date": "2026-08-24",
