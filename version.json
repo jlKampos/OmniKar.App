@@ -1,13 +1,13 @@
 {
-  "latestVersion": "1.2.1",
+  "latestVersion": "1.2.2",
   "versionCode": 1,
   "date": "2026-08-27",
-  "size": "102.85",
-  "sha256": "C9FF469159C71F6D156F79DAD0E7F1425E04AEC3A4DFAA32C690B5E187323702",
-  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.2.0/com.companyname.OmniKar-Signed-1.2.1.apk",
+  "size": "102.87",
+  "sha256": "5443FD50D698E883EB245D1ED563F613874A5C8363CFA5178BEBBC215B5A4BD2",
+  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.2.2/com.companyname.OmniKar-Signed-1.2.2.apk",
   "apkFiles": {
-    "latest": "com.companyname.OmniKar-Signed-1.2.1.apk",
-    "versioned": "com.companyname.OmniKar-Signed-1.2.1.apk"
+    "latest": "com.companyname.OmniKar-Signed-1.2.2.apk",
+    "versioned": "com.companyname.OmniKar-Signed-1.2.2.apk"
   },
   "androidRequirements": {
     "minSdk": 23,
@@ -15,6 +15,11 @@
     "minVersion": "Android 8.0 (API 23)"
   },
   "changelog": [
+    {
+      "version": "1.2.2",
+      "date": "2026-08-27",
+      "notes": "<ul><li><span class=\"ch-tag ch-tag-new\">Novo</span>Lista de alertas no HeadUnit — mostra os alertas do carro (só em ecrãs maiores, com scroll)</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Alertas com título específico — Óleo, Injetores, Filtro, Travões, etc. (em vez de \"Manutenção\" genérico)</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Alertas por km atualizam em tempo real durante a condução (km GPS em memória, sem alterar a base de dados)</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Lista de pneus instalados mostra Marca/Modelo/Medida, Tipo e Preço</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Lista de proprietários mostra Contacto e Notas</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Traduções dos tipos de pneu e posições (PT/EN/ES) nos pickers e listas</li></ul>"
+    },
     {
         "version": "1.2.1",
         "date": "2026-08-27",
