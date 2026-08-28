@@ -1,13 +1,13 @@
 {
-  "latestVersion": "1.2.2",
+  "latestVersion": "1.2.3",
   "versionCode": 1,
-  "date": "2026-08-27",
-  "size": "102.87",
-  "sha256": "5443FD50D698E883EB245D1ED563F613874A5C8363CFA5178BEBBC215B5A4BD2",
-  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.2.2/com.companyname.OmniKar-Signed-1.2.2.apk",
+  "date": "2026-08-28",
+  "size": "100.59",
+  "sha256": "6C34048B12BA47502A75D2902A59F9B52F83A9534BC42D50486A59F96D41E792",
+  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.2.3/com.companyname.OmniKar-Signed-1.2.3.apk",
   "apkFiles": {
-    "latest": "com.companyname.OmniKar-Signed-1.2.2.apk",
-    "versioned": "com.companyname.OmniKar-Signed-1.2.2.apk"
+    "latest": "com.companyname.OmniKar-Signed-1.2.3.apk",
+    "versioned": "com.companyname.OmniKar-Signed-1.2.3.apk"
   },
   "androidRequirements": {
     "minSdk": 23,
@@ -15,6 +15,11 @@
     "minVersion": "Android 8.0 (API 23)"
   },
   "changelog": [
+    {
+      "version": "1.2.3",
+      "date": "2026-08-28",
+      "notes": "<ul><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Alertas no HeadUnit redesenhados — efeito vidro no painel, cada alerta com o seu cartão (vermelho se urgente, laranja se não)</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Toast \"Viagem terminada\" com fundo próprio</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Compatibilidade com 16 KB — atualização do motor de mapas (MapLibre 4.5.1) que resolve o bloqueio do Google Play</li></ul>"
+    },
     {
       "version": "1.2.2",
       "date": "2026-08-27",
