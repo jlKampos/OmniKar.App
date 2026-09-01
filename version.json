@@ -1,13 +1,13 @@
 {
-  "latestVersion": "1.3.0",
+  "latestVersion": "1.3.1",
   "versionCode": 1,
-  "date": "2026-08-31",
+  "date": "2026-09-01",
   "size": "106.28",
-  "sha256": "EE0224706A4D8EE28906836F8FD948F5DED71A886ABE065A1B9D02E6BA387F33",
-  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.3.0/com.companyname.OmniKar-Signed-1.3.0.apk",
+  "sha256": "40A7552D535EA461F2E22E4DAEC3DB1D0D3A1AC1AA46D9026332CD5CDB4CA274",
+  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.3.0/com.companyname.OmniKar-Signed-1.3.1.apk",
   "apkFiles": {
-    "latest": "com.companyname.OmniKar-Signed-1.3.0.apk",
-    "versioned": "com.companyname.OmniKar-Signed-1.3.0.apk"
+    "latest": "com.companyname.OmniKar-Signed-1.3.1.apk",
+    "versioned": "com.companyname.OmniKar-Signed-1.3.1.apk"
   },
   "androidRequirements": {
     "minSdk": 23,
@@ -16,9 +16,9 @@
   },
   "changelog": [
     {
-      "version": "1.3.0",
-      "date": "2026-08-31",
-      "notes": "<ul><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Registo de quilómetros muito mais preciso — a app passa a guardar também os metros percorridos, para que os quilómetros fiquem certos mesmo em viagens curtas</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Media Player — ouve a tua música no carro: escolhe a pasta de música, navega por artistas e álbuns, e controla a reprodução a partir do HeadUnit</li></ul>"
+      "version": "1.3.1",
+      "date": "2026-09-01",
+      "notes": "<ul><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Layout headunit</li></ul>"
     },
     {
       "version": "1.2.3",
