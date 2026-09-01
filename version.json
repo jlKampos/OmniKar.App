@@ -1,13 +1,13 @@
 {
-  "latestVersion": "1.3.1",
+  "latestVersion": "1.3.2",
   "versionCode": 1,
   "date": "2026-09-01",
   "size": "106.28",
-  "sha256": "40A7552D535EA461F2E22E4DAEC3DB1D0D3A1AC1AA46D9026332CD5CDB4CA274",
-  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.3.1/com.companyname.OmniKar-Signed-1.3.1.apk",
+  "sha256": "5FF5F4732BDF13791718980031C42ADB6F479B4D883A5B3372EA1CDDF03B4851",
+  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.3.2/com.companyname.OmniKar-Signed-1.3.2.apk",
   "apkFiles": {
-    "latest": "com.companyname.OmniKar-Signed-1.3.1.apk",
-    "versioned": "com.companyname.OmniKar-Signed-1.3.1.apk"
+    "latest": "com.companyname.OmniKar-Signed-1.3.2.apk",
+    "versioned": "com.companyname.OmniKar-Signed-1.3.2.apk"
   },
   "androidRequirements": {
     "minSdk": 23,
@@ -15,6 +15,11 @@
     "minVersion": "Android 8.0 (API 23)"
   },
   "changelog": [
+      {
+      "version": "1.3.2",
+      "date": "2026-09-01",
+      "notes": "<ul><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Layout headunit, music player</li></ul>"
+    },
     {
       "version": "1.3.1",
       "date": "2026-09-01",
