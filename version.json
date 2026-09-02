@@ -1,13 +1,13 @@
 {
-  "latestVersion": "1.3.4",
+  "latestVersion": "1.3.5",
   "versionCode": 1,
   "date": "2026-09-02",
   "size": "102.45",
-  "sha256": "18E2F19B63F4CFC0CB2D05C2DBB5B71A349BF27EAAF452AC7DA6AC7C50CE3807",
-  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.3.4/com.companyname.OmniKar-Signed-1.3.4.apk",
+  "sha256": "71990F7BFCBA8715398BAFF30B0FD82E8DB61BC2A15E6282616E2DDD9F68D39C",
+  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.3.5/com.companyname.OmniKar-Signed-1.3.5.apk",
   "apkFiles": {
-    "latest": "com.companyname.OmniKar-Signed-1.3.4.apk",
-    "versioned": "com.companyname.OmniKar-Signed-1.3.4.apk"
+    "latest": "com.companyname.OmniKar-Signed-1.3.5.apk",
+    "versioned": "com.companyname.OmniKar-Signed-1.3.5.apk"
   },
   "androidRequirements": {
     "minSdk": 23,
@@ -15,6 +15,11 @@
     "minVersion": "Android 8.0 (API 23)"
   },
   "changelog": [
+     {
+      "version": "1.3.5",
+      "date": "2026-09-02",
+      "notes": "<ul><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Botões media player em viaturas.</li></ul>"
+    },
     {
       "version": "1.3.4",
       "date": "2026-09-02",
