@@ -1,13 +1,13 @@
 {
-  "latestVersion": "1.3.5",
+  "latestVersion": "1.3.6",
   "versionCode": 1,
-  "date": "2026-09-02",
-  "size": "102.45",
-  "sha256": "71990F7BFCBA8715398BAFF30B0FD82E8DB61BC2A15E6282616E2DDD9F68D39C",
-  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.3.5/com.companyname.OmniKar-Signed-1.3.5.apk",
+  "date": "2026-09-03",
+  "size": "102.47",
+  "sha256": "B8203D9E475C0BA4AF56AEB4AE51ADEFB7552D31874EF37E3062CB9712ABEEB8",
+  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.3.6/com.companyname.OmniKar-Signed-1.3.6.apk",
   "apkFiles": {
-    "latest": "com.companyname.OmniKar-Signed-1.3.5.apk",
-    "versioned": "com.companyname.OmniKar-Signed-1.3.5.apk"
+    "latest": "com.companyname.OmniKar-Signed-1.3.6.apk",
+    "versioned": "com.companyname.OmniKar-Signed-1.3.6.apk"
   },
   "androidRequirements": {
     "minSdk": 23,
@@ -15,6 +15,11 @@
     "minVersion": "Android 8.0 (API 23)"
   },
   "changelog": [
+    {
+      "version": "1.3.6",
+      "date": "2026-09-03",
+      "notes": "<ul><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Scanner de musicas.</li></ul>"
+    },
      {
       "version": "1.3.5",
       "date": "2026-09-02",
