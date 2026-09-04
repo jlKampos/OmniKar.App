@@ -1,13 +1,13 @@
 {
-  "latestVersion": "1.3.8",
+  "latestVersion": "1.3.9",
   "versionCode": 1,
   "date": "2026-09-04",
-  "size": "102.49",
-  "sha256": "7C34FE526B03857575746D0479833CE8F7CA4E76634BEAD10E7AC88762184CDE",
-  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.3.8/com.companyname.OmniKar-Signed-1.3.8.apk",
+  "size": "102.42",
+  "sha256": "26193A6CBDE5118A2560E12B906302A596F648B41EA47C78ADF165087CB17253",
+  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.3.9/com.companyname.OmniKar-Signed-1.3.9.apk",
   "apkFiles": {
-    "latest": "com.companyname.OmniKar-Signed-1.3.8.apk",
-    "versioned": "com.companyname.OmniKar-Signed-1.3.8.apk"
+    "latest": "com.companyname.OmniKar-Signed-1.3.9.apk",
+    "versioned": "com.companyname.OmniKar-Signed-1.3.9.apk"
   },
   "androidRequirements": {
     "minSdk": 23,
@@ -15,6 +15,11 @@
     "minVersion": "Android 8.0 (API 23)"
   },
   "changelog": [
+     {
+      "version": "1.3.9",
+      "date": "2026-09-04",
+      "notes": "<ul><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Headunit icones.</li></ul>"
+    },
     {
       "version": "1.3.8",
       "date": "2026-09-04",
