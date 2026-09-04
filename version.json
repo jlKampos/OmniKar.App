@@ -1,13 +1,13 @@
 {
-  "latestVersion": "1.3.7",
+  "latestVersion": "1.3.8",
   "versionCode": 1,
-  "date": "2026-09-03",
-  "size": "102.47",
-  "sha256": "D0087E9C6E70642C700D7C9461A4579B0E5E52084A50EFC5826C272C2F1EE0A1",
-  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.3.7/com.companyname.OmniKar-Signed-1.3.7.apk",
+  "date": "2026-09-04",
+  "size": "102.49",
+  "sha256": "7C34FE526B03857575746D0479833CE8F7CA4E76634BEAD10E7AC88762184CDE",
+  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.3.8/com.companyname.OmniKar-Signed-1.3.8.apk",
   "apkFiles": {
-    "latest": "com.companyname.OmniKar-Signed-1.3.7.apk",
-    "versioned": "com.companyname.OmniKar-Signed-1.3.7.apk"
+    "latest": "com.companyname.OmniKar-Signed-1.3.8.apk",
+    "versioned": "com.companyname.OmniKar-Signed-1.3.8.apk"
   },
   "androidRequirements": {
     "minSdk": 23,
@@ -15,6 +15,11 @@
     "minVersion": "Android 8.0 (API 23)"
   },
   "changelog": [
+    {
+      "version": "1.3.8",
+      "date": "2026-09-04",
+      "notes": "<ul><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Tema do headunit — cor de realce alternável entre 6 cores, com o ícone do veículo a acompanhar.</li></ul>"
+    },
     {
       "version": "1.3.7",
       "date": "2026-09-03",
