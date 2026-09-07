@@ -1,13 +1,13 @@
 {
-  "latestVersion": "1.3.10",
+  "latestVersion": "1.3.11",
   "versionCode": 1,
-  "date": "2026-09-05",
-  "size": "102.44",
-  "sha256": "64F1D4831DCEE43B485387761C34337D4D1C16C8A48C104F8CAFDDCAC9D6BAEB",
-  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.3.10/com.companyname.OmniKar-Signed-1.3.10.apk",
+  "date": "2026-09-07",
+  "size": "102.08",
+  "sha256": "5FC8A083B50661BA7D268C361FF366454DC42D6279128E3484E2E7A3F6A930EE",
+  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.3.11/com.companyname.OmniKar-Signed-1.3.11.apk",
   "apkFiles": {
-    "latest": "com.companyname.OmniKar-Signed-1.3.10.apk",
-    "versioned": "com.companyname.OmniKar-Signed-1.3.10.apk"
+    "latest": "com.companyname.OmniKar-Signed-1.3.11.apk",
+    "versioned": "com.companyname.OmniKar-Signed-1.3.11.apk"
   },
   "androidRequirements": {
     "minSdk": 23,
@@ -15,6 +15,11 @@
     "minVersion": "Android 8.0 (API 23)"
   },
   "changelog": [
+    {
+      "version": "1.3.11",
+      "date": "2026-09-07",
+      "notes": "<ul><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Seletor de temas do mapa (Dark, Positron, Liberty, Fiord) no HeadUnit e Tracking.</li></ul>"
+    },
     {
       "version": "1.3.10",
       "date": "2026-09-05",
