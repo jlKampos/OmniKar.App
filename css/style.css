@@ -20,6 +20,8 @@
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
+html { background: #0B0B0B; }
+
 body {
   background: linear-gradient(180deg, #0B0B0B 0%, #0F0F10 35%, #141516 70%, #17181A 100%);
   background-attachment: fixed;
@@ -513,10 +515,22 @@ footer .copyright { opacity: 0.6; }
 
 /* ── Responsive ── */
 @media (max-width: 768px) {
+  html { background-attachment: scroll; }
+  body {
+    background-attachment: scroll;
+    min-height: 100dvh;
+    overflow-x: hidden;
+  }
   nav {
     flex-wrap: wrap;
     height: auto;
     padding: 0.75rem 0;
+    justify-content: center;
+  }
+  .nav-links {
+    flex: 1 0 100%;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   .features-grid { grid-template-columns: 1fr; }
   .hero { padding: 3rem 1rem 2.5rem; }
