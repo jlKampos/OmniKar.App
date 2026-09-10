@@ -2,6 +2,12 @@
 
 Este repositório contém o site de downloads do OmniKar, servido via **GitHub Pages**.
 
+<p align="center">
+  <a href="https://jlkampos.github.io/OmniKar.App/">
+    <img src="https://img.shields.io/badge/Website-OmniKar.App-%23B4D400?style=for-the-badge&logo=githubpages&logoColor=black" alt="Website oficial do OmniKar">
+  </a>
+</p>
+
 ## Estrutura do Site
 
 ```
