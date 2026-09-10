@@ -1,13 +1,13 @@
 {
-  "latestVersion": "1.4.0",
-  "versionCode": 2,
+  "latestVersion": "1.4.1",
+  "versionCode": 4,
   "date": "2026-09-10",
   "size": "102.71",
-  "sha256": "61C6C03B4327D724B68A2CA17D26B8EDF3B821B2953979504954976CB6789ED1",
-  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.4.0/com.companyname.OmniKar-Signed-1.4.0.apk",
+  "sha256": "6145EE17814EEC719AFE4468C96E0E974D86E3EF9F4D015762A342F5D6731895",
+  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.4.1/com.companyname.OmniKar-Signed-1.4.1.apk",
   "apkFiles": {
-    "latest": "com.companyname.OmniKar-Signed-1.4.0.apk",
-    "versioned": "com.companyname.OmniKar-Signed-1.4.0.apk"
+    "latest": "com.companyname.OmniKar-Signed-1.4.1.apk",
+    "versioned": "com.companyname.OmniKar-Signed-1.4.1.apk"
   },
   "androidRequirements": {
     "minSdk": 23,
@@ -15,6 +15,11 @@
     "minVersion": "Android 8.0 (API 23)"
   },
   "changelog": [
+    {
+      "version": "1.4.1",
+      "date": "2026-09-10",
+      "notes": "<ul><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Nota dos \"Edifícios 3D\" em Definições já não fica cortada no telemóvel — a mensagem de aviso quebra agora em várias linhas.</li></ul>"
+    },
     {
       "version": "1.4.0",
       "date": "2026-09-10",
