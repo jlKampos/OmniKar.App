@@ -1,13 +1,13 @@
 {
-  "latestVersion": "1.3.12",
-  "versionCode": 1,
-  "date": "2026-09-09",
-  "size": "102.7",
-  "sha256": "EEEB2B24BFAB797BD1118B4E09125D058C8778D4E774C1501E1041BE67FB56C7",
-  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.3.12/com.companyname.OmniKar-Signed-1.3.12.apk",
+  "latestVersion": "1.4.0",
+  "versionCode": 2,
+  "date": "2026-09-10",
+  "size": "102.71",
+  "sha256": "61C6C03B4327D724B68A2CA17D26B8EDF3B821B2953979504954976CB6789ED1",
+  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.4.0/com.companyname.OmniKar-Signed-1.4.0.apk",
   "apkFiles": {
-    "latest": "com.companyname.OmniKar-Signed-1.3.12.apk",
-    "versioned": "com.companyname.OmniKar-Signed-1.3.12.apk"
+    "latest": "com.companyname.OmniKar-Signed-1.4.0.apk",
+    "versioned": "com.companyname.OmniKar-Signed-1.4.0.apk"
   },
   "androidRequirements": {
     "minSdk": 23,
@@ -15,6 +15,11 @@
     "minVersion": "Android 8.0 (API 23)"
   },
   "changelog": [
+    {
+      "version": "1.4.0",
+      "date": "2026-09-10",
+      "notes": "<ul><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Edifícios 3D no mapa do HeadUnit com nova opção nas Definições — \"Alcance dos edifícios\": Padrão (visíveis até ~68 km/h) ou Estendido (até ~78 km/h).</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Edifícios 3D visíveis por mais tempo ao acelerar — no modo Estendido aguentam as velocidades de autoestrada.</li></ul>"
+    },
     {
       "version": "1.3.12",
       "date": "2026-09-09",

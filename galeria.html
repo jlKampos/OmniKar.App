@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Galeria do OmniKar — screenshots do HeadUnit e vídeo da app em ação.">
+  <title data-i18n="galeria.title">Galeria — OmniKar</title>
+  <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="galeria">
+
+<div id="app-header"></div>
+
+<main class="galeria">
+
+  <section class="hero" style="padding:3rem 1.5rem 1rem">
+    <h1 data-i18n="galeria.hero">Galeria</h1>
+    <p data-i18n="galeria.sub">O OmniKar em ação — o HeadUnit com mapas 3D.</p>
+  </section>
+
+  <section>
+    <h2 class="section-title" data-i18n="galeria.screens">Screenshots — HeadUnit</h2>
+    <div class="gallery-grid">
+      <figure class="gallery-item">
+        <img src="images/head_unit_1.jpeg" alt="OmniKar HeadUnit" loading="lazy">
+        <figcaption data-i18n="galeria.cap1">Mapa em tempo real no HeadUnit</figcaption>
+      </figure>
+      <figure class="gallery-item">
+        <img src="images/head_unit_2.jpeg" alt="OmniKar HeadUnit" loading="lazy">
+        <figcaption data-i18n="galeria.cap2">Navegação com edifícios 3D</figcaption>
+      </figure>
+      <figure class="gallery-item">
+        <img src="images/head_unit_3.jpeg" alt="OmniKar HeadUnit" loading="lazy">
+        <figcaption data-i18n="galeria.cap3">Tema escuro do mapa</figcaption>
+      </figure>
+      <figure class="gallery-item">
+        <img src="images/head_unit_4.jpeg" alt="OmniKar HeadUnit" loading="lazy">
+        <figcaption data-i18n="galeria.cap4">Vista de estrada com pormenor</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title" data-i18n="galeria.video">Vídeo</h2>
+    <video class="media-video" controls preload="metadata" poster="images/head_unit_1.jpeg">
+      <source src="vids/head_unit_vid.mp4" type="video/mp4">
+      <span data-i18n="galeria.videoFallback">O teu browser não suporta vídeo.</span>
+    </video>
+  </section>
+
+</main>
+
+<div id="app-footer"></div>
+
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

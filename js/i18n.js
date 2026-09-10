@@ -12,6 +12,7 @@ var I18N = (function () {
       'nav.changelog': 'Novidades',
       'nav.guide': 'Como funciona',
       'nav.privacy': 'Privacidade',
+      'nav.media': 'Galeria',
 
       'hero.title': 'O teu assistente de <span>manutenção automóvel</span>',
       'hero.sub': 'Gere todas as tuas viaturas, manutenções, combustível, inspeções e muito mais. Com GPS tracking, backup na cloud e relatórios PDF.',
@@ -83,6 +84,8 @@ var I18N = (function () {
       'guide.s1.tipText': 'Nas Definições, ativa "Viatura de arranque" e escolhe a viatura + ecrã (Dashboard ou HeadUnit). A app abre direto nessa viatura sem passares pela lista.',
       'guide.s1.tipHeadunit': '🚗 Dica — HeadUnit:',
       'guide.s1.tipHeadunitText': 'Se a app vai estar no carro, escolhe a viatura de arranque com o ecrã <strong>HeadUnit</strong> — ao ligar o carro, a app abre logo na tab HeadUnit dessa viatura para uma experiência de navegação completa. (Isto funciona com a app a iniciar automaticamente com o sistema do carro.)',
+      'guide.s1.tip3d': '🏢 Dica — Edifícios 3D:',
+      'guide.s1.tip3dText': 'No HeadUnit, o botão cubo no seletor de temas ativa os <strong>edifícios 3D</strong> e as estradas realçadas. Nas <strong>Definições</strong> ("Edifícios 3D") podes escolher até que velocidade eles ficam visíveis: <strong>Padrão</strong> (~68 km/h) ou <strong>Estendido</strong> (~78 km/h).',
       'guide.s2.title': 'Manutenção programada',
       'guide.s2.p1': 'Cria regras para manutenções periódicas como "óleo a cada 15.000 km" ou "revisão a cada 12 meses". O OmniKar alerta-te automaticamente quando se aproxima a data ou quilometragem.',
       'guide.s2.warn': '⚠️ Aviso: faltam ≤ 2.000 km ou ≤ 60 dias',
@@ -174,6 +177,17 @@ var I18N = (function () {
       'privacy.s5.li4': '✅ Tu controlas — podes apagar os teus dados a qualquer momento',
       'privacy.s5.li5': '✅ O desenvolvedor não vê nem gere os teus dados',
 
+      'galeria.title': 'Galeria — OmniKar',
+      'galeria.hero': 'Galeria',
+      'galeria.sub': 'O OmniKar em ação — o HeadUnit com mapas 3D.',
+      'galeria.screens': 'Screenshots — HeadUnit',
+      'galeria.cap1': 'Mapa em tempo real no HeadUnit',
+      'galeria.cap2': 'Navegação com edifícios 3D',
+      'galeria.cap3': 'Tema escuro do mapa',
+      'galeria.cap4': 'Vista de estrada com pormenor',
+      'galeria.video': 'Vídeo',
+      'galeria.videoFallback': 'O teu browser não suporta vídeo.',
+
       'footer.text': 'OmniKar — O teu assistente de manutenção automóvel. Sem anúncios. Os teus dados são teus.'
     },
 
@@ -183,6 +197,7 @@ var I18N = (function () {
       'nav.changelog': 'Changelog',
       'nav.guide': 'How it works',
       'nav.privacy': 'Privacy',
+      'nav.media': 'Gallery',
 
       'hero.title': 'Your <span>vehicle maintenance</span> assistant',
       'hero.sub': 'Manage all your vehicles, maintenance, fuel, inspections and more. With GPS tracking, cloud backup and PDF reports.',
@@ -254,6 +269,8 @@ var I18N = (function () {
       'guide.s1.tipText': 'In Settings, enable "Startup vehicle" and choose the vehicle + screen (Dashboard or HeadUnit). The app opens directly on that vehicle without going through the list.',
       'guide.s1.tipHeadunit': '🚗 Tip — HeadUnit:',
       'guide.s1.tipHeadunitText': 'If the app will be in the car, choose the startup vehicle with the <strong>HeadUnit</strong> screen — when you turn on the car, the app opens directly on that vehicle\'s HeadUnit tab for a complete navigation experience. (This works with the app starting automatically with the car\'s system.)',
+      'guide.s1.tip3d': '🏢 Tip — 3D buildings:',
+      'guide.s1.tip3dText': 'On the HeadUnit, the cube button in the theme selector enables <strong>3D buildings</strong> and highlighted roads. In <strong>Settings</strong> ("3D buildings") you can choose how long they stay visible: <strong>Standard</strong> (~68 km/h) or <strong>Extended</strong> (~78 km/h).',
       'guide.s2.title': 'Scheduled maintenance',
       'guide.s2.p1': 'Create rules for periodic maintenance like "oil every 15,000 km" or "service every 12 months". OmniKar automatically alerts you when the date or mileage approaches.',
       'guide.s2.warn': '⚠️ Warning: ≤ 2,000 km or ≤ 60 days remaining',
@@ -345,6 +362,17 @@ var I18N = (function () {
       'privacy.s5.li4': '✅ You are in control — you can delete your data at any time',
       'privacy.s5.li5': '✅ The developer does not see or manage your data',
 
+      'galeria.title': 'Gallery — OmniKar',
+      'galeria.hero': 'Gallery',
+      'galeria.sub': 'OmniKar in action — the HeadUnit with 3D maps.',
+      'galeria.screens': 'Screenshots — HeadUnit',
+      'galeria.cap1': 'Real-time map on the HeadUnit',
+      'galeria.cap2': 'Navigation with 3D buildings',
+      'galeria.cap3': 'Dark map theme',
+      'galeria.cap4': 'Detailed road view',
+      'galeria.video': 'Video',
+      'galeria.videoFallback': 'Your browser does not support video.',
+
       'footer.text': 'OmniKar — Your vehicle maintenance assistant. No ads. Your data is yours.'
     },
 
@@ -354,6 +382,7 @@ var I18N = (function () {
       'nav.changelog': 'Novedades',
       'nav.guide': 'Cómo funciona',
       'nav.privacy': 'Privacidad',
+      'nav.media': 'Galería',
 
       'hero.title': 'Tu asistente de <span>mantenimiento automóvil</span>',
       'hero.sub': 'Gestiona todos tus vehículos, mantenimiento, combustible, inspecciones y mucho más. Con GPS tracking, backup en la nube e informes PDF.',
@@ -425,6 +454,8 @@ var I18N = (function () {
       'guide.s1.tipText': 'En Ajustes, activa "Vehículo de inicio" y elige el vehículo + pantalla (Dashboard o HeadUnit). La app abre directo en ese vehículo sin pasar por la lista.',
       'guide.s1.tipHeadunit': '🚗 Consejo — HeadUnit:',
       'guide.s1.tipHeadunitText': 'Si la app va a estar en el coche, elige el vehículo de inicio con la pantalla <strong>HeadUnit</strong> — al encender el coche, la app abre directo en la pestaña HeadUnit de ese vehículo para una experiencia de navegación completa. (Esto funciona con la app iniciándose automáticamente con el sistema del coche.)',
+      'guide.s1.tip3d': '🏢 Consejo — Edificios 3D:',
+      'guide.s1.tip3dText': 'En el HeadUnit, el botón cubo del selector de temas activa los <strong>edificios 3D</strong> y las carreteras resaltadas. En <strong>Ajustes</strong> ("Edificios 3D") puedes elegir hasta qué velocidad permanecen visibles: <strong>Estándar</strong> (~68 km/h) o <strong>Extendido</strong> (~78 km/h).',
       'guide.s2.title': 'Mantenimiento programado',
       'guide.s2.p1': 'Crea reglas para mantenimientos periódicos como "aceite cada 15.000 km" o "revisión cada 12 meses". OmniKar te avisa automáticamente cuando se acerca la fecha o kilometraje.',
       'guide.s2.warn': '⚠️ Aviso: faltan ≤ 2.000 km o ≤ 60 días',
@@ -515,6 +546,17 @@ var I18N = (function () {
       'privacy.s5.li3': '✅ Sin tracking — la app no monitoriza tu comportamiento ni envía análisis',
       'privacy.s5.li4': '✅ Tú controlas — puedes eliminar tus datos en cualquier momento',
       'privacy.s5.li5': '✅ El desarrollador no ve ni gestiona tus datos',
+
+      'galeria.title': 'Galería — OmniKar',
+      'galeria.hero': 'Galería',
+      'galeria.sub': 'OmniKar en acción — el HeadUnit con mapas 3D.',
+      'galeria.screens': 'Capturas — HeadUnit',
+      'galeria.cap1': 'Mapa en tiempo real en el HeadUnit',
+      'galeria.cap2': 'Navegación con edificios 3D',
+      'galeria.cap3': 'Tema oscuro del mapa',
+      'galeria.cap4': 'Vista de carretera con detalle',
+      'galeria.video': 'Vídeo',
+      'galeria.videoFallback': 'Tu navegador no soporta vídeo.',
 
       'footer.text': 'OmniKar — Tu asistente de mantenimiento automóvil. Sin anuncios. Tus datos son tuyos.'
     }

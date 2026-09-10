@@ -33,6 +33,7 @@
       '    <a href="changelog.html" data-i18n="nav.changelog"' + (currentPage === 'changelog' ? ' class="active"' : '') + '>' + I18N.t('nav.changelog') + '</a>' +
       '    <a href="instrucoes.html" data-i18n="nav.guide"' + (currentPage === 'guide' ? ' class="active"' : '') + '>' + I18N.t('nav.guide') + '</a>' +
       '    <a href="privacidade.html" data-i18n="nav.privacy"' + (currentPage === 'privacy' ? ' class="active"' : '') + '>' + I18N.t('nav.privacy') + '</a>' +
+      '    <a href="galeria.html" data-i18n="nav.media"' + (currentPage === 'galeria' ? ' class="active"' : '') + '>' + I18N.t('nav.media') + '</a>' +
       '  </div>' +
       '  <div class="lang-switch" id="lang-switch">' + getLangButtons() + '</div>' +
       '</nav>';
