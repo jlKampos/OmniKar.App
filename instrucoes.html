@@ -36,7 +36,7 @@
       </div>
       <div class="guide-tip">
         <strong data-i18n="guide.s1.tip3d">🏢 Dica — Edifícios 3D:</strong>
-        <span data-i18n="guide.s1.tip3dText">No HeadUnit, o botão cubo no seletor de temas ativa os <strong>edifícios 3D</strong> e as estradas realçadas. Nas <strong>Definições</strong> ("Edifícios 3D") podes escolher até que velocidade eles ficam visíveis: <strong>Padrão</strong> (~68 km/h) ou <strong>Estendido</strong> (~78 km/h).</span>
+        <span data-i18n="guide.s1.tip3dText">O mapa Omni vem com <strong>edifícios 3D e estradas realçadas ativos por defeito</strong> no HeadUnit e no Tracking. No seletor de temas, o botão cubo alterna os 3D e o botão de estradas a realce — podes desligar ou ligar à vontade. Nas <strong>Definições</strong> ("Edifícios 3D") escolhes até que velocidade os edifícios ficam visíveis: <strong>Padrão</strong> (~68 km/h) ou <strong>Estendido</strong> (~78 km/h).</span>
       </div>
     </div>
   </section>
@@ -178,17 +178,50 @@
     </div>
   </section>
 
-  <!-- 6. Fluxo rápido -->
+  <!-- 6. Backups e sincronização cloud -->
   <section>
     <div class="card card-accent">
       <div class="guide-number">6</div>
-      <h2 data-i18n="guide.s6.title">Fluxo rápido (resumo)</h2>
+      <h2 data-i18n="guide.s6.title">Backups e sincronização cloud</h2>
+      <p data-i18n="guide.s6.p1">Faz login com a tua conta Google nas <strong>Definições</strong> (separador <strong>Nuvem</strong>) para guardar e sincronizar os teus dados na <strong>pasta privada da app</strong> no teu Google Drive. Não há servidores externos — só tu tens acesso.</p>
+
+      <div class="guide-note">
+        <span data-i18n="guide.s6.private">🔒 A pasta do backup (<code>appDataFolder</code>) é invisível no Google Drive normal — só a própria app OmniKar, com a tua conta, lhe acede.</span>
+      </div>
+
+      <h3 data-i18n="guide.s6.actions">Ações disponíveis (Definições → Nuvem)</h3>
+      <ul>
+        <li data-i18n="guide.s6.a1"><strong>Backup to Cloud</strong> — envia uma cópia dos teus dados (viaturas, manutenções, combustível, GPS…) para a nuvem. <strong>Nunca destrói o que já está lá.</strong></li>
+        <li data-i18n="guide.s6.a2"><strong>Update from Cloud</strong> — traz para o telemóvel a cópia existente na nuvem (ex.: para restaurar depois de uma reinstalação ou num segundo dispositivo).</li>
+        <li data-i18n="guide.s6.a3"><strong>Park here</strong> no HeadUnit — além de terminar a viagem, faz <strong>backup automático</strong> da viatura sempre que estacionas.</li>
+      </ul>
+
+      <h3 data-i18n="guide.s6.plate">A matrícula como chave de sincronização</h3>
+      <ul>
+        <li data-i18n="guide.s6.p2">Cada viatura é identificada pela <strong>matrícula</strong> (campo obrigatório ao criar uma viatura nova). Isso permite ao OmniKar perceber que <strong>a mesma matrícula</strong> num telemóvel e num HeadUnit é <strong>a mesma viatura</strong>.</li>
+        <li data-i18n="guide.s6.p3">Quando fazes backup num dispositivo e depois "Update from Cloud" noutro, os dados da mesma matrícula <strong>aparecem na mesma viatura</strong> — sem duplicados.</li>
+        <li data-i18n="guide.s6.warn">⚠️ <strong>Matrícula já existe na cloud:</strong> se registares uma viatura com uma matrícula que já existe no backup, o OmniKar avisa-te. No conflito, <strong>a versão da cloud é mantida</strong> (protege o histórico existente) e a nova fica só no telemóvel.</li>
+      </ul>
+
+      <div class="guide-tip">
+        <strong data-i18n="guide.s6.tip">💡 Edições do mesmo carro:</strong>
+        <span data-i18n="guide.s6.tipText">Para a mesma viatura (mesma matrícula e ID), vale a <strong>versão mais recente</strong> — seja escrita no telemóvel ou no HeadUnit. Assim podes alternar entre dispositivos sem perder alterações.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. Fluxo rápido -->
+  <section>
+    <div class="card card-accent">
+      <div class="guide-number">7</div>
+      <h2 data-i18n="guide.s7.title">Fluxo rápido (resumo)</h2>
       <ol class="guide-steps">
-        <li data-i18n="guide.s6.step1"><strong>Abre uma viatura</strong> — toca nela na lista principal (ou configura a viatura de arranque nas Definições)</li>
-        <li data-i18n="guide.s6.step2"><strong>Cria agendamentos</strong> — define intervalos para manutenções periódicas e deixa os alertas trabalhar por ti</li>
-        <li data-i18n="guide.s6.step3"><strong>Regista manutenções e reparações</strong> — a partir dos agendamentos (botão "Registar") ou manualmente</li>
-        <li data-i18n="guide.s6.step4"><strong>Ativa o GPS</strong> — liga o switch "Atualizar KM via GPS" se quiseres quilometragem automática; o tracking no mapa funciona sempre</li>
-        <li data-i18n="guide.s6.step5"><strong>Consulta o histórico</strong> — vê o mapa de viagens no Tracking, os custos nas Estatísticas, e gera relatórios PDF</li>
+        <li data-i18n="guide.s7.step1"><strong>Abre uma viatura</strong> — toca nela na lista principal (ou configura a viatura de arranque nas Definições)</li>
+        <li data-i18n="guide.s7.step2"><strong>Cria agendamentos</strong> — define intervalos para manutenções periódicas e deixa os alertas trabalhar por ti</li>
+        <li data-i18n="guide.s7.step3"><strong>Regista manutenções e reparações</strong> — a partir dos agendamentos (botão "Registar") ou manualmente</li>
+        <li data-i18n="guide.s7.step4"><strong>Ativa o GPS</strong> — liga o switch "Atualizar KM via GPS" se quiseres quilometragem automática; o tracking no mapa funciona sempre</li>
+        <li data-i18n="guide.s7.step5"><strong>Consulta o histórico</strong> — vê o mapa de viagens no Tracking, os custos nas Estatísticas, e gera relatórios PDF</li>
+        <li data-i18n="guide.s7.step6"><strong>Sincroniza a nuvem</strong> — faz login com a conta Google e usa "Backup to Cloud" para nunca perderes os dados.</li>
       </ol>
     </div>
   </section>
