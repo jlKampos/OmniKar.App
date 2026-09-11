@@ -1,7 +1,7 @@
 {
   "latestVersion": "1.4.2",
   "versionCode": 5,
-  "date": "2026-09-10",
+  "date": "2026-09-11",
   "size": "98.56",
   "sha256": "E42185883B8E00A2DFD007A36F20A382618CC07C1750C3114E6377BF2FECBC12",
   "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.4.2/com.companyname.OmniKar-Signed-1.4.2.apk",
@@ -17,7 +17,7 @@
   "changelog": [
     {
       "version": "1.4.2",
-      "date": "2026-09-10",
+      "date": "2026-09-11",
       "notes": "<ul><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Mapa Omni com edifícios 3D ativos por defeito no HeadUnit e no Tracking — no Tracking os 3D ficam sempre ligados e no HeadUnit continuas a poder alternar 3D / estradas.</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Backup para a cloud reescrito — a matrícula passou a ser a chave de sincronização entre dispositivos e a versão da cloud nunca é sobrescrita (no conflito, a cópia cloud é mantida com aviso).</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Removido o backup automático de 6 horas — o backup passou a ser feito manualmente (Definições) ou automaticamente no \"Park here\".</li></ul>"
     },
     {
