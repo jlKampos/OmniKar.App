@@ -778,4 +778,5 @@ footer .copyright { opacity: 0.6; }
   border: 1px solid var(--bg-surface);
   box-shadow: 0 6px 15px rgba(0,0,0,0.28);
   background: #000;
+  overflow: hidden;
 }

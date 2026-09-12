@@ -1,13 +1,12 @@
 {
-  "latestVersion": "1.4.2",
-  "versionCode": 5,
-  "date": "2026-09-11",
-  "size": "98.56",
-  "sha256": "E42185883B8E00A2DFD007A36F20A382618CC07C1750C3114E6377BF2FECBC12",
-  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.4.2/com.companyname.OmniKar-Signed-1.4.2.apk",
+  "latestVersion": "1.4.3",
+  "date": "2026-09-12",
+  "size": "98.58",
+  "sha256": "91A93D9F059FBE0EEBA0BB6404BBAFA4BE392311C0D3139DF8DB97843C544810",
+  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.4.3/com.companyname.OmniKar-Signed-1.4.3.apk",
   "apkFiles": {
-    "latest": "com.companyname.OmniKar-Signed-1.4.2.apk",
-    "versioned": "com.companyname.OmniKar-Signed-1.4.2.apk"
+    "latest": "com.companyname.OmniKar-Signed-1.4.3.apk",
+    "versioned": "com.companyname.OmniKar-Signed-1.4.3.apk"
   },
   "androidRequirements": {
     "minSdk": 23,
@@ -15,6 +14,11 @@
     "minVersion": "Android 8.0 (API 23)"
   },
   "changelog": [
+    {
+      "version": "1.4.3",
+      "date": "2026-09-12",
+      "notes": "<ul><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Edifícios 3D no mapa agora com 3 variantes em cada tema — grafite, platina e claro no Omni; cinza, vermelho e lilás no Dark; neutro, claro e azulado no Positron — alternáveis no botão do cubo.</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Estradas de realce agora independentes dos edifícios e com ciclo próprio — Dark (cinza/vermelho/lilás), Positron (âmbar/azulado/grafite) e Omni (lima/aço/laranja/vermelho) — combináveis com a variante de edifícios.</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Botões do cubo e da estrada mostram o número da variante ativa (1/2/3) e ficam destacados em verde quando ligados.</li></ul>"
+    },
     {
       "version": "1.4.2",
       "date": "2026-09-11",
