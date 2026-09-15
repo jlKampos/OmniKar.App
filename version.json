@@ -1,6 +1,6 @@
 {
   "latestVersion": "1.4.4",
-  "date": "2026-09-13",
+  "date": "2026-09-15",
   "size": "90.37",
   "sha256": "806B5C4A425F03B3800D2DA1B1E6E7311CDA7BA63A92D2A8B23DA70FFFB0DB55",
   "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.4.4/com.companyname.OmniKar-Signed-1.4.4.apk",
@@ -16,7 +16,7 @@
   "changelog": [
     {
       "version": "1.4.4",
-      "date": "2026-09-13",
+      "date": "2026-09-15",
       "notes": "<ul><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Edifícios 3D do HeadUnit com altura dinâmica pela velocidade — até 2.6× em velocidade alta (zoom afastado) e 2.0× perto de parado.</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Altura dos edifícios 3D corrigida — deixavam de ficar presos no tamanho máximo (2.6×); agora ajustam-se à faixa de velocidade/zoom em vez de usar um valor fixo.</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Estradas do tema Positron (variante grafite/3) mais escuras — melhor contraste no mapa claro.</li></ul>"
     },
     {
