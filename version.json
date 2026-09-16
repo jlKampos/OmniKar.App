@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.4.4",
-  "date": "2026-09-15",
-  "size": "90.37",
-  "sha256": "806B5C4A425F03B3800D2DA1B1E6E7311CDA7BA63A92D2A8B23DA70FFFB0DB55",
-  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.4.4/com.companyname.OmniKar-Signed-1.4.4.apk",
+  "latestVersion": "1.4.5",
+  "date": "2026-09-16",
+  "size": "98.38",
+  "sha256": "D4E3D8C1B025DA76949E59A024799586A46758F87C2B1B84DF5A40980278121B",
+  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.4.5/com.companyname.OmniKar-Signed-1.4.5.apk",
   "apkFiles": {
-    "latest": "com.companyname.OmniKar-Signed-1.4.4.apk",
-    "versioned": "com.companyname.OmniKar-Signed-1.4.4.apk"
+    "latest": "com.companyname.OmniKar-Signed-1.4.5.apk",
+    "versioned": "com.companyname.OmniKar-Signed-1.4.5.apk"
   },
   "androidRequirements": {
     "minSdk": 23,
@@ -14,6 +14,11 @@
     "minVersion": "Android 8.0 (API 23)"
   },
   "changelog": [
+    {
+      "version": "1.4.5",
+      "date": "2026-09-16",
+      "notes": "<ul><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Estradas dos temas Dark e Light (variantes) passaram a usar as mesmas larguras do Omni — visuais coerentes entre temas, com as baixas velocidades afinadas (aparência híbrida fina a parado, sem perder presença em velocidade).</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Tema Dark com melhorias de estrada desativadas — as estradas passam a mostrar o visual cinzento fino por omissão, mais legíveis.</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Pino do veículo a \"andar de lado\" ao arrancar (0–16 km/h) após uma paragem ou saída de estacionamento — o mapa só volta a rodar depois de confirmar a direção com amostras consistentes.</li></ul>"
+    },
     {
       "version": "1.4.4",
       "date": "2026-09-15",
