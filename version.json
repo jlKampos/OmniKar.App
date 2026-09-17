@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.4.5",
-  "date": "2026-09-16",
+  "latestVersion": "1.4.6",
+  "date": "2026-09-17",
   "size": "98.38",
-  "sha256": "D4E3D8C1B025DA76949E59A024799586A46758F87C2B1B84DF5A40980278121B",
-  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.4.5/com.companyname.OmniKar-Signed-1.4.5.apk",
+  "sha256": "978799D7B2CF098B3A28273322FAE9FE902C023786172F049EEC23665B1CAF10",
+  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.4.6/com.companyname.OmniKar-Signed-1.4.6.apk",
   "apkFiles": {
-    "latest": "com.companyname.OmniKar-Signed-1.4.5.apk",
-    "versioned": "com.companyname.OmniKar-Signed-1.4.5.apk"
+    "latest": "com.companyname.OmniKar-Signed-1.4.6.apk",
+    "versioned": "com.companyname.OmniKar-Signed-1.4.6.apk"
   },
   "androidRequirements": {
     "minSdk": 23,
@@ -14,6 +14,11 @@
     "minVersion": "Android 8.0 (API 23)"
   },
   "changelog": [
+    {
+      "version": "1.4.6",
+      "date": "2026-09-17",
+      "notes": "<ul><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Janela de alertas do HeadUnit: alertas por km agora atualizam durante a condução — ao cruzar os km, o alerta aparece e muda de cor (laranja ↔ vermelho) em tempo real.</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Janela de alertas sem flicker: os cartões atualizam em lugar (sem re-montar a lista; cadência ~30s estável).</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Verificações de reparações com os mesmos alertas das manutenções: aviso ≤2000 km / 60 dias e urgente ≤500 km / 15 dias, acompanhando o km GPS em memória.</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Tema Omni: contorno das estradas afinado para um anel equilibrado em todos os zooms, coeso com os temas Dark/Light.</li></ul>"
+    },
     {
       "version": "1.4.5",
       "date": "2026-09-16",
