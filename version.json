@@ -1,6 +1,6 @@
 {
   "latestVersion": "1.4.7",
-  "date": "2026-09-17",
+  "date": "2026-09-18",
   "size": "98.38",
   "sha256": "C88CFA7051F6198BA2794C1ECD902508C09115EF6D4FD8096662C4918CA6EDB5",
   "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.4.7/com.companyname.OmniKar-Signed-1.4.7.apk",
@@ -16,7 +16,7 @@
   "changelog": [
     {
       "version": "1.4.7",
-      "date": "2026-09-17",
+      "date": "2026-09-18",
       "notes": "<ul><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Rotação do mapa no HeadUnit em baixa velocidade — agora acompanha a direção desde ~4 km/h (estacionamento e saídas lentas), em vez de só acima de ~14 km/h, usando o curso Doppler do GPS como fonte principal.</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Curvas lentas menos congeladas — o rumo atualiza com mais amostras em baixa velocidade, reduzindo o efeito de \"diagonal\" a meio do giro.</li></ul>"
     },
     {
