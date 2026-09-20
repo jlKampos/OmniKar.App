@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.4.7",
-  "date": "2026-09-18",
-  "size": "98.38",
-  "sha256": "C88CFA7051F6198BA2794C1ECD902508C09115EF6D4FD8096662C4918CA6EDB5",
-  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.4.7/com.companyname.OmniKar-Signed-1.4.7.apk",
+  "latestVersion": "1.4.8",
+  "date": "2026-09-20",
+  "size": "97.96",
+  "sha256": "A6B0863384AA06FC215A3EC01EA41CA1C722471B94A8A5453734850FC219BCFC",
+  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.4.8/com.companyname.OmniKar-Signed-1.4.8.apk",
   "apkFiles": {
-    "latest": "com.companyname.OmniKar-Signed-1.4.7.apk",
-    "versioned": "com.companyname.OmniKar-Signed-1.4.7.apk"
+    "latest": "com.companyname.OmniKar-Signed-1.4.8.apk",
+    "versioned": "com.companyname.OmniKar-Signed-1.4.8.apk"
   },
   "androidRequirements": {
     "minSdk": 23,
@@ -14,6 +14,11 @@
     "minVersion": "Android 8.0 (API 23)"
   },
   "changelog": [
+    {
+      "version": "1.4.8",
+      "date": "2026-09-20",
+      "notes": "<ul><li><span class=\"ch-tag ch-tag-new\">Novo</span>Ciclagem total de estradas e edifícios no HeadUnit — passaste a poder percorrer todas as combinações de paletas de estradas e de edifícios em qualquer tema do mapa (Dark, Positron, Liberty, Fiord e Omni), sem ficar limitado às variantes do tema ativo.</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Ordem de ciclagem das estradas reorganizada por grupos (Omni → Dark → Light) para encontrar mais facilmente a variante pretendida.</li></ul>"
+    },
     {
       "version": "1.4.7",
       "date": "2026-09-18",
