@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.4.8",
-  "date": "2026-09-20",
-  "size": "97.96",
-  "sha256": "A6B0863384AA06FC215A3EC01EA41CA1C722471B94A8A5453734850FC219BCFC",
-  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.4.8/com.companyname.OmniKar-Signed-1.4.8.apk",
+  "latestVersion": "1.5.0",
+  "date": "2026-09-24",
+  "size": "98.4",
+  "sha256": "BE9AF02DDAFA8450C613AC1E3DECE51213EA34BF32702F475BFDF66F9B5C6BBE",
+  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.5.0/com.companyname.OmniKar-Signed-1.5.0.apk",
   "apkFiles": {
-    "latest": "com.companyname.OmniKar-Signed-1.4.8.apk",
-    "versioned": "com.companyname.OmniKar-Signed-1.4.8.apk"
+    "latest": "com.companyname.OmniKar-Signed-1.5.0.apk",
+    "versioned": "com.companyname.OmniKar-Signed-1.5.0.apk"
   },
   "androidRequirements": {
     "minSdk": 23,
@@ -14,6 +14,11 @@
     "minVersion": "Android 8.0 (API 23)"
   },
   "changelog": [
+    {
+      "version": "1.5.0",
+      "date": "2026-09-24",
+      "notes": "<ul><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Media player — o slider e a duração mostravam os valores da canção anterior ao trocar de faixa (incluindo trocas rápidas e mudanças de álbum/artista); agora mostram a canção certa de imediato.</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Slider do media player mais fluido — gesto de procura mais responsivo e a barra de progresso deixa de congelar.</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Layout dos álbuns/artistas — o estado da pesquisa de capas aparece agora no topo à direita (na mesma linha do nome do artista), em vez de ficar oculto.</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Nova paleta de edifícios 3D \"Vermelho vivo\" no HeadUnit — variante em vermelho intenso, alternável no botão do cubo.</li></ul>"
+    },
     {
       "version": "1.4.8",
       "date": "2026-09-20",
