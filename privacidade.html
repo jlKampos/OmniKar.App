@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Privacidade OmniKar — os teus dados são teus. Sem servidores externos, tudo no teu dispositivo ou no teu Google Drive pessoal.">
+  <title data-i18n="privacy.title">Privacidade — OmniKar</title>
+  <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="privacy">
+
+<div id="app-header"></div>
+
+<main class="guide">
+
+  <section class="hero" style="padding:3rem 1.5rem 1rem">
+    <h1 data-i18n="privacy.hero">Privacidade</h1>
+    <p data-i18n="privacy.heroSub">Os teus dados são teus. Sempre.</p>
+  </section>
+
+  <!-- 1. Onde ficam -->
+  <section>
+    <div class="card card-accent">
+      <div class="guide-number">1</div>
+      <h2 data-i18n="privacy.s1.title">Onde ficam os teus dados</h2>
+      <p data-i18n="privacy.s1.p1">O OmniKar guarda os dados em <strong>dois locais</strong> — nenhum deles é um servidor externo gerido pelo desenvolvedor:</p>
+      <ul>
+        <li data-i18n="privacy.s1.li1"><strong>No teu dispositivo</strong> — todos os dados da app (viaturas, manutenções, combustível, inspeções, seguros, impostos, pneus, donos, agendamentos) são guardados numa base de dados <strong>SQLite local</strong>. Só tu, com o teu telemóvel, tens acesso.</li>
+        <li data-i18n="privacy.s1.li2"><strong>No teu Google Drive pessoal</strong> — quando fazes login com a tua conta Google, o OmniKar guarda uma cópia de segurança (backup) e as localizações GPS na <strong>pasta privada da app (<code>appDataFolder</code>)</strong> do teu próprio Drive. Esta pasta é invisível na interface normal do Google Drive — só a própria app OmniKar (com a tua conta) lhe acede.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 2. Sem servidores -->
+  <section>
+    <div class="card card-accent">
+      <div class="guide-number">2</div>
+      <h2 data-i18n="privacy.s2.title">Sem servidores externos</h2>
+      <p data-i18n="privacy.s2.p1"><strong>O OmniKar não usa servidores externos.</strong> Não há uma base de dados na cloud gerida por mim. Não há logs de utilização, análises de tracking ou partilha de dados com terceiros.</p>
+      <p data-i18n="privacy.s2.p2">O único acesso remoto que a app faz é à <strong>tua própria</strong> conta Google Drive — e apenas à pasta privada da app (<code>drive.appdata</code>).</p>
+      <p data-i18n="privacy.s2.p3"><strong>Eu, como desenvolvedor, não tenho acesso aos teus dados.</strong> Não os vejo, não os recolho e não faço gestão dos mesmos. Tu és o único proprietário e responsável pelos teus dados.</p>
+    </div>
+  </section>
+
+  <!-- 3. Invisível no Drive -->
+  <section>
+    <div class="card card-accent">
+      <div class="guide-number">3</div>
+      <h2 data-i18n="privacy.s3.title">Não visível no Google Drive</h2>
+      <p data-i18n="privacy.s3.p1">Os ficheiros do OmniKar na nuvem estão na <strong>pasta privada da app</strong> (<code>appDataFolder</code>). Esta pasta:</p>
+      <ul>
+        <li data-i18n="privacy.s3.li1">Não aparece quando abres o Google Drive no browser ou na app</li>
+        <li data-i18n="privacy.s3.li2">Só é acedida pela app OmniKar com a tua conta Google</li>
+        <li data-i18n="privacy.s3.li3">Não conta para o espaço de armazenamento do teu Drive</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 4. Como apagar -->
+  <section>
+    <div class="card card-accent">
+      <div class="guide-number">4</div>
+      <h2 data-i18n="privacy.s4.title">Como apagar os teus dados</h2>
+
+      <h3 data-i18n="privacy.s4.cloud">☁️ Apagar os dados da nuvem</h3>
+      <p data-i18n="privacy.s4.p1">Vai às <strong>Definições → Nuvem → "Apagar dados da nuvem"</strong>. Isto remove <strong>tudo</strong> o que está no Google Drive:</p>
+      <ul>
+        <li data-i18n="privacy.s4.li1">O ficheiro de backup completo</li>
+        <li data-i18n="privacy.s4.li2"><strong>Todas as localizações GPS</strong> de todas as viaturas</li>
+      </ul>
+      <p data-i18n="privacy.s4.p2"><strong>Nada fica para trás.</strong> Esta ação não pode ser desfeita.</p>
+
+      <h3 data-i18n="privacy.s4.local">📱 Apagar os dados do dispositivo</h3>
+      <p data-i18n="privacy.s4.p3">Para remover os dados locais (app), <strong>desinstala o OmniKar</strong> do teu dispositivo Android. Isto apaga a base de dados SQLite e todos os ficheiros da app no telemóvel.</p>
+
+      <div class="guide-note">
+        <span data-i18n="privacy.s4.note">⚠️ <strong>Importante:</strong> apagar a nuvem <strong>não</strong> apaga os dados locais (viaturas, manutenções, etc.). Desinstalar a app <strong>não</strong> apaga os dados que estão no Google Drive. Se quiseres remover <strong>tudo</strong>, faz as duas ações: apaga da nuvem pela app e depois desinstala.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Resumo -->
+  <section>
+    <div class="card card-accent">
+      <div class="guide-number">5</div>
+      <h2 data-i18n="privacy.s5.title">Resumo</h2>
+      <p data-i18n="privacy.s5.p1">O OmniKar foi construído com o princípio de que <strong>os teus dados são teus</strong>:</p>
+      <ul>
+        <li data-i18n="privacy.s5.li1">✅ Sem servidores externos — tudo no teu dispositivo ou no teu Google Drive</li>
+        <li data-i18n="privacy.s5.li2">✅ Sem anúncios — a app não recolhe nem partilha dados para publicidade</li>
+        <li data-i18n="privacy.s5.li3">✅ Sem tracking — a app não monitoriza o teu comportamento nem envia análises</li>
+        <li data-i18n="privacy.s5.li4">✅ Tu controlas — podes apagar os teus dados a qualquer momento</li>
+        <li data-i18n="privacy.s5.li5">✅ O desenvolvedor não vê nem gere os teus dados</li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<div id="app-footer"></div>
+
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
