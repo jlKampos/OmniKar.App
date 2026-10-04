@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.6.1",
+  "latestVersion": "1.7.0",
   "date": "2026-10-04",
-  "size": "98.89",
-  "sha256": "7415D97B83CD69C4B74B188C56DF742119B70C2DF047EB60641462FE827E6E38",
-  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.6.1/com.companyname.OmniKar-Signed-1.6.1.apk",
+  "size": "99.33",
+  "sha256": "0616F2FB32D06945E728892153BF829C738125BA981D194BCAC11C17220EEDE0",
+  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.7.0/com.companyname.OmniKar-Signed-1.7.0.apk",
   "apkFiles": {
-    "latest": "com.companyname.OmniKar-Signed-1.6.1.apk",
-    "versioned": "com.companyname.OmniKar-Signed-1.6.1.apk"
+    "latest": "com.companyname.OmniKar-Signed-1.7.0.apk",
+    "versioned": "com.companyname.OmniKar-Signed-1.7.0.apk"
   },
   "androidRequirements": {
     "minSdk": 23,
@@ -14,6 +14,11 @@
     "minVersion": "Android 8.0 (API 23)"
   },
   "changelog": [
+    {
+      "version": "1.7.0",
+      "date": "2026-10-04",
+      "notes": "<ul><li><span class=\"ch-tag ch-tag-new\">Novo</span>Postos de combustível no mapa do HeadUnit — enquanto conduzes em Portugal ou Espanha, as bombas mais próximas aparecem como ícones, sempre por cima dos edifícios 3D.</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Tocar numa bomba abre o cartão do posto com preços, morada e botões para copiar coordenadas ou morada.</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Postos configuráveis nas Definições — interruptor \"Mostrar postos no mapa\" e combustível a destacar (padrão Diesel).</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>A viatura abre agora por defeito no ecrã do HeadUnit.</li></ul>"
+    },
     {
       "version": "1.6.1",
       "date": "2026-10-04",
