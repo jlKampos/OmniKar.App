@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.6.0",
+  "latestVersion": "1.6.1",
   "date": "2026-10-04",
-  "size": "98.87",
-  "sha256": "FCDB203AE3EB27CF00EA80B3E5C6821478D488A08A973B29D643AEE5D280719A",
-  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.6.0/com.companyname.OmniKar-Signed-1.6.0.apk",
+  "size": "98.89",
+  "sha256": "7415D97B83CD69C4B74B188C56DF742119B70C2DF047EB60641462FE827E6E38",
+  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.6.1/com.companyname.OmniKar-Signed-1.6.1.apk",
   "apkFiles": {
-    "latest": "com.companyname.OmniKar-Signed-1.6.0.apk",
-    "versioned": "com.companyname.OmniKar-Signed-1.6.0.apk"
+    "latest": "com.companyname.OmniKar-Signed-1.6.1.apk",
+    "versioned": "com.companyname.OmniKar-Signed-1.6.1.apk"
   },
   "androidRequirements": {
     "minSdk": 23,
@@ -14,6 +14,11 @@
     "minVersion": "Android 8.0 (API 23)"
   },
   "changelog": [
+    {
+      "version": "1.6.1",
+      "date": "2026-10-04",
+      "notes": "<ul><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Tracking \"Ao vivo\" — o mapa segue agora sempre a viatura: a cada 15 segundos centra na posição mais recente do veículo, ignorando a posição do telemóvel (o teu pino continua visível).</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Novo botão GPS no Tracking — centra o mapa na tua posição atual mantendo o zoom, para voltares a ti quando quiseres.</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Novo interruptor \"Seguir utilizador\" no Tracking — o mapa acompanha o teu pino em tempo real enquanto caminhas (ideal para encontrares a viatura estacionada); desliga-se para voltar à navegação livre.</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Consulta de viagens sem saltos — ao consultares uma viagem passada ou os pontos de estacionamento, o mapa já não salta sozinho a cada 15 segundos; os pins continuam a atualizar-se mas a câmara fica onde a deixaste.</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Mapa Omni sem tilesheet no Tracking e no HeadUnit depois de abrir a página \"Combustíveis\" — o tema aparecia selecionado mas o mapa voltava em branco até trocar de tema; agora o Omni é reaplicado automaticamente ao voltar à página.</li></ul>"
+    },
     {
       "version": "1.6.0",
       "date": "2026-10-04",
