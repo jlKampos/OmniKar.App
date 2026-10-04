@@ -32,6 +32,7 @@
       '    <a href="download.html" data-i18n="nav.download"' + (currentPage === 'download' ? ' class="active"' : '') + '>' + I18N.t('nav.download') + '</a>' +
       '    <a href="changelog.html" data-i18n="nav.changelog"' + (currentPage === 'changelog' ? ' class="active"' : '') + '>' + I18N.t('nav.changelog') + '</a>' +
       '    <a href="instrucoes.html" data-i18n="nav.guide"' + (currentPage === 'guide' ? ' class="active"' : '') + '>' + I18N.t('nav.guide') + '</a>' +
+      '    <a href="combustiveis.html" data-i18n="nav.fuels"' + (currentPage === 'fuels' ? ' class="active"' : '') + '>' + I18N.t('nav.fuels') + '</a>' +
       '    <a href="privacidade.html" data-i18n="nav.privacy"' + (currentPage === 'privacy' ? ' class="active"' : '') + '>' + I18N.t('nav.privacy') + '</a>' +
       '    <a href="galeria.html" data-i18n="nav.media"' + (currentPage === 'galeria' ? ' class="active"' : '') + '>' + I18N.t('nav.media') + '</a>' +
       '  </div>' +

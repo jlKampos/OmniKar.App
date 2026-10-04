@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Combustíveis — preços ao vivo em Portugal e Espanha na app OmniKar: postos, comparação por cores, hexágonos e botão de GPS.">
+  <title data-i18n="fuels.title">Combustíveis — Preços em Portugal e Espanha</title>
+  <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="fuels">
+
+<div id="app-header"></div>
+
+<main class="guide">
+
+  <section class="hero" style="padding:3rem 1.5rem 1rem">
+    <h1 data-i18n="fuels.hero">Combustíveis</h1>
+    <p data-i18n="fuels.heroSub">Preços de combustível ao vivo em Portugal e em Espanha, num mapa interactivo na app.</p>
+    <div class="guide-note">
+      <span data-i18n="fuels.req">Disponível na versão 1.6.0 ou superior.</span>
+    </div>
+  </section>
+
+  <!-- 1. Onde encontrar -->
+  <section>
+    <div class="card card-accent">
+      <div class="guide-number">1</div>
+      <h2 data-i18n="fuels.s1.title">Onde encontrar</h2>
+      <p data-i18n="fuels.s1.p1">A página <strong>Combustíveis</strong> é uma das abas do fundo da app (junto a Viaturas e Definições). Não precisa de viatura aberta — o mapa abre diretamente com os postos do país selecionado.</p>
+      <p data-i18n="fuels.s1.p2">Escolhe o <strong>país</strong> (Portugal ou Espanha), o <strong>distrito/província</strong> e o <strong>concelho/município</strong> pretendidos e o <strong>tipo de combustível</strong> (Gasolina 95/98, Gasóleo, GPL, GNC/GNL).</p>
+    </div>
+  </section>
+
+  <!-- 2. Cobertura PT/ES -->
+  <section>
+    <div class="card card-accent">
+      <div class="guide-number">2</div>
+      <h2 data-i18n="fuels.s2.title">Cobertura Portugal e Espanha</h2>
+      <p data-i18n="fuels.s2.p1">Os preços vêm de fontes oficiais:</p>
+      <div class="guide-compare">
+        <div class="guide-col on">
+          <h3>🇵🇹</h3>
+          <ul>
+            <li data-i18n="fuels.s2.pt"><strong>Portugal</strong> — DGEG (oficial): todos os distritos (incluindo Açores e Madeira), com Gasóleo simples e especial, Biodiesel B15 (PRIO), Gasolina 95/98, GPL, GNC (m³/kg) e GNL.</li>
+          </ul>
+        </div>
+        <div class="guide-col on">
+          <h3>🇪🇸</h3>
+          <ul>
+            <li data-i18n="fuels.s2.es"><strong>Espanha</strong> — Minetur: todas as províncias e municípios, com Gasolina 95/98, Gasóleo A, GPL, GNC e GNL.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Ler o mapa -->
+  <section>
+    <div class="card card-accent">
+      <div class="guide-number">3</div>
+      <h2 data-i18n="fuels.s3.title">Ler o mapa</h2>
+      <p data-i18n="fuels.s3.p1">Cada posto é um <strong>ponto colorido</strong> pelo preço relativo do combustível escolhido:</p>
+      <ul>
+        <li data-i18n="fuels.s3.green"><strong>Verde</strong> — abaixo do primeiro percentil (terço mais barato)</li>
+        <li data-i18n="fuels.s3.orange"><strong>Laranja</strong> — no terço intermédio</li>
+        <li data-i18n="fuels.s3.red"><strong>Vermelho</strong> — no terço mais caro</li>
+      </ul>
+      <p data-i18n="fuels.s3.p2">Em zoom afastado os pontos juntam-se em <strong>hexágonos</strong> com a média de preço da zona; ao aproximar, os postos individuais e os seus <strong>nomes</strong> aparecem.</p>
+
+      <div class="guide-tip">
+        <strong data-i18n="fuels.tip">💡 Dica:</strong>
+        <span data-i18n="fuels.tipText">As cores (verde/laranja/vermelho) são <strong>relativas</strong> ao país/filtros ativos: se os preços forem parecidos, a divisão mantém-se nos terços — serve para comparar rapidamente dentro da mesma zona.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Botão de GPS -->
+  <section>
+    <div class="card card-accent">
+      <div class="guide-number">4</div>
+      <h2 data-i18n="fuels.s4.title">Botão de GPS</h2>
+      <p data-i18n="fuels.s4.p1">O botão de GPS centra o mapa na tua localização, preservando o zoom atual, e carrega os postos da zona visível. A app deteta automaticamente se estás em Portugal ou em Espanha. O botão fica disponível assim que os preços forem carregados pelo menos uma vez — os postos em cache servem de referência para a localização.</p>
+    </div>
+  </section>
+
+  <!-- 5. O posto -->
+  <section>
+    <div class="card card-accent">
+      <div class="guide-number">5</div>
+      <h2 data-i18n="fuels.s5.title">O posto</h2>
+      <p data-i18n="fuels.s5.p1">Toca num ponto para abrir o cartão do posto: <strong>nome, morada</strong> e os <strong>preços</strong> que vende. Podes <strong>copiar as coordenadas</strong> ou a <strong>morada</strong> para partilhar ou navegar até lá.</p>
+    </div>
+  </section>
+
+  <!-- 6. Extras -->
+  <section>
+    <div class="card card-accent">
+      <div class="guide-number">6</div>
+      <h2 data-i18n="fuels.s6.title">Extras</h2>
+      <ul>
+        <li data-i18n="fuels.s6.t1"><strong>Temas do mapa</strong> — Dark, Positron, Liberty e Omni (tema da app) no botão do canto.</li>
+        <li data-i18n="fuels.s6.t2"><strong>Atualizar</strong> — ícone no topo faz refetch dos preços (útil para corrigir dados em cache).</li>
+        <li data-i18n="fuels.s6.t3"><strong>Offline</strong> — sem ligação, a página mostra um aviso em vez do mapa.</li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<div id="app-footer"></div>
+
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

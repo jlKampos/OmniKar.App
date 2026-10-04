@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.5.0",
-  "date": "2026-09-24",
-  "size": "98.4",
-  "sha256": "BE9AF02DDAFA8450C613AC1E3DECE51213EA34BF32702F475BFDF66F9B5C6BBE",
-  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.5.0/com.companyname.OmniKar-Signed-1.5.0.apk",
+  "latestVersion": "1.6.0",
+  "date": "2026-10-04",
+  "size": "98.87",
+  "sha256": "FCDB203AE3EB27CF00EA80B3E5C6821478D488A08A973B29D643AEE5D280719A",
+  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.6.0/com.companyname.OmniKar-Signed-1.6.0.apk",
   "apkFiles": {
-    "latest": "com.companyname.OmniKar-Signed-1.5.0.apk",
-    "versioned": "com.companyname.OmniKar-Signed-1.5.0.apk"
+    "latest": "com.companyname.OmniKar-Signed-1.6.0.apk",
+    "versioned": "com.companyname.OmniKar-Signed-1.6.0.apk"
   },
   "androidRequirements": {
     "minSdk": 23,
@@ -14,6 +14,11 @@
     "minVersion": "Android 8.0 (API 23)"
   },
   "changelog": [
+    {
+      "version": "1.6.0",
+      "date": "2026-10-04",
+      "notes": "<ul><li><span class=\"ch-tag ch-tag-new\">Novo</span>Página \"Combustíveis\" — preços de combustível em Portugal e Espanha num mapa interactivo, com filtros por país, distrito/província, concelho e tipo de combustível.</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Modo \"à minha volta\" — o GPS localiza-te e mostra os postos mais baratos perto de ti.</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Vista agregada por hexágonos — em zoom afastado vês a média de preço por zona (verde/laranja/vermelho); ao aproximar aparecem os postos individuais e os seus nomes.</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Temas do mapa (Dark, Positron, Liberty e Omni) e atualização manual dos preços no mapa.</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Diesel da PRIO — os postos com Biodiesel B15 aparecem agora no separador Diesel.</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Cards de posto com morada, preços e opção de copiar coordenadas/morada; estados de atualização integrados no card.</li></ul>"
+    },
     {
       "version": "1.5.0",
       "date": "2026-09-24",

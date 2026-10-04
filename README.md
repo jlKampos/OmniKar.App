@@ -14,6 +14,7 @@ Este repositório contém o site de downloads do OmniKar, servido via **GitHub P
 ├── index.html          Landing page com funcionalidades
 ├── download.html       Página de download com versão mais recente
 ├── changelog.html      Novidades por versão
+├── combustiveis.html   Página informativa dos preços de combustível PT/ES
 ├── version.json        Metadados da versão (atualizar ao lançar)
 ├── css/style.css       Tema escuro baseado na app MAUI
 ├── js/i18n.js          Traduções PT / EN / ES

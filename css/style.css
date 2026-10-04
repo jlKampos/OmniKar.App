@@ -286,6 +286,17 @@ section {
   line-height: 1.5;
 }
 
+.feature-link {
+  display: inline-block;
+  margin-top: 0.6rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.feature-link:hover { text-decoration: underline; }
+
 /* ── Footer ── */
 footer {
   background: var(--bg-primary);
