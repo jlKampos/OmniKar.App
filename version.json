@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.7.0",
-  "date": "2026-10-04",
-  "size": "99.33",
-  "sha256": "0616F2FB32D06945E728892153BF829C738125BA981D194BCAC11C17220EEDE0",
-  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.7.0/com.companyname.OmniKar-Signed-1.7.0.apk",
+  "latestVersion": "1.7.1",
+  "date": "2026-10-06",
+  "size": "99.34",
+  "sha256": "242988BFE03E6B7463685812D6C7EDE7DD150C71FEC0504AD8C5DCDF7A4474F1",
+  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.7.1/com.companyname.OmniKar-Signed-1.7.1.apk",
   "apkFiles": {
-    "latest": "com.companyname.OmniKar-Signed-1.7.0.apk",
-    "versioned": "com.companyname.OmniKar-Signed-1.7.0.apk"
+    "latest": "com.companyname.OmniKar-Signed-1.7.1.apk",
+    "versioned": "com.companyname.OmniKar-Signed-1.7.1.apk"
   },
   "androidRequirements": {
     "minSdk": 23,
@@ -14,6 +14,11 @@
     "minVersion": "Android 8.0 (API 23)"
   },
   "changelog": [
+    {
+      "version": "1.7.1",
+      "date": "2026-10-06",
+      "notes": "<ul><li><span class=\"ch-tag ch-tag-new\">Novo</span>Postos de combustível coloridos no mapa do HeadUnit — verde (mais baratos), laranja e vermelho (mais caros).</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Método de cálculo igual ao da página Combustíveis: percentis sobre os preços do combustível selecionado nas Definições (terço mais barato = verde, meio = laranja, terço mais caro = vermelho); postos sem esse combustível deixam de aparecer no mapa.</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Ícones dos postos agora ficam sempre por cima dos edifícios 3D, mesmo ao acelerar/travar — dantes os edifícios voltavam a tapar os postos quando a faixa de velocidade mudava.</li></ul>"
+    },
     {
       "version": "1.7.0",
       "date": "2026-10-04",
