@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.7.2",
-  "date": "2026-10-06",
-  "size": "99.37",
-  "sha256": "C840DAC93B39567D952ADD45BBF225C2ECA874154CDBFD1E4EAD44071E43CB44",
-  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.7.2/com.companyname.OmniKar-Signed-1.7.2.apk",
+  "latestVersion": "1.7.3",
+  "date": "2026-10-10",
+  "size": "99.46",
+  "sha256": "E0598FEBC27FE7C273A2888CE99656E5FA4CCB2B36609BFF5113EF070E4617A8",
+  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.7.3/com.companyname.OmniKar-Signed-1.7.3.apk",
   "apkFiles": {
-    "latest": "com.companyname.OmniKar-Signed-1.7.2.apk",
-    "versioned": "com.companyname.OmniKar-Signed-1.7.2.apk"
+    "latest": "com.companyname.OmniKar-Signed-1.7.3.apk",
+    "versioned": "com.companyname.OmniKar-Signed-1.7.3.apk"
   },
   "androidRequirements": {
     "minSdk": 23,
@@ -14,6 +14,11 @@
     "minVersion": "Android 8.0 (API 23)"
   },
   "changelog": [
+    {
+      "version": "1.7.3",
+      "date": "2026-10-10",
+      "notes": "<ul><li><span class=\"ch-tag ch-tag-new\">Novo</span>Nova língua: Francês (app e site).</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>No primeiro arranque, a app deteta agora o idioma do dispositivo — se for Português, Espanhol ou Francês, abre nesse idioma; caso contrário usa Inglês. Podes sempre mudar a língua nas Definições.</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Mapa de combustíveis abre agora com a vista da Europa Ocidental — Portugal, Espanha e França em conjunto (inclui a Córsega) — e aproxima-se automaticamente quando escolhes um país.</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Modo \"Mostrar todos os países\": carrega Portugal, Espanha e França em simultâneo (só o combustível selecionado), com os postos de Portugal a surgirem progressivamente enquanto carrega.</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>França na página Combustíveis — postos por département e por comuna (seletor de comunas); GNC/GNL ficam ocultos (não são vendidos em França).</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Filtros de distrito e município escondidos até escolheres um país.</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Postos de Espanha com coordenadas trocadas na fonte (ex.: Pontevedra) apareciam no sítio errado — as coordenadas são agora corrigidas automaticamente.</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Postos de combustível do HeadUnit passam a funcionar também em França.</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Deteção automática do país na condução: o norte de Portugal (ex.: Braga, Porto) já não procura postos em Espanha, e o sul de França (ex.: Biarritz, Toulouse) também não foge para Espanha.</li></ul>"
+    },
     {
       "version": "1.7.2",
       "date": "2026-10-06",
