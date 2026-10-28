@@ -55,6 +55,8 @@ var I18N = (function () {
 
       'feat.multi.title': 'Multi-idioma e Tema Escuro',
       'feat.multi.desc': 'Interface em Português, Inglês, Espanhol e Francês com tema escuro otimizado para uso noturno.',
+      'feat.miles.title': 'Milhas/km & Espelho',
+      'feat.miles.desc': 'Escolhe quilómetros ou milhas em toda a app e espelha o HeadUnit para carros com o volante à direita.',
 
       'dl.title': 'Descarregar OmniKar',
       'dl.latest': 'Última versão',
@@ -166,6 +168,9 @@ var I18N = (function () {
       'guide.s7.step4': '<strong>Ativa o GPS</strong> — liga o switch "Atualizar KM via GPS" se quiseres quilometragem automática; o tracking no mapa funciona sempre',
       'guide.s7.step5': '<strong>Consulta o histórico</strong> — vê o mapa de viagens no Tracking, os custos nas Estatísticas, e gera relatórios PDF',
       'guide.s7.step6': '<strong>Sincroniza a nuvem</strong> — faz login com a conta Google e usa "Backup to Cloud" para nunca perderes os dados.',
+      'guide.s8.title': 'Unidade (km/milhas) e espelho',
+      'guide.s8.p1': 'Nas <strong>Definições → Unidade de distância</strong> escolhes entre <strong>quilómetros (km)</strong> ou <strong>milhas (mi)</strong>. O OmniKar guarda sempre os valores em km e converte tudo no ecrã — odómetro, velocidades, agendamentos, alertas, estatísticas e PDFs. <strong>Trocar de unidade não altera nenhum dado.</strong>',
+      'guide.s8.p2': 'Nas <strong>Definições → Espelhar ecrã de condução</strong> podes trocar os controlos do lado esquerdo para o direito (e vice-versa) no <strong>HeadUnit</strong> — ideal para carros com o <strong>volante à direita</strong>. O mapa em si não muda; os botões e o seletor de temas acompanham o novo lado.',
 
       'privacy.title': 'Privacidade — OmniKar',
       'privacy.hero': 'Privacidade',
@@ -299,6 +304,8 @@ var I18N = (function () {
 
       'feat.multi.title': 'Multi-language & Dark Theme',
       'feat.multi.desc': 'Interface in English, Portuguese, Spanish and French with a dark theme optimized for night use.',
+      'feat.miles.title': 'Miles/km & Mirror',
+      'feat.miles.desc': 'Choose kilometers or miles across the whole app and mirror the HeadUnit for right-hand drive vehicles.',
 
       'dl.title': 'Download OmniKar',
       'dl.latest': 'Latest version',
@@ -410,6 +417,9 @@ var I18N = (function () {
       'guide.s7.step4': '<strong>Enable GPS</strong> — toggle "Update KM via GPS" if you want automatic mileage; map tracking always works',
       'guide.s7.step5': '<strong>Review history</strong> — view trip map in Tracking, costs in Statistics, and generate PDF reports',
       'guide.s7.step6': '<strong>Sync the cloud</strong> — sign in with your Google account and use "Backup to Cloud" so you never lose your data.',
+      'guide.s8.title': 'Distance unit (km/miles) & mirror',
+      'guide.s8.p1': 'In <strong>Settings → Distance unit</strong> you choose between <strong>kilometers (km)</strong> or <strong>miles (mi)</strong>. OmniKar always stores values in km and converts everything on screen — odometer, speeds, schedules, alerts, statistics and PDFs. <strong>Switching units never changes any data.</strong>',
+      'guide.s8.p2': 'In <strong>Settings → Mirror driving screen</strong> you can swap the controls from the left side to the right (and vice-versa) on the <strong>HeadUnit</strong> — ideal for cars with <strong>right-hand drive</strong>. The map itself never changes; the buttons and theme selector follow the new side.',
 
       'privacy.title': 'Privacy — OmniKar',
       'privacy.hero': 'Privacy',
@@ -543,6 +553,8 @@ var I18N = (function () {
 
       'feat.multi.title': 'Multi-idioma y Tema Oscuro',
       'feat.multi.desc': 'Interfaz en Inglés, Español, Portugués y Francés con tema oscuro optimizado para uso nocturno.',
+      'feat.miles.title': 'Millas/km y Espejo',
+      'feat.miles.desc': 'Elige kilómetros o millas en toda la app y duplica la pantalla de conducción para vehículos con volante a la derecha.',
 
       'dl.title': 'Descargar OmniKar',
       'dl.latest': 'Última versión',
@@ -654,6 +666,9 @@ var I18N = (function () {
       'guide.s7.step4': '<strong>Activa el GPS</strong> — activa el switch "Actualizar KM vía GPS" si quieres kilometraje automático; el tracking en el mapa funciona siempre',
       'guide.s7.step5': '<strong>Consulta el historial</strong> — ve el mapa de viajes en Tracking, los costes en Estadísticas, y genera informes PDF',
       'guide.s7.step6': '<strong>Sincroniza la nube</strong> — inicia sesión con tu cuenta de Google y usa "Backup to Cloud" para no perder nunca tus datos.',
+      'guide.s8.title': 'Unidad (km/millas) y espejo',
+      'guide.s8.p1': 'En <strong>Ajustes → Unidad de distancia</strong> eliges entre <strong>kilómetros (km)</strong> o <strong>millas (mi)</strong>. OmniKar siempre guarda los valores en km y convierte todo en la pantalla — odómetro, velocidades, agendamientos, alertas, estadísticas y PDFs. <strong>Cambiar de unidad no altera ningún dato.</strong>',
+      'guide.s8.p2': 'En <strong>Ajustes → Duplicar pantalla de conducción</strong> puedes intercambiar los controles del lado izquierdo al derecho (y viceversa) en el <strong>HeadUnit</strong> — ideal para coches con el <strong>volante a la derecha</strong>. El mapa en sí no cambia; los botones y el selector de temas acompañan al nuevo lado.',
 
       'privacy.title': 'Privacidad — OmniKar',
       'privacy.hero': 'Privacidad',
@@ -787,6 +802,8 @@ var I18N = (function () {
 
       'feat.multi.title': 'Multilingue et thème sombre',
       'feat.multi.desc': 'Interface en Français, Anglais, Portugais et Espagnol avec un thème sombre optimisé pour un usage nocturne.',
+      'feat.miles.title': 'Milles/km et Miroir',
+      'feat.miles.desc': 'Choisis entre kilomètres et milles dans toute l\u2019app et mets en miroir l\u2019écran de conduite pour les véhicules à volant à droite.',
 
       'dl.title': 'Télécharger OmniKar',
       'dl.latest': 'Dernière version',
@@ -898,6 +915,9 @@ var I18N = (function () {
       'guide.s7.step4': '<strong>Active le GPS</strong> — active l\u2019interrupteur "Mettre à jour les km via GPS" si tu veux un kilométrage automatique ; le tracking sur la carte fonctionne toujours',
       'guide.s7.step5': '<strong>Consulte l\u2019historique</strong> — vois la carte des trajets dans Tracking, les coûts dans Statistiques, et génère des rapports PDF',
       'guide.s7.step6': '<strong>Synchronise le cloud</strong> — connecte-toi avec ton compte Google et utilise "Backup to Cloud" pour ne jamais perdre tes données.',
+      'guide.s8.title': 'Unité (km/milles) et miroir',
+      'guide.s8.p1': 'Dans les <strong>Réglages → Unité de distance</strong> tu choisis entre <strong>kilomètres (km)</strong> ou <strong>milles (mi)</strong>. OmniKar stocke toujours les valeurs en km et convertit tout à l\u2019écran — odomètre, vitesses, entretiens planifiés, alertes, statistiques et PDFs. <strong>Changer d\u2019unité ne modifie aucune donnée.</strong>',
+      'guide.s8.p2': 'Dans les <strong>Réglages → Miroir écran de conduite</strong> tu peux échanger les commandes du côté gauche vers la droite (et vice-versa) sur l\u2019écran <strong>Autoradio</strong> — idéal pour les voitures avec <strong>volant à droite</strong>. La carte elle-même ne change pas ; les boutons et le sélecteur de thèmes suivent le nouveau côté.',
 
       'privacy.title': 'Confidentialité — OmniKar',
       'privacy.hero': 'Confidentialité',

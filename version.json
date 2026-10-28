@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.7.3",
-  "date": "2026-10-10",
-  "size": "99.46",
-  "sha256": "E0598FEBC27FE7C273A2888CE99656E5FA4CCB2B36609BFF5113EF070E4617A8",
-  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.7.3/com.companyname.OmniKar-Signed-1.7.3.apk",
+  "latestVersion": "1.8.0",
+  "date": "2026-10-25",
+  "size": "",
+  "sha256": "",
+  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v1.8.0/com.companyname.OmniKar-Signed-1.8.0.apk",
   "apkFiles": {
-    "latest": "com.companyname.OmniKar-Signed-1.7.3.apk",
-    "versioned": "com.companyname.OmniKar-Signed-1.7.3.apk"
+    "latest": "com.companyname.OmniKar-Signed-1.8.0.apk",
+    "versioned": "com.companyname.OmniKar-Signed-1.8.0.apk"
   },
   "androidRequirements": {
     "minSdk": 23,
@@ -14,6 +14,11 @@
     "minVersion": "Android 8.0 (API 23)"
   },
   "changelog": [
+    {
+      "version": "1.8.0",
+      "date": "2026-10-25",
+      "notes": "<ul><li><span class=\"ch-tag ch-tag-new\">Novo</span>Unidade de distância configurável (km ou milhas) nas Definições — aplicada a toda a app: odómetro, velocidades, agendamentos, alertas, estatísticas e PDFs. Os dados continuam sempre guardados em km.</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>\"Espelhar ecrã de condução\" no HeadUnit — troca os controlos esquerda↔direita, para carros com o volante à direita.</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Estatísticas com consumo em mpg (imperial) e custo por quilómetro/milha.</li></ul>"
+    },
     {
       "version": "1.7.3",
       "date": "2026-10-10",
