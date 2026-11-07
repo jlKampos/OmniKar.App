@@ -252,7 +252,11 @@ var I18N = (function () {
       'fuels.tip': '💡 Dica:',
       'fuels.tipText': 'As cores (verde/laranja/vermelho) são <strong>relativas</strong> ao país/filtros ativos: se os preços forem parecidos, a divisão mantém-se nos terços — serve para comparar rapidamente dentro da mesma zona.',
 
-      'footer.text': 'OmniKar — O teu assistente de manutenção automóvel. Sem anúncios. Os teus dados são teus.'
+      'footer.text': 'OmniKar — O teu assistente de manutenção automóvel. Sem anúncios. Os teus dados são teus.',
+
+      'footer.support.title': 'Apoiar o desenvolvimento da OmniKar',
+      'footer.support.text': 'Gostas da OmniKar? A aplicação é totalmente gratuita e continuará a ser gratuita. Se quiseres apoiar o seu desenvolvimento e ajudar a melhorar o projeto, podes oferecer-me um café. Obrigado pelo apoio!',
+      'footer.support.btn': 'Buy Me a Coffee'
     },
 
     en: {
@@ -501,7 +505,11 @@ var I18N = (function () {
       'fuels.tip': '💡 Tip:',
       'fuels.tipText': 'The colors (green/orange/red) are <strong>relative</strong> to the active country/filters: if all prices are similar, the split stays in thirds — great for quick comparisons within the same area.',
 
-      'footer.text': 'OmniKar — Your vehicle maintenance assistant. No ads. Your data is yours.'
+      'footer.text': 'OmniKar — Your vehicle maintenance assistant. No ads. Your data is yours.',
+
+      'footer.support.title': 'Support the development of OmniKar',
+      'footer.support.text': 'Like OmniKar? The app is completely free and always will be. If you\'d like to support its development and help improve the project, you can buy me a coffee. Thank you for your support!',
+      'footer.support.btn': 'Buy Me a Coffee'
     },
 
     es: {
@@ -750,7 +758,11 @@ var I18N = (function () {
       'fuels.tip': '💡 Consejo:',
       'fuels.tipText': 'Los colores (verde/naranja/rojo) son <strong>relativos</strong> al país/filtros activos: si los precios son similares, la división se mantiene en tercios — ideal para comparar rápido dentro de la misma zona.',
 
-      'footer.text': 'OmniKar — Tu asistente de mantenimiento automóvil. Sin anuncios. Tus datos son tuyos.'
+      'footer.text': 'OmniKar — Tu asistente de mantenimiento automóvil. Sin anuncios. Tus datos son tuyos.',
+
+      'footer.support.title': 'Apoya el desarrollo de OmniKar',
+      'footer.support.text': '¿Te gusta OmniKar? La aplicación es totalmente gratuita y seguirá siéndolo. Si quieres apoyar su desarrollo y ayudar a mejorar el proyecto, puedes invitarme a un café. ¡Gracias por tu apoyo!',
+      'footer.support.btn': 'Buy Me a Coffee'
     },
 
     fr: {
@@ -999,7 +1011,11 @@ var I18N = (function () {
       'fuels.tip': '💡 Astuce :',
       'fuels.tipText': 'Les couleurs (vert/orange/rouge) sont <strong>relatives</strong> au pays/filtres actifs : si les prix sont similaires, la répartition en tiers reste la même — idéal pour comparer rapidement dans la même zone.',
 
-      'footer.text': 'OmniKar — Ton assistant de maintenance automobile. Sans publicité. Tes données t\u2019appartiennent.'
+      'footer.text': 'OmniKar — Ton assistant de maintenance automobile. Sans publicité. Tes données t\u2019appartiennent.',
+
+      'footer.support.title': 'Soutenir le développement d\u2019OmniKar',
+      'footer.support.text': 'Tu aimes OmniKar ? L\u2019application est totalement gratuite et le restera. Si tu veux soutenir son développement et aider à améliorer le projet, tu peux m\u2019offrir un café. Merci pour ton soutien !',
+      'footer.support.btn': 'Buy Me a Coffee'
     }
   };
 

@@ -36,6 +36,7 @@
       '    <a href="privacidade.html" data-i18n="nav.privacy"' + (currentPage === 'privacy' ? ' class="active"' : '') + '>' + I18N.t('nav.privacy') + '</a>' +
       '    <a href="galeria.html" data-i18n="nav.media"' + (currentPage === 'galeria' ? ' class="active"' : '') + '>' + I18N.t('nav.media') + '</a>' +
       '  </div>' +
+      '  <a class="bmc-btn bmc-btn-nav" href="https://buymeacoffee.com/jlkampos" target="_blank" rel="noopener">☕ ' + I18N.t('footer.support.btn') + '</a>' +
       '  <div class="lang-switch" id="lang-switch">' + getLangButtons() + '</div>' +
       '</nav>';
 
@@ -54,7 +55,13 @@
   function renderFooter() {
     var footer = document.getElementById('app-footer');
     if (!footer) return;
-    footer.innerHTML = '';
+    footer.innerHTML =
+      '<div class="footer-support">' +
+      '  <p class="footer-support-title">' + I18N.t('footer.support.title') + '</p>' +
+      '  <p>' + I18N.t('footer.support.text') + '</p>' +
+      '  <a class="bmc-btn" href="https://buymeacoffee.com/jlkampos" target="_blank" rel="noopener">☕ ' + I18N.t('footer.support.btn') + '</a>' +
+      '</div>' +
+      '<div class="copyright">' + I18N.t('footer.text') + '</div>';
   }
 
   I18N.onSwitcherUpdate(function (lang) {
