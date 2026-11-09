@@ -342,6 +342,7 @@ footer .copyright { opacity: 0.6; }
   font-size: 0.95rem;
   font-weight: 700;
   text-decoration: none;
+  white-space: nowrap;
   transition: background 0.2s, transform 0.15s;
 }
 

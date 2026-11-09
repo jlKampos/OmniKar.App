@@ -187,7 +187,7 @@ var I18N = (function () {
       'privacy.s3.p1': 'Os ficheiros do OmniKar na nuvem estão na <strong>pasta privada da app</strong> (<code>appDataFolder</code>). Esta pasta:',
       'privacy.s3.li1': 'Não aparece quando abres o Google Drive no browser ou na app',
       'privacy.s3.li2': 'Só é acedida pela app OmniKar com a tua conta Google',
-      'privacy.s3.li3': 'Não conta para o espaço de armazenamento do teu Drive',
+      'privacy.s3.li3': 'Conta para o espaço de armazenamento do teu Drive, apesar de ser invisível na interface normal',
       'privacy.s4.title': 'Como apagar os teus dados',
       'privacy.s4.cloud': '☁️ Apagar os dados da nuvem',
       'privacy.s4.p1': 'Vai às <strong>Definições → Nuvem → "Apagar dados da nuvem"</strong>. Isto remove <strong>tudo</strong> o que está no Google Drive:',
@@ -256,7 +256,8 @@ var I18N = (function () {
 
       'footer.support.title': 'Apoiar o desenvolvimento da OmniKar',
       'footer.support.text': 'Gostas da OmniKar? A aplicação é totalmente gratuita e continuará a ser gratuita. Se quiseres apoiar o seu desenvolvimento e ajudar a melhorar o projeto, podes oferecer-me um café. Obrigado pelo apoio!',
-      'footer.support.btn': 'Buy Me a Coffee'
+      'footer.support.btn': 'Buy Me a Coffee',
+      'footer.support.btnShort': 'Doar'
     },
 
     en: {
@@ -440,7 +441,7 @@ var I18N = (function () {
       'privacy.s3.p1': 'OmniKar\'s cloud files are in the <strong>app\'s private folder</strong> (<code>appDataFolder</code>). This folder:',
       'privacy.s3.li1': 'Does not appear when you open Google Drive in the browser or app',
       'privacy.s3.li2': 'Is only accessed by the OmniKar app with your Google account',
-      'privacy.s3.li3': 'Does not count against your Drive storage quota',
+      'privacy.s3.li3': 'Counts toward your Drive storage quota, even though it is invisible in the normal interface',
       'privacy.s4.title': 'How to delete your data',
       'privacy.s4.cloud': '☁️ Delete cloud data',
       'privacy.s4.p1': 'Go to <strong>Settings → Cloud → "Delete cloud data"</strong>. This removes <strong>everything</strong> stored on Google Drive:',
@@ -509,7 +510,8 @@ var I18N = (function () {
 
       'footer.support.title': 'Support the development of OmniKar',
       'footer.support.text': 'Like OmniKar? The app is completely free and always will be. If you\'d like to support its development and help improve the project, you can buy me a coffee. Thank you for your support!',
-      'footer.support.btn': 'Buy Me a Coffee'
+      'footer.support.btn': 'Buy Me a Coffee',
+      'footer.support.btnShort': 'Donate'
     },
 
     es: {
@@ -693,7 +695,7 @@ var I18N = (function () {
       'privacy.s3.p1': 'Los archivos de OmniKar en la nube están en la <strong>carpeta privada de la app</strong> (<code>appDataFolder</code>). Esta carpeta:',
       'privacy.s3.li1': 'No aparece al abrir Google Drive en el navegador o en la app',
       'privacy.s3.li2': 'Solo es accedida por la app OmniKar con tu cuenta de Google',
-      'privacy.s3.li3': 'No cuenta para el espacio de almacenamiento de tu Drive',
+      'privacy.s3.li3': 'Cuenta para el espacio de almacenamiento de tu Drive, aunque sea invisible en la interfaz normal',
       'privacy.s4.title': 'Cómo eliminar tus datos',
       'privacy.s4.cloud': '☁️ Eliminar datos de la nube',
       'privacy.s4.p1': 'Ve a <strong>Ajustes → Nube → "Eliminar datos de la nube"</strong>. Esto elimina <strong>todo</strong> lo almacenado en Google Drive:',
@@ -762,7 +764,8 @@ var I18N = (function () {
 
       'footer.support.title': 'Apoya el desarrollo de OmniKar',
       'footer.support.text': '¿Te gusta OmniKar? La aplicación es totalmente gratuita y seguirá siéndolo. Si quieres apoyar su desarrollo y ayudar a mejorar el proyecto, puedes invitarme a un café. ¡Gracias por tu apoyo!',
-      'footer.support.btn': 'Buy Me a Coffee'
+      'footer.support.btn': 'Buy Me a Coffee',
+      'footer.support.btnShort': 'Donar'
     },
 
     fr: {
@@ -946,7 +949,7 @@ var I18N = (function () {
       'privacy.s3.p1': 'Les fichiers d\u2019OmniKar dans le cloud se trouvent dans le <strong>dossier privé de l\u2019app</strong> (<code>appDataFolder</code>). Ce dossier :',
       'privacy.s3.li1': 'N\u2019apparaît pas quand tu ouvres Google Drive dans le navigateur ou l\u2019app',
       'privacy.s3.li2': 'N\u2019est accessible que par l\u2019app OmniKar avec ton compte Google',
-      'privacy.s3.li3': 'Ne compte pas dans l\u2019espace de stockage de ton Drive',
+      'privacy.s3.li3': 'Compte dans l\u2019espace de stockage de ton Drive, même si elle est invisible dans l\u2019interface normale',
       'privacy.s4.title': 'Comment supprimer tes données',
       'privacy.s4.cloud': '☁️ Supprimer les données cloud',
       'privacy.s4.p1': 'Va dans <strong>Réglages → Cloud → "Supprimer les données cloud"</strong>. Cela supprime <strong>tout</strong> ce qui est stocké sur Google Drive :',
@@ -1015,7 +1018,8 @@ var I18N = (function () {
 
       'footer.support.title': 'Soutenir le développement d\u2019OmniKar',
       'footer.support.text': 'Tu aimes OmniKar ? L\u2019application est totalement gratuite et le restera. Si tu veux soutenir son développement et aider à améliorer le projet, tu peux m\u2019offrir un café. Merci pour ton soutien !',
-      'footer.support.btn': 'Buy Me a Coffee'
+      'footer.support.btn': 'Buy Me a Coffee',
+      'footer.support.btnShort': 'Faire un don'
     }
   };
 

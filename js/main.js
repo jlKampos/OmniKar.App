@@ -36,7 +36,7 @@
       '    <a href="privacidade.html" data-i18n="nav.privacy"' + (currentPage === 'privacy' ? ' class="active"' : '') + '>' + I18N.t('nav.privacy') + '</a>' +
       '    <a href="galeria.html" data-i18n="nav.media"' + (currentPage === 'galeria' ? ' class="active"' : '') + '>' + I18N.t('nav.media') + '</a>' +
       '  </div>' +
-      '  <a class="bmc-btn bmc-btn-nav" href="https://buymeacoffee.com/jlkampos" target="_blank" rel="noopener">☕ ' + I18N.t('footer.support.btn') + '</a>' +
+      '  <a class="bmc-btn bmc-btn-nav" href="https://buymeacoffee.com/jlkampos" target="_blank" rel="noopener">☕ ' + I18N.t('footer.support.btnShort') + '</a>' +
       '  <div class="lang-switch" id="lang-switch">' + getLangButtons() + '</div>' +
       '</nav>';
 
