@@ -1,12 +1,12 @@
 {
-  "latestVersion": "2.0.0",
-  "date": "2026-11-07",
-  "size": "112.47",
-  "sha256": "E4A7A6EBA16480BBD053CC926AF1E24A4A618FB0FADB35C3FD1F5178FA3E0538",
-  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v2.0.0/com.companyname.OmniKar-Signed-2.0.0.apk",
+  "latestVersion": "2.0.1",
+  "date": "2026-11-12",
+  "size": "112.4",
+  "sha256": "461A2F9F445DAA416614D947E1FB07023E3634758178A9E257941E45E5AEAFCB",
+  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v2.0.1/com.companyname.OmniKar-Signed-2.0.1.apk",
   "apkFiles": {
-    "latest": "com.companyname.OmniKar-Signed-2.0.0.apk",
-    "versioned": "com.companyname.OmniKar-Signed-2.0.0.apk"
+    "latest": "com.companyname.OmniKar-Signed-2.0.1.apk",
+    "versioned": "com.companyname.OmniKar-Signed-2.0.1.apk"
   },
   "androidRequirements": {
     "minSdk": 23,
@@ -14,6 +14,11 @@
     "minVersion": "Android 8.0 (API 23)"
   },
   "changelog": [
+    {
+      "version": "2.0.1",
+      "date": "2026-11-12",
+      "notes": "<ul><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>App otimizada e mais leve: o c\u00f3digo foi compactado e protegido (R8/obfusca\u00e7\u00e3o), ocupando menos espa\u00e7o, a arrancar mais depressa e com mais seguran\u00e7a. Nada muda na forma de usar o OmniKar.</li></ul>"
+    },
     {
       "version": "2.0.0",
       "date": "2026-11-07",
