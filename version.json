@@ -1,12 +1,12 @@
 {
-  "latestVersion": "2.0.1",
-  "date": "2026-11-12",
-  "size": "112.4",
-  "sha256": "461A2F9F445DAA416614D947E1FB07023E3634758178A9E257941E45E5AEAFCB",
-  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v2.0.1/com.companyname.OmniKar-Signed-2.0.1.apk",
+  "latestVersion": "2.1.0",
+  "date": "2026-11-15",
+  "size": "115.89",
+  "sha256": "DD4E5B8D51C7EF98F29585FBF49F40BA38285E052C4A86CA970BE0500BA66234",
+  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v2.1.0/com.companyname.OmniKar-Signed-2.1.0.apk",
   "apkFiles": {
-    "latest": "com.companyname.OmniKar-Signed-2.0.1.apk",
-    "versioned": "com.companyname.OmniKar-Signed-2.0.1.apk"
+    "latest": "com.companyname.OmniKar-Signed-2.1.0.apk",
+    "versioned": "com.companyname.OmniKar-Signed-2.1.0.apk"
   },
   "androidRequirements": {
     "minSdk": 23,
@@ -14,6 +14,11 @@
     "minVersion": "Android 8.0 (API 23)"
   },
   "changelog": [
+    {
+      "version": "2.1.0",
+      "date": "2026-11-15",
+      "notes": "<ul><li><span class=\"ch-tag ch-tag-new\">Novo</span>B\u00fassola no ecr\u00e3 de condu\u00e7\u00e3o (HeadUnit): a seta fixa indica a dire\u00e7\u00e3o da marcha e as bolinhas mostram a orienta\u00e7\u00e3o, a vermelha marca o Norte e a branca o ponto oposto, fechando o eixo Norte-Sul, com os graus e o rumo cardinal ao lado; mostra-se apenas em ecr\u00e3s de autom\u00f3vel, ficando escondida em modo telem\u00f3vel para n\u00e3o ocupar espa\u00e7o.</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>B\u00fassola na p\u00e1gina Tracking: com a viatura em \"Ao vivo\" ou \"Estacionada\", a bolinha no c\u00edrculo aponta a dire\u00e7\u00e3o da viatura em rela\u00e7\u00e3o a ti, com a dist\u00e2ncia e h\u00e1 quanto tempo a posi\u00e7\u00e3o foi registada, para a encontrares facilmente a p\u00e9.</li></ul>"
+    },
     {
       "version": "2.0.1",
       "date": "2026-11-12",
