@@ -1,12 +1,12 @@
 {
-  "latestVersion": "2.1.0",
-  "date": "2026-11-15",
-  "size": "115.89",
-  "sha256": "DD4E5B8D51C7EF98F29585FBF49F40BA38285E052C4A86CA970BE0500BA66234",
-  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v2.1.0/com.companyname.OmniKar-Signed-2.1.0.apk",
+  "latestVersion": "2.1.1",
+  "date": "2026-11-17",
+  "size": "115.13",
+  "sha256": "864ADDB74F7EA8997CFFC60B948BC4C00DBBEF5601DBF2B9B688F6A5BE52EBFA",
+  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v2.1.1/com.companyname.OmniKar-Signed-2.1.1.apk",
   "apkFiles": {
-    "latest": "com.companyname.OmniKar-Signed-2.1.0.apk",
-    "versioned": "com.companyname.OmniKar-Signed-2.1.0.apk"
+    "latest": "com.companyname.OmniKar-Signed-2.1.1.apk",
+    "versioned": "com.companyname.OmniKar-Signed-2.1.1.apk"
   },
   "androidRequirements": {
     "minSdk": 23,
@@ -14,6 +14,11 @@
     "minVersion": "Android 8.0 (API 23)"
   },
   "changelog": [
+    {
+      "version": "2.1.1",
+      "date": "2026-11-17",
+      "notes": "<ul><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Quilómetros duplicados ao desligar e voltar a ligar o GPS.</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Tracking: o refresh automático só atua em modo Live — ao consultar viagens e pontos, zoom, posição e filtros mantêm-se.</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Tracking: ao ligar o GPS com a página aberta, o mapa faz lock na posição do utilizador automaticamente.</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Tracking: o dropdown de pontos volta a mostrar todos os pontos ao selecionar \"All\".</li><li><span class=\"ch-tag ch-tag-new\">Novo</span>Novos ícones nos pontos de combustível.</li></ul>"
+    },
     {
       "version": "2.1.0",
       "date": "2026-11-15",
