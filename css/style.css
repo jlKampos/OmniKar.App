@@ -204,7 +204,7 @@ nav {
 .hero-logo {
   width: 104px;
   height: 104px;
-  margin: 0 auto 1.5rem;
+  margin: 0 auto 0.5rem;
   position: relative;
   filter: drop-shadow(0 6px 22px rgba(180, 212, 0, 0.25));
 }
