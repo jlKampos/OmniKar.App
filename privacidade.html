@@ -14,13 +14,21 @@
 
 <main class="guide">
 
-  <section class="hero" style="padding:3rem 1.5rem 1rem">
+  <section class="hero hero-compact">
     <h1 data-i18n="privacy.hero">Privacidade</h1>
     <p data-i18n="privacy.heroSub">Os teus dados são teus. Sempre.</p>
   </section>
 
+  <div class="page-toc" aria-label="Nesta página">
+    <a href="#s1" data-i18n="privacy.s1.title">Onde ficam os teus dados</a>
+    <a href="#s2" data-i18n="privacy.s2.title">Sem servidores externos</a>
+    <a href="#s3" data-i18n="privacy.s3.title">Não visível no Google Drive</a>
+    <a href="#s4" data-i18n="privacy.s4.title">Como apagar os teus dados</a>
+    <a href="#s5" data-i18n="privacy.s5.title">Resumo</a>
+  </div>
+
   <!-- 1. Onde ficam -->
-  <section>
+  <section id="s1">
     <div class="card card-accent">
       <div class="guide-number">1</div>
       <h2 data-i18n="privacy.s1.title">Onde ficam os teus dados</h2>
@@ -33,7 +41,7 @@
   </section>
 
   <!-- 2. Sem servidores -->
-  <section>
+  <section id="s2">
     <div class="card card-accent">
       <div class="guide-number">2</div>
       <h2 data-i18n="privacy.s2.title">Sem servidores externos</h2>
@@ -44,7 +52,7 @@
   </section>
 
   <!-- 3. Invisível no Drive -->
-  <section>
+  <section id="s3">
     <div class="card card-accent">
       <div class="guide-number">3</div>
       <h2 data-i18n="privacy.s3.title">Não visível no Google Drive</h2>
@@ -58,7 +66,7 @@
   </section>
 
   <!-- 4. Como apagar -->
-  <section>
+  <section id="s4">
     <div class="card card-accent">
       <div class="guide-number">4</div>
       <h2 data-i18n="privacy.s4.title">Como apagar os teus dados</h2>
@@ -81,18 +89,28 @@
   </section>
 
   <!-- 5. Resumo -->
-  <section>
+  <section id="s5">
     <div class="card card-accent">
       <div class="guide-number">5</div>
       <h2 data-i18n="privacy.s5.title">Resumo</h2>
       <p data-i18n="privacy.s5.p1">O OmniKar foi construído com o princípio de que <strong>os teus dados são teus</strong>:</p>
-      <ul>
-        <li data-i18n="privacy.s5.li1">✅ Sem servidores externos — tudo no teu dispositivo ou no teu Google Drive</li>
-        <li data-i18n="privacy.s5.li2">✅ Sem anúncios — a app não recolhe nem partilha dados para publicidade</li>
-        <li data-i18n="privacy.s5.li3">✅ Sem tracking — a app não monitoriza o teu comportamento nem envia análises</li>
-        <li data-i18n="privacy.s5.li4">✅ Tu controlas — podes apagar os teus dados a qualquer momento</li>
-        <li data-i18n="privacy.s5.li5">✅ O desenvolvedor não vê nem gere os teus dados</li>
-      </ul>
+      <div class="pillar-grid">
+        <div class="pillar">
+          <p data-i18n="privacy.s5.li1">✅ Sem servidores externos — tudo no teu dispositivo ou no teu Google Drive</p>
+        </div>
+        <div class="pillar">
+          <p data-i18n="privacy.s5.li2">✅ Sem anúncios — a app não recolhe nem partilha dados para publicidade</p>
+        </div>
+        <div class="pillar">
+          <p data-i18n="privacy.s5.li3">✅ Sem tracking — a app não monitoriza o teu comportamento nem envia análises</p>
+        </div>
+        <div class="pillar">
+          <p data-i18n="privacy.s5.li4">✅ Tu controlas — podes apagar os teus dados a qualquer momento</p>
+        </div>
+        <div class="pillar">
+          <p data-i18n="privacy.s5.li5">✅ O desenvolvedor não vê nem gere os teus dados</p>
+        </div>
+      </div>
     </div>
   </section>
 

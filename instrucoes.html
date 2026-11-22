@@ -14,18 +14,30 @@
 
 <main class="guide">
 
-  <section class="hero" style="padding:3rem 1.5rem 1rem">
+  <section class="hero hero-compact">
     <h1 data-i18n="guide.hero">Como funciona</h1>
     <p data-i18n="guide.heroSub">Tudo o que precisas saber para usar o OmniKar no dia a dia.</p>
   </section>
 
+  <div class="page-toc" aria-label="Nesta página">
+    <a href="#s1" data-i18n="guide.s1.title">Escolher uma viatura</a>
+    <a href="#s2" data-i18n="guide.s2.title">Manutenção programada</a>
+    <a href="#s3" data-i18n="guide.s3.title">Manutenção vs Reparação</a>
+    <a href="#s4" data-i18n="guide.s4.title">GPS Tracking</a>
+    <a href="#s5" data-i18n="guide.s5.title">Switch "Atualizar KM via GPS"</a>
+    <a href="#s6" data-i18n="guide.s6.title">Backups e sincronização cloud</a>
+    <a href="#s7" data-i18n="guide.s7.title">Fluxo rápido (resumo)</a>
+    <a href="#s8" data-i18n="guide.s8.title">Unidade (km/milhas) e espelho</a>
+  </div>
+
   <!-- 1. Escolher uma viatura -->
-  <section>
+  <section id="s1">
     <div class="card card-accent">
       <div class="guide-number">1</div>
       <h2 data-i18n="guide.s1.title">Escolher uma viatura</h2>
       <p data-i18n="guide.s1.p1">Ao abrir o OmniKar vês a <strong>lista de viaturas</strong>. Toca numa viatura para abrir o ecrã completo com todos os separadores: Dashboard, Manutenção, Agendamentos, Combustível, Reparações, GPS e muito mais.</p>
       <p data-i18n="guide.s1.p2"><strong>Tudo no OmniKar funciona sobre a viatura que está aberta.</strong> Agendamentos, manutenções, combustível, GPS — tudo fica associado a essa viatura.</p>
+      <div class="notes-grid">
       <div class="guide-tip">
         <strong data-i18n="guide.s1.tip">💡 Dica — Viatura de arranque:</strong>
         <span data-i18n="guide.s1.tipText">Nas Definições, ativa "Viatura de arranque" e escolhe a viatura + ecrã (Dashboard ou HeadUnit). A app abre direto nessa viatura sem passares pela lista.</span>
@@ -38,11 +50,12 @@
         <strong data-i18n="guide.s1.tip3d">🏢 Dica — Edifícios 3D:</strong>
         <span data-i18n="guide.s1.tip3dText">O mapa Omni vem com <strong>edifícios 3D e estradas realçadas ativos por defeito</strong> no HeadUnit e no Tracking. No seletor de temas, o botão cubo alterna os 3D e o botão de estradas a realce — podes desligar ou ligar à vontade. Nas <strong>Definições</strong> ("Edifícios 3D") escolhes até que velocidade os edifícios ficam visíveis: <strong>Padrão</strong> (~68 km/h) ou <strong>Estendido</strong> (~78 km/h).</span>
       </div>
+      </div>
     </div>
   </section>
 
   <!-- 2. Manutenção programada (Agendamentos) -->
-  <section>
+  <section id="s2">
     <div class="card card-accent">
       <div class="guide-number">2</div>
       <h2 data-i18n="guide.s2.title">Manutenção programada</h2>
@@ -65,7 +78,7 @@
   </section>
 
   <!-- 3. Manutenção vs Reparação -->
-  <section>
+  <section id="s3">
     <div class="card card-accent">
       <div class="guide-number">3</div>
       <h2 data-i18n="guide.s3.title">Manutenção vs Reparação</h2>
@@ -93,7 +106,7 @@
   </section>
 
   <!-- 4. GPS Tracking -->
-  <section>
+  <section id="s4">
     <div class="card card-accent">
       <div class="guide-number">4</div>
       <h2 data-i18n="guide.s4.title">GPS Tracking</h2>
@@ -146,7 +159,7 @@
   </section>
 
   <!-- 5. Switch GPS -->
-  <section>
+  <section id="s5">
     <div class="card card-accent">
       <div class="guide-number">5</div>
       <h2 data-i18n="guide.s5.title">Switch "Atualizar KM via GPS"</h2>
@@ -170,6 +183,7 @@
         </div>
       </div>
 
+      <div class="notes-grid">
       <div class="guide-note">
         <span data-i18n="guide.s5.note">ℹ️ Os pontos GPS para a nuvem (Google Drive) <strong>funcionam sempre</strong>, com ou sem o switch. O switch controla apenas se o KM é guardado na base de dados local.</span>
       </div>
@@ -183,11 +197,12 @@
       <div class="guide-note">
         <span data-i18n="guide.s5.nophone">ℹ️ <strong>Sem HeadUnit?</strong> Nesse caso podes usar o telemóvel para atualizar os KM.</span>
       </div>
+      </div>
     </div>
   </section>
 
   <!-- 6. Backups e sincronização cloud -->
-  <section>
+  <section id="s6">
     <div class="card card-accent">
       <div class="guide-number">6</div>
       <h2 data-i18n="guide.s6.title">Backups e sincronização cloud</h2>
@@ -219,7 +234,7 @@
   </section>
 
   <!-- 7. Fluxo rápido -->
-  <section>
+  <section id="s7">
     <div class="card card-accent">
       <div class="guide-number">7</div>
       <h2 data-i18n="guide.s7.title">Fluxo rápido (resumo)</h2>
@@ -235,7 +250,7 @@
   </section>
 
   <!-- 8. Unidade km/milhas e espelho -->
-  <section>
+  <section id="s8">
     <div class="card card-accent">
       <div class="guide-number">8</div>
       <h2 data-i18n="guide.s8.title">Unidade (km/milhas) e espelho</h2>

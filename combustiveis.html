@@ -14,7 +14,7 @@
 
 <main class="guide">
 
-  <section class="hero" style="padding:3rem 1.5rem 1rem">
+  <section class="hero hero-compact">
     <h1 data-i18n="fuels.hero">Combustíveis</h1>
     <p data-i18n="fuels.heroSub">Preços de combustível ao vivo em Portugal, Espanha e França, num mapa interactivo na app.</p>
     <div class="guide-note">
@@ -22,8 +22,17 @@
     </div>
   </section>
 
+  <div class="page-toc" aria-label="Nesta página">
+    <a href="#s1" data-i18n="fuels.s1.title">Onde encontrar</a>
+    <a href="#s2" data-i18n="fuels.s2.title">Cobertura Portugal, Espanha e França</a>
+    <a href="#s3" data-i18n="fuels.s3.title">Ler o mapa</a>
+    <a href="#s4" data-i18n="fuels.s4.title">Botão de GPS</a>
+    <a href="#s5" data-i18n="fuels.s5.title">O posto</a>
+    <a href="#s6" data-i18n="fuels.s6.title">Extras</a>
+  </div>
+
   <!-- 1. Onde encontrar -->
-  <section>
+  <section id="s1">
     <div class="card card-accent">
       <div class="guide-number">1</div>
       <h2 data-i18n="fuels.s1.title">Onde encontrar</h2>
@@ -33,26 +42,26 @@
   </section>
 
   <!-- 2. Cobertura PT/ES -->
-  <section>
+  <section id="s2">
     <div class="card card-accent">
       <div class="guide-number">2</div>
       <h2 data-i18n="fuels.s2.title">Cobertura Portugal, Espanha e França</h2>
       <p data-i18n="fuels.s2.p1">Os preços vêm de fontes oficiais:</p>
       <div class="guide-compare">
         <div class="guide-col on">
-          <h3>🇵🇹</h3>
+          <h3 class="guide-flag">🇵🇹</h3>
           <ul>
             <li data-i18n="fuels.s2.pt"><strong>Portugal</strong> — DGEG (oficial): todos os distritos (incluindo Açores e Madeira), com Gasóleo simples e especial, Biodiesel B15 (PRIO), Gasolina 95/98, GPL, GNC (m³/kg) e GNL.</li>
           </ul>
         </div>
         <div class="guide-col on">
-          <h3>🇪🇸</h3>
+          <h3 class="guide-flag">🇪🇸</h3>
           <ul>
             <li data-i18n="fuels.s2.es"><strong>Espanha</strong> — Minetur: todas as províncias e municípios, com Gasolina 95/98, Gasóleo A, GPL, GNC e GNL.</li>
           </ul>
         </div>
         <div class="guide-col on">
-          <h3>🇫🇷</h3>
+          <h3 class="guide-flag">🇫🇷</h3>
           <ul>
             <li data-i18n="fuels.s2.fr"><strong>França</strong> — DGCCRF (oficial): todos os 96 departamentos, com Gasóleo, E85, E10, SP95 e SP98, e GPLc (sem GNC/GNL).</li>
           </ul>
@@ -62,16 +71,25 @@
   </section>
 
   <!-- 3. Ler o mapa -->
-  <section>
+  <section id="s3">
     <div class="card card-accent">
       <div class="guide-number">3</div>
       <h2 data-i18n="fuels.s3.title">Ler o mapa</h2>
       <p data-i18n="fuels.s3.p1">Cada posto é um <strong>ponto colorido</strong> pelo preço relativo do combustível escolhido:</p>
-      <ul>
-        <li data-i18n="fuels.s3.green"><strong>Verde</strong> — abaixo do primeiro percentil (terço mais barato)</li>
-        <li data-i18n="fuels.s3.orange"><strong>Laranja</strong> — no terço intermédio</li>
-        <li data-i18n="fuels.s3.red"><strong>Vermelho</strong> — no terço mais caro</li>
-      </ul>
+      <div class="legend-grid">
+        <div class="legend-item">
+          <span class="legend-dot green"></span>
+          <span data-i18n="fuels.s3.green"><strong>Verde</strong> — abaixo do primeiro percentil (terço mais barato)</span>
+        </div>
+        <div class="legend-item">
+          <span class="legend-dot orange"></span>
+          <span data-i18n="fuels.s3.orange"><strong>Laranja</strong> — no terço intermédio</span>
+        </div>
+        <div class="legend-item">
+          <span class="legend-dot red"></span>
+          <span data-i18n="fuels.s3.red"><strong>Vermelho</strong> — no terço mais caro</span>
+        </div>
+      </div>
       <p data-i18n="fuels.s3.p2">Em zoom afastado os pontos juntam-se em <strong>hexágonos</strong> com a média de preço da zona; ao aproximar, os postos individuais e os seus <strong>nomes</strong> aparecem.</p>
 
       <div class="guide-tip">
@@ -82,7 +100,7 @@
   </section>
 
   <!-- 4. Botão de GPS -->
-  <section>
+  <section id="s4">
     <div class="card card-accent">
       <div class="guide-number">4</div>
       <h2 data-i18n="fuels.s4.title">Botão de GPS</h2>
@@ -91,7 +109,7 @@
   </section>
 
   <!-- 5. O posto -->
-  <section>
+  <section id="s5">
     <div class="card card-accent">
       <div class="guide-number">5</div>
       <h2 data-i18n="fuels.s5.title">O posto</h2>
@@ -100,7 +118,7 @@
   </section>
 
   <!-- 6. Extras -->
-  <section>
+  <section id="s6">
     <div class="card card-accent">
       <div class="guide-number">6</div>
       <h2 data-i18n="fuels.s6.title">Extras</h2>
