@@ -1,12 +1,12 @@
 {
-  "latestVersion": "2.1.1",
-  "date": "2026-11-17",
-  "size": "115.13",
-  "sha256": "864ADDB74F7EA8997CFFC60B948BC4C00DBBEF5601DBF2B9B688F6A5BE52EBFA",
-  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v2.1.1/com.companyname.OmniKar-Signed-2.1.1.apk",
+  "latestVersion": "2.1.2",
+  "date": "2026-11-22",
+  "size": "115.16",
+  "sha256": "33A751FA08E82E103BCC80BB202B9E422F73311D3B7507F163EE9FB596718D32",
+  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v2.1.2/com.companyname.OmniKar-Signed-2.1.2.apk",
   "apkFiles": {
-    "latest": "com.companyname.OmniKar-Signed-2.1.1.apk",
-    "versioned": "com.companyname.OmniKar-Signed-2.1.1.apk"
+    "latest": "com.companyname.OmniKar-Signed-2.1.2.apk",
+    "versioned": "com.companyname.OmniKar-Signed-2.1.2.apk"
   },
   "androidRequirements": {
     "minSdk": 23,
@@ -14,6 +14,11 @@
     "minVersion": "Android 8.0 (API 23)"
   },
   "changelog": [
+    {
+      "version": "2.1.2",
+      "date": "2026-11-22",
+      "notes": "<ul><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Ecrã de condução: o mapa deixou de ficar parado durante a viagem — voltou a acompanhar o carro de forma contínua e recupera sozinho se o sinal falhar por uns instantes.</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Ecrã de condução mais fluido — o mapa move-se de forma suave entre atualizações, sem saltos ao arrancar, parar ou em manobras lentas.</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Ecrã de condução mais leve — com o carro parado o mapa deixa de estar sempre a redesenhar-se, poupando recursos do aparelho.</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Combustíveis: ao mudar o tema do mapa (por exemplo, Dark ↔ Omni) os ícones dos postos desapareciam; agora mantêm-se sempre visíveis.</li></ul>"
+    },
     {
       "version": "2.1.1",
       "date": "2026-11-17",
