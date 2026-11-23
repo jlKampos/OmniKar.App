@@ -1,12 +1,12 @@
 {
-  "latestVersion": "2.1.2",
-  "date": "2026-11-22",
-  "size": "115.16",
-  "sha256": "33A751FA08E82E103BCC80BB202B9E422F73311D3B7507F163EE9FB596718D32",
-  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v2.1.2/com.companyname.OmniKar-Signed-2.1.2.apk",
+  "latestVersion": "2.1.3",
+  "date": "2026-11-23",
+  "size": "115.35",
+  "sha256": "584DFF55D9A3AB8FD9047609ADE629D1CBC7C9E42E94BA3E1A04AF5FD7770E5A",
+  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v2.1.3/com.companyname.OmniKar-Signed-2.1.3.apk",
   "apkFiles": {
-    "latest": "com.companyname.OmniKar-Signed-2.1.2.apk",
-    "versioned": "com.companyname.OmniKar-Signed-2.1.2.apk"
+    "latest": "com.companyname.OmniKar-Signed-2.1.3.apk",
+    "versioned": "com.companyname.OmniKar-Signed-2.1.3.apk"
   },
   "androidRequirements": {
     "minSdk": 23,
@@ -14,6 +14,11 @@
     "minVersion": "Android 8.0 (API 23)"
   },
   "changelog": [
+    {
+      "version": "2.1.3",
+      "date": "2026-11-23",
+      "notes": "<ul><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Eliminar uma viatura passou a apagar também a cópia guardada na nuvem. Antes, uma viatura eliminada podia voltar a aparecer depois de restaurar o backup. Agora, depois de a eliminares e fazeres um novo backup, deixa de existir na nuvem e desaparece também no telemóvel e no carro quando usares a opção \"Atualizar da Cloud\" (nuvem) nesses dispositivos.</li></ul>"
+    },
     {
       "version": "2.1.2",
       "date": "2026-11-22",
