@@ -1,12 +1,12 @@
 {
-  "latestVersion": "2.1.3",
-  "date": "2026-11-23",
-  "size": "115.35",
-  "sha256": "584DFF55D9A3AB8FD9047609ADE629D1CBC7C9E42E94BA3E1A04AF5FD7770E5A",
-  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v2.1.3/com.companyname.OmniKar-Signed-2.1.3.apk",
+  "latestVersion": "2.2.0",
+  "date": "2026-11-24",
+  "size": "115.3",
+  "sha256": "D316715A699D55BDF3F6AD76C2037AC86A94B8CD3405731C7CD48AA1A3CD377A",
+  "downloadUrl": "https://github.com/jlKampos/OmniKar.App/releases/download/v2.2.0/com.companyname.OmniKar-Signed-2.2.0.apk",
   "apkFiles": {
-    "latest": "com.companyname.OmniKar-Signed-2.1.3.apk",
-    "versioned": "com.companyname.OmniKar-Signed-2.1.3.apk"
+    "latest": "com.companyname.OmniKar-Signed-2.2.0.apk",
+    "versioned": "com.companyname.OmniKar-Signed-2.2.0.apk"
   },
   "androidRequirements": {
     "minSdk": 23,
@@ -14,6 +14,11 @@
     "minVersion": "Android 8.0 (API 23)"
   },
   "changelog": [
+    {
+      "version": "2.2.0",
+      "date": "2026-11-24",
+      "notes": "<ul><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Base de dados (SQLite) atualizada para uma versão mais recente — mais estabilidade e segurança na leitura e escrita dos dados.</li><li><span class=\"ch-tag ch-tag-imp\">Melhoria</span>Eliminar uma viatura passou a ter duas opções: apagar só neste dispositivo (continua na nuvem e pode ser restaurada com \"Atualizar da Cloud\") ou apagar neste dispositivo e na nuvem (é removida também do backup da cloud).</li><li><span class=\"ch-tag ch-tag-fix\">Correção</span>Restauro da cloud corrigido — deixou de eliminar viaturas locais e uma viatura apagada por engano pode ser recuperada a partir da nuvem ou de um ficheiro de backup, sem ser apagada outra vez no backup seguinte.</li></ul>"
+    },
     {
       "version": "2.1.3",
       "date": "2026-11-23",
