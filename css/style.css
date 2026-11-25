@@ -531,9 +531,13 @@ footer .copyright { opacity: 0.6; }
 .sha-line code {
   font-family: 'Cascadia Code', 'Fira Code', 'JetBrains Mono', Consolas, monospace;
   color: var(--text-dim);
+  white-space: normal;
+  overflow-wrap: anywhere;
   word-break: break-all;
   font-size: 0.7rem;
   letter-spacing: -0.02em;
+  min-width: 0;
+  flex: 1 1 auto;
 }
 
 .dl-btn {
@@ -1081,6 +1085,7 @@ section[id] { scroll-margin-top: 170px; }
   .nav-links { gap: 0.15rem; }
   .nav-links a { padding: 0.35rem 0.6rem; font-size: 0.82rem; }
   .lang-switch { margin-left: 0.25rem; }
+  .sha-line { flex-direction: column; align-items: flex-start; gap: 0.25rem; }
 }
 
 @media (max-width: 600px) {
